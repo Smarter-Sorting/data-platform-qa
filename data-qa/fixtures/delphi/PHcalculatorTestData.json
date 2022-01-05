@@ -1,0 +1,167 @@
+{
+  "liquid": {
+    "uri": "/ph_calculator",
+    "request": {
+      "cas_number_and_weights": [
+        {
+          "name": "Alcohol",
+          "cas": "64-17-5",
+          "weight_min": 24,
+          "weight_max": 24,
+          "ghs": ["Flam. Liq. 2 (H225)"],
+          "rcra": null,
+          "id": null,
+          "user_entered": false,
+          "parsed_from_sds": true
+        },
+        {
+          "name": "Benzocaine",
+          "cas": "94-09-7",
+          "weight_min": 20,
+          "weight_max": 20,
+          "ghs": ["Skin Sens. 1 (H317)", "STOT SE 1 (H370)"],
+          "rcra": null,
+          "id": null,
+          "user_entered": false,
+          "parsed_from_sds": true
+        },
+        {
+          "name": "Propylene Glycol",
+          "cas": "57-55-6",
+          "weight_min": 8.55,
+          "weight_max": 8.55,
+          "ghs": null,
+          "rcra": null,
+          "id": null,
+          "user_entered": false,
+          "parsed_from_sds": true
+        },
+        {
+          "name": "Tannic acid",
+          "cas": "1401-55-4",
+          "weight_min": 6.8,
+          "weight_max": 6.8,
+          "ghs": ["Eye Irrit. 2A (H319)"],
+          "rcra": null,
+          "id": null,
+          "user_entered": false,
+          "parsed_from_sds": true
+        },
+        {
+          "name": "Benzyl alcohol",
+          "cas": "100-51-6",
+          "weight_min": 3.9,
+          "weight_max": 3.9,
+          "ghs": ["Acute Tox. 4 (inh.) (H332)", "Acute Tox. 4 (oral) (H302)"],
+          "rcra": null,
+          "id": null,
+          "user_entered": false,
+          "parsed_from_sds": true
+        },
+        {
+          "name": "Oleth-10",
+          "cas": "9004-98-2",
+          "weight_min": 3.5,
+          "weight_max": 3.5,
+          "ghs": [
+            "Skin Irrit. 2 (H315)",
+            "Acute Aq. 1 (H400)",
+            "Chronic Aq. 2 (H411)"
+          ],
+          "rcra": null,
+          "id": null,
+          "user_entered": false,
+          "parsed_from_sds": true
+        },
+        {
+          "name": "water",
+          "cas": "7732-18-5",
+          "weight_min": null,
+          "weight_max": null,
+          "ghs": null,
+          "rcra": null,
+          "id": null,
+          "user_entered": true,
+          "parsed_from_sds": false
+        },
+        {
+          "name": "sodium hydroxide",
+          "cas": "1310-73-2",
+          "weight_min": null,
+          "weight_max": 15,
+          "ghs": ["Skin Corr. 1A (H314)"],
+          "rcra": null,
+          "id": null,
+          "user_entered": true,
+          "parsed_from_sds": false
+        }
+      ],
+
+      "form": "liquid"
+    },
+    "responseCode": 200,
+    "response": {
+      "observations": [
+        {
+          "catalog_attribute": "ph_calculated",
+          "confidence": 0.62,
+          "normalized_value": {
+            "insoluble_corrosives": [],
+            "max": 14.57,
+            "min": 14.57,
+            "missing_cas": ["94-09-7", "1401-55-4", "9004-98-2"]
+          },
+          "raw_value": {
+            "insoluble_corrosives": [],
+            "max": 14.57,
+            "min": 14.57,
+            "missing_cas": ["94-09-7", "1401-55-4", "9004-98-2"]
+          },
+          "successful_result": true
+        }
+      ]
+    }
+  },
+
+  "gas": {
+    "uri": "/ph_calculator",
+    "request": {
+      "cas_number_and_weights": [
+        {
+          "name": "Alcohol",
+          "cas": "64-17-5",
+          "weight_min": 24,
+          "weight_max": 24,
+          "ghs": ["Flam. Liq. 2 (H225)"],
+          "rcra": null,
+          "id": null,
+          "user_entered": false,
+          "parsed_from_sds": true
+        }
+      ],
+      "form": "gas"
+    },
+    "responseCode": 200,
+    "response": {
+      "observations": [
+        {
+          "catalog_attribute": "ph_calculated",
+          "confidence": 0.8,
+          "normalized_value": {
+            "insoluble_corrosives": [],
+            "max": null,
+            "min": null,
+            "missing_cas": []
+          },
+          "raw_value": {
+            "insoluble_corrosives": [],
+            "max": null,
+            "min": null,
+            "missing_cas": []
+          },
+          "successful_result": true
+        }
+      ]
+    }
+  }
+}
