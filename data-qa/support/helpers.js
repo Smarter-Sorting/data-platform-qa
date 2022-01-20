@@ -20,6 +20,7 @@ async function postRequest(...arg) {
     .post(arg[1])
     .send(arg[2])
     .set('Content-Type', 'application/json')
+    .set('Authorization', arg[3])
     .then(function (res) {
       return res;
     })

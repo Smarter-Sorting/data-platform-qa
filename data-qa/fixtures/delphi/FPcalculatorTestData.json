@@ -1,5 +1,5 @@
 {
-  "uri": "/ph_calculator",
+  "uri": "/flashpoint/predict",
   "variants": {
     "liquid": {
       "request": {
@@ -104,19 +104,17 @@
       "response": {
         "observations": [
           {
-            "catalog_attribute": "ph_calculated",
-            "confidence": 0.62,
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
             "normalized_value": {
-              "insoluble_corrosives": [],
-              "max": 14.57,
-              "min": 14.57,
-              "missing_cas": ["94-09-7", "1401-55-4", "9004-98-2"]
+              "lower_95_fahrenheit": 161.44529176388522,
+              "predicted_flashpoint_fahrenheit": 75.0034407206252,
+              "upper_95_fahrenheit": 676.2975274814568
             },
             "raw_value": {
-              "insoluble_corrosives": [],
-              "max": 14.57,
-              "min": 14.57,
-              "missing_cas": ["94-09-7", "1401-55-4", "9004-98-2"]
+              "lower_95_fahrenheit": 161.44529176388522,
+              "predicted_flashpoint_fahrenheit": 75.0034407206252,
+              "upper_95_fahrenheit": 676.2975274814568
             },
             "successful_result": true
           }
@@ -145,21 +143,10 @@
       "response": {
         "observations": [
           {
-            "catalog_attribute": "ph_calculated",
-            "confidence": 0.8,
-            "normalized_value": {
-              "insoluble_corrosives": [],
-              "max": null,
-              "min": null,
-              "missing_cas": []
-            },
-            "raw_value": {
-              "insoluble_corrosives": [],
-              "max": null,
-              "min": null,
-              "missing_cas": []
-            },
-            "successful_result": true
+            "catalog_attribute": "flashpoint",
+            "normalized_value": null,
+            "raw_value": null,
+            "successful_result": false
           }
         ]
       }

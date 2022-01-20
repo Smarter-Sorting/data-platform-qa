@@ -1,5 +1,5 @@
 {
-  "uri": "/ph_calculator",
+  "uri": "/boiling_point/predict",
   "variants": {
     "liquid": {
       "request": {
@@ -104,19 +104,17 @@
       "response": {
         "observations": [
           {
-            "catalog_attribute": "ph_calculated",
-            "confidence": 0.62,
+            "catalog_attribute": "boiling_point",
+            "confidence": 0.1,
             "normalized_value": {
-              "insoluble_corrosives": [],
-              "max": 14.57,
-              "min": 14.57,
-              "missing_cas": ["94-09-7", "1401-55-4", "9004-98-2"]
+              "lower_95_fahrenheit": 169.877227395303,
+              "predicted_boiling_point_fahrenheit": 154.58314730981303,
+              "upper_95_fahrenheit": 154.3702745349873
             },
             "raw_value": {
-              "insoluble_corrosives": [],
-              "max": 14.57,
-              "min": 14.57,
-              "missing_cas": ["94-09-7", "1401-55-4", "9004-98-2"]
+              "lower_95_fahrenheit": 169.877227395303,
+              "predicted_boiling_point_fahrenheit": 154.58314730981303,
+              "upper_95_fahrenheit": 154.3702745349873
             },
             "successful_result": true
           }
@@ -145,21 +143,10 @@
       "response": {
         "observations": [
           {
-            "catalog_attribute": "ph_calculated",
-            "confidence": 0.8,
-            "normalized_value": {
-              "insoluble_corrosives": [],
-              "max": null,
-              "min": null,
-              "missing_cas": []
-            },
-            "raw_value": {
-              "insoluble_corrosives": [],
-              "max": null,
-              "min": null,
-              "missing_cas": []
-            },
-            "successful_result": true
+            "catalog_attribute": "boiling_point",
+            "normalized_value": null,
+            "raw_value": null,
+            "successful_result": false
           }
         ]
       }
