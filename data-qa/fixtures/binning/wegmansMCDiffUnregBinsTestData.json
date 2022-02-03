@@ -1,0 +1,530 @@
+{
+  "uri": "/bin_results/multicomponent",
+  "variants": {
+    "two children with different unregulated bins ([Electronics Recycling] and [Compactor/Solid trash]), roll-up bin should be [Electronics Recycling] with flag [disassembly recommended]": {
+      "request": {
+        "company": "wegmans",
+        "children": [
+          { "portal_product_id": "12327" },
+          { "portal_product_id": "12344" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "8a5a3d59-c6ad-465c-8297-ca470bcabb32",
+            "name": "Electronics Recycling",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    }
+  }
+}

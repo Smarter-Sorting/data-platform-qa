@@ -1,0 +1,1056 @@
+{
+  "uri": "/bin_results/multicomponent",
+  "variants": {
+    "two children with mixed bins ([Cylinders] and [Electronics Recycling]),  roll-up bin should be [Cylinders] and flag should be [disassembly recommended]": {
+      "request": {
+        "company": "wegmans",
+        "children": [
+          { "portal_product_id": "12327" },
+          { "portal_product_id": "12334" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "78df754d-0e04-4ba5-8c68-b7e4cbd49298",
+            "name": "Cylinders",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 3,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    },
+
+    "two children with mixed bins ([Corrosive Acidic Materials bin] and [Other Liquid Materials Non-Food]),  roll-up bin should be [Cylinders] and flag should be [disassembly recommended]": {
+      "request": {
+        "company": "wegmans",
+        "children": [
+          { "portal_product_id": "12338" },
+          { "portal_product_id": "12329" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "d82613a1-9053-41de-9b22-2301f09a05af",
+            "name": "Corrosive Acidic Materials",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 8,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    }
+  }
+}

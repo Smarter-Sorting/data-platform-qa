@@ -1,0 +1,530 @@
+{
+  "uri": "/bin_results/multicomponent",
+  "variants": {
+    "two children with regulated [Oxidizers/Bleach] bins roll-up bin should be [Oxidizers/Bleach] wihtout flag": {
+      "request": {
+        "company": "wegmans",
+        "children": [
+          { "portal_product_id": "12345" },
+          { "portal_product_id": "12335" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "34d13ae7-0632-4908-8bd8-8603596e627f",
+            "name": "Oxidizers/Bleach",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 5,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    }
+  }
+}

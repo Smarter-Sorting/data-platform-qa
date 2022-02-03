@@ -1,0 +1,41 @@
+{
+  "uri": "/bin_results/multicomponent",
+  "variants": {
+    "two children with different regulated bins ([Toxic] and [Oxidizers/Bleach]), there should not be roll-up bin and flag should be [disassembly needed]": {
+      "request": {
+        "company": "wegmans",
+        "children": [
+          {
+            "portal_product_id": "12341"
+          },
+          {
+            "portal_product_id": "12335"
+          }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [],
+        "flag": "DISASSEMBLY_REQUIRED"
+      }
+    },
+    "two children with different regulated bins ([Aerosols/Flammables] and [Oxidizers/Bleach]), there should not be roll-up bin and flag should be [disassembly needed]": {
+      "request": {
+        "company": "wegmans",
+        "children": [
+          {
+            "portal_product_id": "12341"
+          },
+          {
+            "portal_product_id": "12335"
+          }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [],
+        "flag": "DISASSEMBLY_REQUIRED"
+      }
+    }
+  }
+}
