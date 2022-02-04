@@ -42,8 +42,519 @@
       },
       "responseCode": 200,
       "response": {
-        "bins": [],
-        "flag": "DISASSEMBLY_REQUIRED"
+        "bins": [
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "AK",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "AL",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "AR",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "AZ",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "CA",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "CO",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "CT",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "DC",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "DE",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "FL",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "GA",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "HI",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "IA",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "ID",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "IL",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "IN",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "KS",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "KY",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "LA",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MA",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MD",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "ME",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MI",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MN",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MO",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MS",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "MT",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NC",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "ND",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NE",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NH",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NJ",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NM",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NV",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "NY",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "OH",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "OK",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "OR",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "PA",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "RI",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "SC",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "SD",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "TN",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "TX",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "UT",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "VA",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "VT",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "WA",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "WI",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "WV",
+            "type": "other"
+          },
+          {
+            "company": "wegmans",
+            "flag": null,
+            "group_id": "4a4ab0a5-368a-4074-b1da-ffafd08d7350",
+            "name": "Reclamation",
+            "owner_id": "4f8d3a00-6af3-4c45-b29c-6d3b6df9f6fb",
+            "priority": 1,
+            "state": "WY",
+            "type": "other"
+          }
+        ],
+        "flag": null
       }
     }
   }
