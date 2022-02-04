@@ -527,7 +527,7 @@
       }
     },
 
-    "two children with mixed bins ([Corrosive Acidic Materials bin] and [Other Liquid Materials Non-Food]),  roll-up bin should be [Cylinders] and flag should be [disassembly recommended]": {
+    "two children with mixed bins ([Corrosive Acidic Materials bin] and [Other Liquid Materials Non-Food] + [Reclamation]),  roll-up bin should be [Corrosive Acidic Materials bi] and flag should be [disassembly recommended]": {
       "request": {
         "company": "wegmans",
         "children": [
