@@ -22,6 +22,21 @@
         "children": [
           { "portal_product_id": "12330" },
           { "portal_product_id": "12335" },
+          { "portal_product_id": "12343" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [],
+        "flag": "DISASSEMBLY_REQUIRED"
+      }
+    },
+    "three children with different regulated bins ([Aerosols/Flammables] + [Reclamation], [Oxidizers/Bleach] + [Reclamation] and [Other Liquid Materials Non-Food] + [Reclamation]), there should not be roll-up bin and flag should be [disassembly needed]": {
+      "request": {
+        "company": "wegmans",
+        "children": [
+          { "portal_product_id": "12330" },
+          { "portal_product_id": "12335" },
           { "portal_product_id": "12342" }
         ]
       },
@@ -30,21 +45,6 @@
         "bins": [],
         "flag": "DISASSEMBLY_REQUIRED"
       }
-    }
-  },
-  "three children with different regulated bins ([Aerosols/Flammables] + [Reclamation], [Oxidizers/Bleach]  and [Other Liquid Materials Non-Food] + [Reclamation]), there should not be roll-up bin and flag should be [disassembly needed]": {
-    "request": {
-      "company": "wegmans",
-      "children": [
-        { "portal_product_id": "12330" },
-        { "portal_product_id": "12335" },
-        { "portal_product_id": "12342" }
-      ]
-    },
-    "responseCode": 200,
-    "response": {
-      "bins": [],
-      "flag": "DISASSEMBLY_REQUIRED"
     }
   }
 }
