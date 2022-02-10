@@ -1,12 +1,26 @@
 {
   "triggerBinningUri": "/product/trigger_binning",
   "variants": {
+    "[form liquid, ph.min.lte 2] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": { "min": 1.5, "max": 4 },
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
     "[form liquid, ph.value.lte 2] rule": {
       "request": {
         "form": "liquid",
         "upc": "09122116",
         "portal_id": "10482",
-        "item_type": "formulated_item",
+        "item_type": "formulated_product",
         "item_category": null,
         "ph": 1.7,
         "un_number": null,
@@ -20,7 +34,7 @@
         "form": "solid",
         "upc": "09122116",
         "portal_id": "10482",
-        "item_type": "formulated_item",
+        "item_type": "formulated_product",
         "item_category": null,
         "ph": 6,
         "un_number": null,

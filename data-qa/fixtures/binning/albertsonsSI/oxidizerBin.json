@@ -8,6 +8,7 @@
         "portal_id": "10482",
         "item_type": "formulated_item",
         "item_category": null,
+        "ph": 6.5,
         "un_number": null,
         "rcra_codes": {},
         "hazard_class": "5.1"
@@ -21,6 +22,7 @@
         "portal_id": "10482",
         "item_type": "formulated_item",
         "item_category": null,
+        "ph": 6.5,
         "un_number": null,
         "rcra_codes": {},
         "hazard_class": "5.1"
@@ -50,6 +52,137 @@
         "un_number": null,
         "rcra_codes": {},
         "hazard_class": "5.1"
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid, nfpa_calculated_ox.in: 1] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "nfpa_calculated_ox.in": "1",
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid, nfpa_calculated_ox.in: 2] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "nfpa_calculated_ox.in": "2",
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid, nfpa_calculated_ox.in: 3] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "nfpa_calculated_ox.in": "3",
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid, nfpa_calculated_ox.in: 4] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "nfpa_calculated_ox.in": "4",
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: solid, nfpa_calculated_ox.in: 1] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "nfpa_calculated_ox.in": "1",
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: solid, nfpa_calculated_ox.in: 2] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "nfpa_calculated_ox.in": "2",
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: solid, nfpa_calculated_ox.in: 3] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "nfpa_calculated_ox.in": "3",
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: solid, nfpa_calculated_ox.in: 4] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "nfpa_calculated_ox.in": "4",
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[ingredients.cas_numbers.any_in: 7681-52-9] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7681-52-9"
+          }
+        ],
+        "rcra_codes": {},
+        "nfpa_calculated_ox.in": null,
+        "hazard_class": null
       },
       "responseCode": 200
     }

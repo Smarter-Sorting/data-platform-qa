@@ -8,6 +8,7 @@
         "portal_id": "10482",
         "item_type": "battery",
         "un_number": null,
+        "ph": null,
         "rcra_codes": {},
         "hazard_class": "0"
       },

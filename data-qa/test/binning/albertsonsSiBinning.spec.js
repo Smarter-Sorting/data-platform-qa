@@ -15,8 +15,14 @@ describe('Single item binning - Albertsons', function () {
   context('Validate [CORROSIVE ACID A-C] bin rules', () => {
     runtest(testData.albCorrosiveAcid);
   });
+  context('Validate [CORROSIVE BASE A-B] bin rules', () => {
+    runtest(testData.albCorrosiveBase);
+  });
   context('Validate [FLAMMABLE FL] bin rules', () => {
     runtest(testData.albFlammalbe);
+  });
+  context('Validate [NON HAZARDOUS NH] bin rules', () => {
+    runtest(testData.albNonHaz);
   });
 });
 

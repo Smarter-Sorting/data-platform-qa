@@ -11,7 +11,9 @@ let albUniversalWaste = require('../fixtures/binning/albertsonsSI/universalWaste
 let albAerosol = require('../fixtures/binning/albertsonsSI/aerosolBin.json');
 let albOzidizer = require('../fixtures/binning/albertsonsSI/oxidizerBin.json');
 let albCorrosiveAcid = require('../fixtures/binning/albertsonsSI/corrosiveAcidBin.json');
+let albCorrosiveBase = require('../fixtures/binning/albertsonsSI/corrosiveBaseBin.json');
 let albFlammalbe = require('../fixtures/binning/albertsonsSI/flammableBin.json');
+let albNonHaz = require('../fixtures/binning/albertsonsSI/nonHazBin.json');
 
 module.exports = {
   wegUnreg,
@@ -24,5 +26,7 @@ module.exports = {
   albAerosol,
   albOzidizer,
   albCorrosiveAcid,
+  albCorrosiveBase,
   albFlammalbe,
+  albNonHaz,
 };
