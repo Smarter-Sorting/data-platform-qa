@@ -1,0 +1,61 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[form solid, hazadr_class 5.1] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": "5.1"
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid, hazard_class 5.1] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": "5.1"
+      },
+      "responseCode": 200
+    },
+    "[form.in: solid, hazard_class 5.2] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": "5.1"
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid, hazard_class 5.2] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_item",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": "5.1"
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=albertsons",
+  "company": "albertsons",
+  "name": "OXIDIZER OX",
+  "priority": 3
+}

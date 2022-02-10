@@ -18,7 +18,7 @@ describe('Multi-component Binning', function () {
 
 function runtest(testData) {
   Object.entries(testData.variants).forEach(([variant, data]) => {
-    it(`Verify response in screnario:  ${variant}`, async () => {
+    it(`Verify response in scenario:  ${variant}`, async () => {
       const res = await commons.postRequest(
         config.mcBinning,
         testData.uri,

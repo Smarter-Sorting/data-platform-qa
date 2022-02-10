@@ -1,0 +1,47 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[item_type.eq: battery] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "battery",
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": "0"
+      },
+      "responseCode": 200
+    },
+    "[item_type.eq: other, item_category.eq: lightbulbs] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "other",
+        "item_category": "lightbulbs",
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": "0"
+      },
+      "responseCode": 200
+    },
+    "[item_type.eq: electronic] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "electronic",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": "0"
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=albertsons",
+  "company": "albertsons",
+  "name": "UNIVERSAL WASTE UW",
+  "priority": 1
+}

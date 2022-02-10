@@ -31,7 +31,7 @@
         "flag": "DISASSEMBLY_REQUIRED"
       }
     },
-    "three children with different regulated bins ([Aerosols/Flammables] + [Reclamation], [Oxidizers/Bleach] + [Reclamation] and [Other Liquid Materials Non-Food] + [Reclamation]), there should not be roll-up bin and flag should be [disassembly needed]": {
+    "three children with different regulated bins ([Aerosols/Flammables] + [Reclamation], [Oxidizers/Bleach] + [Reclamation] and [Other Liquid Materials Non-Food] + [Reclamation]), roll-up bin should be [Reclamation] without flag": {
       "request": {
         "company": "wegmans",
         "children": [

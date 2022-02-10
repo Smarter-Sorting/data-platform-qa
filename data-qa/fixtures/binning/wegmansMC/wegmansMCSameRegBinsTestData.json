@@ -1,7 +1,7 @@
 {
   "uri": "/bin_results/multicomponent",
   "variants": {
-    "two children with regulated [Oxidizers/Bleach] bins roll-up bin should be [Oxidizers/Bleach] wihtout flag": {
+    "two children with regulated [Oxidizers/Bleach] bins roll-up bin should be [Oxidizers/Bleach] without flag": {
       "request": {
         "company": "wegmans",
         "children": [
