@@ -1,0 +1,186 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[un_number.in: 1950] rule": {
+      "request": {
+        "form": "gas",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": 1950,
+        "ingredients": [
+          {
+            "cas": "7782-44-7"
+          }
+        ],
+        "rcra_codes": {},
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[un_number.in: 1057] rule": {
+      "request": {
+        "form": "gas",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": 1057,
+        "ingredients": [{}],
+        "rcra_codes": {},
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: solid, rcra_codes.any_in: D001, hazard_class.nin: 5.1,5.2] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D001": true
+        },
+        "hazard_class": 3
+      },
+      "responseCode": 200
+    },
+    "[form.in: solid, rcra_codes.any_in: D003, hazard_class.nin: 5.1,5.2] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D003": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid, rcra_codes.any_in: D001, hazard_class.nin: 5.1,5.2] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D001": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid, rcra_codes.any_in: D003, hazard_class.nin: 5.1, 5.2] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D003": true
+        },
+        "hazard_class": 3
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid_absorbed_in_solid, rcra_codes.any_in: D001, hazard_class.nin: 5.1, 5.2] rule": {
+      "request": {
+        "form": "liquid_absorbed_in_solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D001": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form.in: liquid_absorbed_in_solid, rcra_codes.any_in: D003, hazard_class.nin: 5.1, 5.2] rule": {
+      "request": {
+        "form": "liquid_absorbed_in_solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D003": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[flashpoint_f.lt: 140] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": null,
+        "flashpoint_f": 130,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D003": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[hazard_class.in: 3] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": null,
+        "flashpoint_f": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D003": true
+        },
+        "hazard_class": 3
+      },
+      "responseCode": 200
+    },
+    "[hazard_class.in: 4.1] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "un_number": null,
+        "flashpoint_f": null,
+        "ingredients": [{}],
+        "rcra_codes": {},
+        "hazard_class": 4.1
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=wegmans",
+  "company": "wegmans",
+  "name": "Aerosols/Flammables",
+  "priority": 4
+}

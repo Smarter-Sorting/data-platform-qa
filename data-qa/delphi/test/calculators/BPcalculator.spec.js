@@ -1,18 +1,18 @@
-let testData = require('../../fixtures/delphi/PHcalculatorTestData.json');
-let config = require('../../support/setUp.js');
-let commons = require('../../support/helpers.js');
+let testData = require('../../fixtures/BPcalculatorTestData.json');
+let config = require('../../../support/setUp.js');
+let commons = require('../../../support/helpers.js');
 
-describe('PH calculator tests', function () {
+describe('BP calculator tests', function () {
   context(
     'Validate that sending request in correct format expected response will be received',
     function () {
       Object.entries(testData.variants).forEach(([variant, data]) => {
         it(`Should get a proper response with ${variant}`, async () => {
           const res = await commons.postRequest(
-            config.interpretersBaseUrl,
+            config.mlBaseUrl,
             testData.uri,
             data.request,
-            '',
+            `Basic ${config.mlToken}`,
           );
           expect(res.statusCode).to.be.equal(data.responseCode);
           expect(res.body).to.be.deep.equal(data.response);

@@ -1,28 +1,28 @@
-let testData = require('../../support/testDataLoad');
+let testData = require('../testDataLoad');
 let config = require('../../support/setUp.js');
 let commons = require('../../support/helpers.js');
 
-describe('Single item binning - Albertsons', function () {
-  context('Validate [UNIVERSAL WASTE] bin rules', () => {
-    runtest(testData.albUniversalWaste);
+describe('Single item binning - Wegmans', function () {
+  context('Validate [Electronics Recycling] bin rules', () => {
+    runtest(testData.wegElectronicRecycling);
   });
-  context('Validate [AEROSOL AER] bin rules', () => {
-    runtest(testData.albAerosol);
+  context('Validate [Reclamation] bin rules', () => {
+    runtest(testData.wegElectronicRecycling);
   });
-  context('Validate [OXIDIZER OX] bin rules', () => {
-    runtest(testData.albOzidizer);
+  context('Validate [Batteries] bin rules', () => {
+    runtest(testData.wegBatteries);
   });
-  context('Validate [CORROSIVE ACID A-C] bin rules', () => {
-    runtest(testData.albCorrosiveAcid);
+  context('Validate [Light Bulbs] bin rules', () => {
+    runtest(testData.wegLightbulbs);
   });
-  context('Validate [CORROSIVE BASE A-B] bin rules', () => {
-    runtest(testData.albCorrosiveBase);
+  context('Validate [Cylinders] bin rules', () => {
+    runtest(testData.wegCylinders);
   });
-  context('Validate [FLAMMABLE FL] bin rules', () => {
-    runtest(testData.albFlammalbe);
+  context('Validate [Aerosols/Flammables] bin rules', () => {
+    runtest(testData.wegAerosolsFlammables);
   });
-  context('Validate [NON HAZARDOUS NH] bin rules', () => {
-    runtest(testData.albNonHaz);
+  context('Validate [Oxidizers/Bleach] bin rules', () => {
+    runtest(testData.wegOxidizersBleach);
   });
 });
 

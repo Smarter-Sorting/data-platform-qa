@@ -1,6 +1,6 @@
-let testData = require('../../fixtures/delphi/FPcalculatorTestData.json');
-let config = require('../../support/setUp.js');
-let commons = require('../../support/helpers.js');
+let testData = require('../../fixtures/FPcalculatorTestData.json');
+let config = require('../../../support/setUp.js');
+let commons = require('../../../support/helpers.js');
 
 describe('FP calculator tests', function () {
   context(

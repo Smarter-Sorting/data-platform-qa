@@ -1,0 +1,39 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[form liquid, ph.value.gte 12.5] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 13,
+        "un_number": null,
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[hazard_class 8, ph.value.gte 7] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 7.1,
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": "8"
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=albertsons",
+  "company": "albertsons",
+  "name": "CORROSIVE BASE C-B",
+  "priority": 5
+}

@@ -1,0 +1,27 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[form.eq: gas, ingredients.cas_numbers.none_in: 7782-44-7, un_number.nin: 1057] rule": {
+      "request": {
+        "form": "gas",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "other",
+        "item_category": null,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "8006-14-2"
+          }
+        ],
+        "rcra_codes": {},
+        "hazard_class": null
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=wegmans",
+  "company": "wegmans",
+  "name": "Cylinders",
+  "priority": 3
+}

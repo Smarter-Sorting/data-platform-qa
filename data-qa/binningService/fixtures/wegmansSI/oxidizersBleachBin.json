@@ -1,0 +1,62 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[hazard_class.in: 5.1] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 7,
+        "un_number": null,
+        "rcra_codes": {
+          "F003": true
+        },
+        "hazard_class": 5.1
+      },
+      "responseCode": 200
+    },
+    "[hazard_class.in: 5.2] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 7,
+        "un_number": null,
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": 5.2
+      },
+      "responseCode": 200
+    },
+    "[ingredients.cas_numbers.any_in: 7681-52-9] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 7,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7681-52-9"
+          }
+        ],
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=wegmans",
+  "company": "wegmans",
+  "name": "Oxidizers/Bleach",
+  "priority": 5
+}

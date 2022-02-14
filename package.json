@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha 'data-qa/test' --require chaiconf.js",
-    "test:staging": "mocha 'data-qa/test/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
-    "test:staging:binning": "mocha --timeout 30000 'data-qa/test/binning/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
+    "test:staging": "mocha --timeout 20000 'data-qa/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
+    "test:staging:binning": "mocha --timeout 20000 'data-qa/binningService/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:conf:staging1": "mocha 'data-qa/test' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js dotenv_config_path=.envdifferentENV"
   },
   "author": "",

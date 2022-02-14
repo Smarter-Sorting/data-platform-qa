@@ -1,0 +1,22 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[form electronic] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "electronic",
+        "item_category": null,
+        "un_number": null,
+        "rcra_codes": {},
+        "hazard_class": null
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=wegmans",
+  "company": "wegmans",
+  "name": "Electronics Recycling",
+  "priority": 1
+}

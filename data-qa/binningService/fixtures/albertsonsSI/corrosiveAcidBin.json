@@ -10,7 +10,9 @@
         "item_category": null,
         "ph": { "min": 1.5, "max": 4 },
         "un_number": null,
-        "rcra_codes": {},
+        "rcra_codes": {
+          "D002": true
+        },
         "hazard_class": null
       },
       "responseCode": 200
@@ -24,7 +26,9 @@
         "item_category": null,
         "ph": 1.7,
         "un_number": null,
-        "rcra_codes": {},
+        "rcra_codes": {
+          "D002": true
+        },
         "hazard_class": null
       },
       "responseCode": 200

@@ -1,4 +1,4 @@
-let testData = require('../../support/testDataLoad');
+let testData = require('../testDataLoad');
 let config = require('../../support/setUp.js');
 let commons = require('../../support/helpers.js');
 
