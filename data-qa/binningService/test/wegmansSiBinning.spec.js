@@ -24,6 +24,35 @@ describe('Single item binning - Wegmans', function () {
   context('Validate [Oxidizers/Bleach] bin rules', () => {
     runtest(testData.wegOxidizersBleach);
   });
+  context(
+    'Validate [Corrosive Caustic Chemicals with Ammonia] bin rules',
+    () => {
+      runtest(testData.wegCorrosiveWithAmmonia);
+    },
+  );
+  context(
+    'Validate [Corrosive Caustic Materials Without Ammonia] bin rules',
+    () => {
+      runtest(testData.wegCorrosiveWithoutAmmonia);
+    },
+  );
+  context('Validate [Corrosive Acidic Materials] bin rules', () => {
+    runtest(testData.wegCorrosiveAcidic);
+  });
+
+  //TO-DO Knightshade Nicotine Recycling bin rules test
+
+  //TO-DO OTC Nicotine Products (P-Listed Acute Toxic) bin rules test
+
+  context('Validate [Toxic] bin rules', () => {
+    runtest(testData.wegToxic);
+  });
+
+  //TO-DO Other Liquid Materials Non-Food bin rules test
+
+  context('Validate [Compactor/Solid Trash] bin rules', () => {
+    runtest(testData.wegCompactor);
+  });
 });
 
 function runtest(testData) {

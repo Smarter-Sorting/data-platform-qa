@@ -1,0 +1,90 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[ph.min.lte: 2.0, rcra_codes.any_in: D002] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": { "min": 1.7, "max": 2.5 },
+        "un_number": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[ph.max.lte: 2.0, rcra_codes.any_in: D002] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": { "min": 1.5, "max": 1.7 },
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7732-18-5"
+          }
+        ],
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[ph.value.lte: 2.0, rcra_codes.any_in: D002] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 1.6,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7732-18-5"
+          }
+        ],
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+
+    "[hazard_class.eq: 8, ph.value.lte: 7.0] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 6.5,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7732-18-5"
+          }
+        ],
+        "rcra_codes": {
+          "F003": true
+        },
+        "hazard_class": 8
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=wegmans",
+  "company": "wegmans",
+  "name": "Corrosive Acidic Materials",
+  "priority": 8
+}

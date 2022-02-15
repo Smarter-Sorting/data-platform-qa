@@ -1,0 +1,90 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[ph.min.gte: 12.5, rcra_codes.any_in: D002, ingredients.cas_numbers.none_in: 7664-41-7, 7681-52-9] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": { "min": 12.6, "max": 13 },
+        "un_number": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[ph.max.gte: 12.5, rcra_codes.any_in: D002, ingredients.cas_numbers.none_in: 7664-41-7, 7681-52-9] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": { "min": 12, "max": 13 },
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7732-18-5"
+          }
+        ],
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[ph.value.gte: 12.5, rcra_codes.any_in: D002, ingredients.cas_numbers.none_in: 7664-41-7, 7681-52-9] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 13,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7732-18-5"
+          }
+        ],
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+
+    "[hazard_class.eq: 8, ph.value.gte: 7.0, ingredients.cas_numbers.none_in: 7664-41-7, 7681-52-9] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 7.1,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7732-18-5"
+          }
+        ],
+        "rcra_codes": {
+          "F003": true
+        },
+        "hazard_class": 8
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=wegmans",
+  "company": "wegmans",
+  "name": "Corrosive Caustic Materials Without Ammonia",
+  "priority": 7
+}

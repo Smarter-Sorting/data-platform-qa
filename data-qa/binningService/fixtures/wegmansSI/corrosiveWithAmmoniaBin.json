@@ -1,0 +1,51 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[rcra_codes.any_in: D002, ingredients.cas_numbers.any_in: 7664-41-7] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 7,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7664-41-7"
+          }
+        ],
+        "rcra_codes": {
+          "D002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[hazard_class.eq: 8, ingredients.cas_numbers.any_in: 7664-41-7] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 7.7,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7664-41-7"
+          }
+        ],
+        "rcra_codes": {
+          "F003": true
+        },
+        "hazard_class": 8
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=wegmans",
+  "company": "wegmans",
+  "name": "Corrosive Caustic Chemicals with Ammonia",
+  "priority": 6
+}

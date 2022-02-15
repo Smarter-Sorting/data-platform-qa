@@ -1,0 +1,68 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[rcra_codes.any_match: [DUP]\\d{3} >> D005, rcra_codes.none_in: D001, D002, D003, ingredients.cas_numbers.none_in: 54-11-5] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": null,
+        "un_number": null,
+        "ingredients": [{}],
+        "rcra_codes": {
+          "D005": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[rcra_codes.any_match: [DUP]\\d{3} >> P028, rcra_codes.none_in: D001, D002, D003, ingredients.cas_numbers.none_in: 54-11-5] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": null,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7732-18-5"
+          }
+        ],
+        "rcra_codes": {
+          "P028": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[hazard_class.eq: 6.1, rcra_codes.none_in: D001, D002, D003, ingredients.cas_numbers.none_in: 54-11-5] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": null,
+        "un_number": null,
+        "ingredients": [
+          {
+            "cas": "7732-18-5"
+          }
+        ],
+        "rcra_codes": {
+          "F035": true
+        },
+        "hazard_class": 6.1
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=wegmans",
+  "company": "wegmans",
+  "name": "Toxic",
+  "priority": 10
+}

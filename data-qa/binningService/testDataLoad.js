@@ -23,6 +23,11 @@ let wegLightbulbs = require('./fixtures/wegmansSI/lightbulbsBin.json');
 let wegCylinders = require('./fixtures/wegmansSI/cylindersBin.json');
 let wegAerosolsFlammables = require('./fixtures/wegmansSI/aerosolsFlammablesBin.json');
 let wegOxidizersBleach = require('./fixtures/wegmansSI/oxidizersBleachBin.json');
+let wegCorrosiveWithAmmonia = require('./fixtures/wegmansSI/corrosiveWithAmmoniaBin.json');
+let wegCorrosiveWithoutAmmonia = require('./fixtures/wegmansSI/corrosiveWithoutAmmoniaBin.json');
+let wegCorrosiveAcidic = require('./fixtures/wegmansSI/corrosiveAcidicBin.json');
+let wegToxic = require('./fixtures/wegmansSI/toxicBin.json');
+let wegCompactor = require('./fixtures/wegmansSI/compactorBin.json');
 
 module.exports = {
   wegUnreg,
@@ -45,4 +50,9 @@ module.exports = {
   wegCylinders,
   wegAerosolsFlammables,
   wegOxidizersBleach,
+  wegCorrosiveWithAmmonia,
+  wegCorrosiveWithoutAmmonia,
+  wegCorrosiveAcidic,
+  wegToxic,
+  wegCompactor,
 };
