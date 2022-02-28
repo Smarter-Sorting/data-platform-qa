@@ -1,0 +1,73 @@
+{
+  "uri": "/flow/blend_ingredients",
+  "variants": {
+    "water": {
+      "request": {
+        "ingredients_list": "water",
+        "sds_ingredients": []
+      },
+      "responseCode": 200,
+      "response": {
+        "ingredients": [
+          {
+            "cas": "7732-18-5",
+            "cas_name": "WATER",
+            "cas_numbers": ["7732-18-5"],
+            "data_source": "hcpa",
+            "ghs_keywords": null,
+            "ghs_keywords_dict": {
+              "7732-18-5": null
+            },
+            "ghs_or_rcra_flag": false,
+            "ghs_readable_dict": {},
+            "ingredient_order": 1,
+            "may_contain": false,
+            "name": "WATER",
+            "parsed_from_sds": false,
+            "raw_text": "water",
+            "rcra_dict": {},
+            "score": 100,
+            "user_entered": true,
+            "weight_max": null,
+            "weight_min": null,
+            "weight_source": "calculated"
+          }
+        ],
+        "session_id": "ea7d36d0-c79f-44c8-91b6-9570aa2e4377"
+      }
+    },
+    "1,2 dimethylcyclohexane": {
+      "request": {
+        "ingredients_list": "1,2 dimethylcyclohexane|",
+        "sds_ingredients": []
+      },
+      "responseCode": 200,
+      "response": {
+        "ingredients": [
+          {
+            "cas": null,
+            "cas_name": null,
+            "cas_numbers": [],
+            "data_source": null,
+            "ghs_keywords": [],
+            "ghs_keywords_dict": {},
+            "ghs_or_rcra_flag": false,
+            "ghs_readable_dict": {},
+            "ingredient_order": 1,
+            "may_contain": false,
+            "name": null,
+            "parsed_from_sds": false,
+            "raw_text": "1,2 dimethylcyclohexane",
+            "rcra_dict": {},
+            "score": 0,
+            "user_entered": true,
+            "weight_max": null,
+            "weight_min": null,
+            "weight_source": "calculated"
+          }
+        ],
+        "session_id": "ea7d36d0-c79f-44c8-91b6-9570aa2e4377"
+      }
+    }
+  }
+}

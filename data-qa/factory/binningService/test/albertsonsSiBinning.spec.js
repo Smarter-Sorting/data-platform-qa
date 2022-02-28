@@ -1,6 +1,6 @@
 let testData = require('../testDataLoad');
-let config = require('../../support/setUp.js');
-let commons = require('../../support/helpers.js');
+let config = require('../../../support/setUp.js');
+let commons = require('../../../support/helpers.js');
 
 describe('Single item binning - Albertsons', function () {
   context('Validate [UNIVERSAL WASTE] bin rules', () => {
@@ -34,7 +34,7 @@ function runtest(testData) {
     it(`Verify response for rule:  ${variant}`, async () => {
       //trigger rebinning POST request
       const rebinning = await commons.postRequest(
-        config.mcBinning,
+        config.localhostBinning,
         testData.triggerBinningUri,
         data.request,
         ``,
@@ -43,7 +43,7 @@ function runtest(testData) {
 
       //get all bins for UPC 09122116 and company albertsons
       const res = await commons.getRequest(
-        config.mcBinning,
+        config.localhostBinning,
         testData.getBinsUri,
       );
       expect(res.statusCode).to.be.equal(data.responseCode);

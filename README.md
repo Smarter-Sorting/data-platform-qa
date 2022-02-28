@@ -53,3 +53,5 @@ After project is downloaded run [npm -i] to install all dependencies on your mac
 List of predefined scripts is available in package.json file
 
 - [npm test:conf:staging] - Will run tests with default configuration (staging env variables)
+
+Note: factory and binning tests require connection to gcloud containers

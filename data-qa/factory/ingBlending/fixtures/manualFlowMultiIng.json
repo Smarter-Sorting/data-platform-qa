@@ -1,0 +1,204 @@
+{
+  "uri": "/flow/blend_ingredients",
+  "variants": {
+    "phenol,water": {
+      "request": {
+        "ingredients_list": "phenol,water",
+        "sds_ingredients": []
+      },
+      "responseCode": 200,
+      "response": {
+        "ingredients": [
+          {
+            "cas": "108-95-2",
+            "cas_name": "PHENOL",
+            "cas_numbers": ["108-95-2"],
+            "data_source": "hcpa",
+            "ghs_keywords": [
+              "muta_2",
+              "acute_tox_inhal_3",
+              "acute_tox_dermal_3",
+              "acute_tox_oral_3",
+              "stot_re_2",
+              "skin_corr_1b"
+            ],
+            "ghs_keywords_dict": {
+              "108-95-2": [
+                "muta_2",
+                "acute_tox_inhal_3",
+                "acute_tox_dermal_3",
+                "acute_tox_oral_3",
+                "stot_re_2",
+                "skin_corr_1b"
+              ]
+            },
+            "ghs_or_rcra_flag": true,
+            "ghs_readable_dict": {
+              "108-95-2": [
+                "Acute Tox. 3 (oral) (H301)",
+                "Acute Tox. 3 (dermal) (H311)",
+                "Skin Corr. 1B (H314)",
+                "Acute Tox. 3 (inh.) (H331)",
+                "Muta. 2 (H341)",
+                "STOT RE 2 (H373)"
+              ]
+            },
+            "ingredient_order": 1,
+            "may_contain": false,
+            "name": "PHENOL",
+            "parsed_from_sds": false,
+            "raw_text": "phenol",
+            "rcra_dict": {},
+            "score": 100,
+            "user_entered": true,
+            "weight_max": null,
+            "weight_min": null,
+            "weight_source": "calculated"
+          },
+          {
+            "cas": "7732-18-5",
+            "cas_name": "WATER",
+            "cas_numbers": ["7732-18-5"],
+            "data_source": "hcpa",
+            "ghs_keywords": null,
+            "ghs_keywords_dict": {
+              "7732-18-5": null
+            },
+            "ghs_or_rcra_flag": false,
+            "ghs_readable_dict": {},
+            "ingredient_order": 2,
+            "may_contain": false,
+            "name": "WATER",
+            "parsed_from_sds": false,
+            "raw_text": "water",
+            "rcra_dict": {},
+            "score": 100,
+            "user_entered": true,
+            "weight_max": null,
+            "weight_min": null,
+            "weight_source": "calculated"
+          }
+        ],
+        "session_id": "ea7d36d0-c79f-44c8-91b6-9570aa2e4377"
+      }
+    },
+    "carbomer,Tocopheryl Acetate,Propylene Glycol": {
+      "request": {
+        "ingredients_list": "carbomer,Tocopheryl Acetate,Propylene Glycol",
+        "sds_ingredients": []
+      },
+      "responseCode": 200,
+      "response": {
+        "ingredients": [
+          {
+            "cas": null,
+            "cas_name": "CARBOMER",
+            "cas_numbers": [
+              "9007-20-9",
+              "9003-01-4",
+              "76050-42-5",
+              "9062-04-8",
+              "9007-16-3",
+              "9007-17-4"
+            ],
+            "data_source": "inci",
+            "ghs_keywords": [
+              "acute_tox_oral_4",
+              "eye_irrit_2a",
+              "stot_se_3_resp",
+              "acute_aq_1",
+              "chron_aq_2"
+            ],
+            "ghs_keywords_dict": {
+              "76050-42-5": null,
+              "9003-01-4": [
+                "acute_tox_oral_4",
+                "eye_irrit_2a",
+                "stot_se_3_resp",
+                "acute_aq_1",
+                "chron_aq_2"
+              ],
+              "9007-16-3": null,
+              "9007-17-4": null,
+              "9007-20-9": null,
+              "9062-04-8": null
+            },
+            "ghs_or_rcra_flag": true,
+            "ghs_readable_dict": {
+              "9003-01-4": [
+                "Acute Tox. 4 (oral) (H302)",
+                "Eye Irrit. 2A (H319)",
+                "STOT SE 3 (resp. irrit.) (H335)",
+                "Acute Aq. 1 (H400)",
+                "Chronic Aq. 2 (H411)"
+              ]
+            },
+            "ingredient_order": 1,
+            "may_contain": false,
+            "name": "CARBOMER",
+            "parsed_from_sds": false,
+            "raw_text": "carbomer",
+            "rcra_dict": {},
+            "score": 100,
+            "user_entered": true,
+            "weight_max": null,
+            "weight_min": null,
+            "weight_source": "calculated"
+          },
+          {
+            "cas": null,
+            "cas_name": "TOCOPHERYL ACETATE",
+            "cas_numbers": ["7695-91-2", "58-95-7", "52225-20-4"],
+            "data_source": "hcpa",
+            "ghs_keywords": ["chron_aq_4"],
+            "ghs_keywords_dict": {
+              "52225-20-4": null,
+              "58-95-7": ["chron_aq_4"],
+              "7695-91-2": null
+            },
+            "ghs_or_rcra_flag": true,
+            "ghs_readable_dict": {
+              "58-95-7": ["Chronic Aq. 4 (H413)"]
+            },
+            "ingredient_order": 2,
+            "may_contain": false,
+            "name": "TOCOPHERYL ACETATE",
+            "parsed_from_sds": false,
+            "raw_text": "Tocopheryl Acetate",
+            "rcra_dict": {},
+            "score": 100,
+            "user_entered": true,
+            "weight_max": null,
+            "weight_min": null,
+            "weight_source": "calculated"
+          },
+          {
+            "cas": null,
+            "cas_name": "PROPYLENE GLYCOL",
+            "cas_numbers": ["57-55-6", "26264-14-2"],
+            "data_source": "hcpa",
+            "ghs_keywords": [],
+            "ghs_keywords_dict": {
+              "26264-14-2": null,
+              "57-55-6": null
+            },
+            "ghs_or_rcra_flag": false,
+            "ghs_readable_dict": {},
+            "ingredient_order": 3,
+            "may_contain": false,
+            "name": "PROPYLENE GLYCOL",
+            "parsed_from_sds": false,
+            "raw_text": "Propylene Glycol",
+            "rcra_dict": {},
+            "score": 100,
+            "user_entered": true,
+            "weight_max": null,
+            "weight_min": null,
+            "weight_source": "calculated"
+          }
+        ],
+        "session_id": "ea7d36d0-c79f-44c8-91b6-9570aa2e4377"
+      }
+    }
+  }
+}

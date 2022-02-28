@@ -7,7 +7,9 @@
     "test": "mocha 'data-qa/test' --require chaiconf.js",
     "test:staging": "mocha --timeout 20000 'data-qa/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:staging:binning": "mocha --timeout 20000 'data-qa/binningService/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
-    "test:staging:binning:wegsi": "mocha --timeout 20000 'data-qa/binningService/test/wegmansSiBinning.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
+    "test:staging:binning:wegsi": "mocha --timeout 20000 'data-qa/factory/binningService/test/wegmansSiBinning.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
+    "test:staging:factory": "mocha --timeout 20000 'data-qa/factory/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
+    "test:staging:ingblending:manuelentry": "mocha --timeout 20000 'data-qa/factory/ingBlending/test/manualEntryFlow.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:conf:staging1": "mocha 'data-qa/test' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js dotenv_config_path=.envdifferentENV"
   },
   "author": "",
