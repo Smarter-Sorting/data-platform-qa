@@ -1,0 +1,122 @@
+{
+  "triggerBinningUri": "/product/trigger_binning",
+  "variants": {
+    "[hazard_class.in 6.1] rule": {
+      "request": {
+        "form": "liquid_absorbed_in_solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 7.1,
+        "un_number": null,
+        "rcra_codes": {
+          "D001": false
+        },
+        "hazard_class": 6.1
+      },
+
+      "responseCode": 200
+    },
+    "[form liquid, rrcra_codes.any_match: ^[DUP]\\d{3} > D018] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 6.5,
+        "un_number": null,
+        "rcra_codes": {
+          "D018": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form liquid, rrcra_codes.any_match: ^[DUP]\\d{3} > P024] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 6.5,
+        "un_number": null,
+        "rcra_codes": {
+          "P024": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form liquid, rrcra_codes.any_match: ^[DUP]\\d{3} > U002] rule": {
+      "request": {
+        "form": "liquid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 6.5,
+        "un_number": null,
+        "rcra_codes": {
+          "U002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form solid, rrcra_codes.any_match: ^[DUP]\\d{3} > D018] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 6.5,
+        "un_number": null,
+        "rcra_codes": {
+          "D018": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form solid, rrcra_codes.any_match: ^[DUP]\\d{3} > P024] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 6.5,
+        "un_number": null,
+        "rcra_codes": {
+          "P024": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    },
+    "[form solid, rrcra_codes.any_match: ^[DUP]\\d{3} > U002] rule": {
+      "request": {
+        "form": "solid",
+        "upc": "09122116",
+        "portal_id": "10482",
+        "item_type": "formulated_product",
+        "item_category": null,
+        "ph": 6.5,
+        "un_number": null,
+        "rcra_codes": {
+          "U002": true
+        },
+        "hazard_class": null
+      },
+      "responseCode": 200
+    }
+  },
+  "getBinsUri": "/product/09122116/bins?company=albertsons",
+  "company": "albertsons",
+  "name": "STATE REG-TOXIC ST",
+  "priority": 7
+}

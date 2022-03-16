@@ -21,9 +21,9 @@ describe('Single item binning - Albertsons', function () {
   context('Validate [FLAMMABLE FL] bin rules', () => {
     runtest(testData.albFlammalbe);
   });
-
-  //TO-DO state reg bin rules
-
+  context('Validate [STATE REG-TOXIC ST] bin rules', () => {
+    runtest(testData.albStateReg);
+  });
   context('Validate [NON HAZARDOUS NH] bin rules', () => {
     runtest(testData.albNonHaz);
   });

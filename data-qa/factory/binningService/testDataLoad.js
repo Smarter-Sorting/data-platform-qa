@@ -21,6 +21,7 @@ let albOzidizer = require('./fixtures/albertsonsSI/oxidizerBin.json');
 let albCorrosiveAcid = require('./fixtures/albertsonsSI/corrosiveAcidBin.json');
 let albCorrosiveBase = require('./fixtures/albertsonsSI/corrosiveBaseBin.json');
 let albFlammalbe = require('./fixtures/albertsonsSI/flammableBin.json');
+let albStateReg = require('./fixtures/albertsonsSI/stateRegBin.json');
 let albNonHaz = require('./fixtures/albertsonsSI/nonHazBin.json');
 
 //wegmans single component test data
@@ -56,6 +57,7 @@ module.exports = {
   albCorrosiveAcid,
   albCorrosiveBase,
   albFlammalbe,
+  albStateReg,
   albNonHaz,
   wegElectronicRecycling,
   wegReclamation,
