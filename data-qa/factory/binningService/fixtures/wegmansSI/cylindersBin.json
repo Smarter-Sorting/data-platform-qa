@@ -23,5 +23,6 @@
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
   "name": "Cylinders",
-  "priority": 3
+  "priority": 3,
+  "type": "disposal"
 }

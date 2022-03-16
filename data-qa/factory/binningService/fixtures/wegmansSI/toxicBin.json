@@ -64,5 +64,6 @@
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
   "name": "Toxic",
-  "priority": 10
+  "priority": 10,
+  "type": "disposal"
 }

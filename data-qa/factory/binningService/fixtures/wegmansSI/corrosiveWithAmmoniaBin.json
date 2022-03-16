@@ -47,5 +47,6 @@
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
   "name": "Corrosive Caustic Chemicals with Ammonia",
-  "priority": 6
+  "priority": 6,
+  "type": "disposal"
 }

@@ -1,0 +1,561 @@
+{
+  "uri": "/bin_results/multicomponent",
+  "variants": {
+    "three children with different mixed bins ([UNIVERSAL WASTE UW], [FLAMMABLE FL] and [NON HAZARDOUS NH), there should not be roll-up bin and flag should be [disassembly needed]": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          { "portal_product_id": "12571" },
+          { "portal_product_id": "12577" },
+          { "portal_product_id": "12584" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [],
+        "flag": "DISASSEMBLY_REQUIRED"
+      }
+    },
+    "three children with different regulated bins [OXIDIZER OX] , [FLAMMABLE FL] and [AEROSOLS AER], there should not be roll-up bin and flag should be [disassembly needed]": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          { "portal_product_id": "12573" },
+          { "portal_product_id": "12576" },
+          { "portal_product_id": "12580" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [],
+        "flag": "DISASSEMBLY_REQUIRED"
+      }
+    },
+    "three children with different mized bins [OXIDIZER OX], [STATE REG-TOXIC ST] and [NON HAZARDOUS NH], roll-up bin should be [OXIDIZER OX] with [disassembly recommended] flag": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          { "portal_product_id": "12573" },
+          { "portal_product_id": "12581" },
+          { "portal_product_id": "12584" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "06e5b441-a49e-4321-bcd1-f97dbd8476ed",
+            "name": "OXIDIZER OX",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 3,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    }
+  }
+}

@@ -6,6 +6,14 @@ let wegMixReg = require('./fixtures/wegmansMC/wegmansMCDiffRegBinsTestData.json'
 let wegMixTwoItems = require('./fixtures/wegmansMC/wegmansMCDiffMixBinsTwoChildrenTestData.json');
 let wegMixThreeItems = require('./fixtures/wegmansMC/wegmansMCDiffMixBinsThreeChildrenTestData.json');
 
+// albertsons multi-component binnig test data
+let albUnreg = require('./fixtures/albertsonsMC/albertsonsMCSameUnregBinsTestData.json');
+let albReg = require('./fixtures/albertsonsMC/albertsonsMCSameRegBinsTestData.json');
+let albMixUnreg = require('./fixtures/albertsonsMC/albertsonsMCDiffUnregBinsTestData.json');
+let albMixReg = require('./fixtures/albertsonsMC/albertsonsMCDiffRegBinsTestData.json');
+let albMixTwoItems = require('./fixtures/albertsonsMC/albertsonsMCDiffMixBinsTwoChildrenTestData.json');
+let albMixThreeItems = require('./fixtures/albertsonsMC/albertsonsMCDiffMixBinsThreeChildrenTestData.json');
+
 //albertsons single component test data
 let albUniversalWaste = require('./fixtures/albertsonsSI/universalWasteBin.json');
 let albAerosol = require('./fixtures/albertsonsSI/aerosolBin.json');
@@ -36,6 +44,12 @@ module.exports = {
   wegMixReg,
   wegMixTwoItems,
   wegMixThreeItems,
+  albUnreg,
+  albReg,
+  albMixUnreg,
+  albMixReg,
+  albMixTwoItems,
+  albMixThreeItems,
   albUniversalWaste,
   albAerosol,
   albOzidizer,

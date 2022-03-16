@@ -17,6 +17,7 @@
   },
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
-  "name": "Batteries",
-  "priority": 1
+  "name": "Battery Box",
+  "priority": 1,
+  "type": "recycle"
 }

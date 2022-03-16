@@ -1,0 +1,1056 @@
+{
+  "uri": "/bin_results/multicomponent",
+  "variants": {
+    "two children with mixed bins [AEROSOL AER] and [STATE REG-TOXIC ST],  roll-up bin should be [Cylinders] and flag should be [disassembly recommended]": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          { "portal_product_id": "12572" },
+          { "portal_product_id": "12582" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    },
+
+    "two children with mixed bins [CORROSIVE BASE C-B] and [NON HAZARDOUS NH],  roll-up bin should be [CORROSIVE BASE C-B] and flag should be [disassembly recommended]": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          { "portal_product_id": "12575" },
+          { "portal_product_id": "12583" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": "DISASSEMBLY_RECOMMENDED",
+            "group_id": "70e6f4f4-d497-432a-aa2b-1278d482e7c8",
+            "name": "CORROSIVE BASE C-B",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 5,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    }
+  }
+}

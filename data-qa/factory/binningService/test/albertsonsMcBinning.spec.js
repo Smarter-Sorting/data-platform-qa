@@ -2,16 +2,16 @@ let testData = require('../testDataLoad');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
-describe('Multi-component Binning - Wegmans', function () {
+describe('Multi-component Binning - Albertsons', function () {
   context(
     'Validate that sending request in correct format expected response will be received',
     () => {
-      runtest(testData.wegUnreg);
-      runtest(testData.wegReg);
-      runtest(testData.wegMixUnreg);
-      runtest(testData.wegMixReg);
-      runtest(testData.wegMixTwoItems);
-      runtest(testData.wegMixThreeItems);
+      runtest(testData.albUnreg);
+      runtest(testData.albReg);
+      runtest(testData.albMixUnreg);
+      runtest(testData.albMixReg);
+      runtest(testData.albMixTwoItems);
+      runtest(testData.albMixThreeItems);
     },
   );
 });

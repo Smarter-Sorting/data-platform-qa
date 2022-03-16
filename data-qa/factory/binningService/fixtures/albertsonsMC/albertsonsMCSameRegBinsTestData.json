@@ -1,0 +1,1055 @@
+{
+  "uri": "/bin_results/multicomponent",
+  "variants": {
+    "two children with regulated [FLAMMABLE FL] bins roll-up bin should be [FLAMMABLE FL] without flag": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          { "portal_product_id": "12576" },
+          { "portal_product_id": "12577" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "182a7baf-bd3a-4525-acfb-2dd569812a98",
+            "name": "FLAMMABLE FL",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 6,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    },
+    "two children with regulated [AEROSOL AER] bins roll-up bin should be [AEROSOL AER] without flag": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          { "portal_product_id": "12572" },
+          { "portal_product_id": "12580" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "350aea85-6aee-494d-9315-7d555adf7e57",
+            "name": "AEROSOLS AER",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 2,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    }
+  }
+}

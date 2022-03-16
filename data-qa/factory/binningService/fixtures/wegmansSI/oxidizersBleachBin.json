@@ -58,5 +58,6 @@
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
   "name": "Oxidizers/Bleach",
-  "priority": 5
+  "priority": 5,
+  "type": "disposal"
 }

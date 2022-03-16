@@ -182,5 +182,6 @@
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
   "name": "Aerosols/Flammables",
-  "priority": 4
+  "priority": 4,
+  "type": "disposal"
 }

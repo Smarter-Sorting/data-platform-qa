@@ -1,7 +1,7 @@
 {
   "uri": "/bin_results/multicomponent",
   "variants": {
-    "two children with different unregulated bins ([Electronics Recycling] and [Compactor/Solid trash]), roll-up bin should be [Electronics Recycling] with flag [disassembly recommended]": {
+    "two children with different unregulated bins [Electronics Recycling] and [Compactor/Solid trash], roll-up bin should be [Electronics Recycling] with flag [disassembly recommended]": {
       "request": {
         "company": "wegmans",
         "children": [
@@ -526,7 +526,7 @@
         "flag": null
       }
     },
-    "two children with different unregulated bins ([Electronics Recycling] and [Other Liquid Materials Non-Food] + [Reclamation]), roll-up bin should be [Electronics Recycling] with flag [disassembly recommended]": {
+    "two children with different unregulated bins [Electronics Recycling] and [Other Liquid Materials Non-Food] + [Reclamation], roll-up bin should be [Electronics Recycling] with flag [disassembly recommended]": {
       "request": {
         "company": "wegmans",
         "children": [

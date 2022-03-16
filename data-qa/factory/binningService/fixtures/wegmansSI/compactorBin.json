@@ -40,5 +40,6 @@
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
   "name": "Compactor/Solid Trash",
-  "priority": 12
+  "priority": 12,
+  "type": "disposal"
 }

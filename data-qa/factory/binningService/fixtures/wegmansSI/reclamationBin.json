@@ -31,5 +31,6 @@
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
   "name": "Reclamation",
-  "priority": 1
+  "priority": 1,
+  "type": "other"
 }

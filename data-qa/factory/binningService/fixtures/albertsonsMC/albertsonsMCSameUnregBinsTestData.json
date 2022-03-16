@@ -1,0 +1,1055 @@
+{
+  "uri": "/bin_results/multicomponent",
+  "variants": {
+    "two children with unregulated [STATE REG-TOXIC ST] and [STATE REG-TOXIC ST], roll-up bin should be [STATE REG-TOXIC ST] without flag": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          { "portal_product_id": "12581" },
+          { "portal_product_id": "12582" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "29146496-ad4e-4fb0-ab2e-2108e3bf9fd6",
+            "name": "STATE REG-TOXIC ST",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 7,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    },
+    "two children with unregulated [NON HAZARDOUS NH] bins, roll-up bin should be [NON HAZARDOUS NH] without flag": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          { "portal_product_id": "12583" },
+          { "portal_product_id": "12584" }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "AK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "AL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "AR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "AZ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "CA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "CO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "CT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "DC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "DE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "FL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "GA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "HI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "IA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "ID",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "IL",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "IN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "KS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "KY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "LA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "MA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "MD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "ME",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "MI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "MN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "MO",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "MS",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "MT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "NC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "ND",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "NE",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "NH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "NJ",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "NM",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "NV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "NY",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "OH",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "OK",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "OR",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "PA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "RI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "SC",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "SD",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "TN",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "TX",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "UT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "VA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "VT",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "WA",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "WI",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "WV",
+            "type": "disposal"
+          },
+          {
+            "company": "albertsons",
+            "flag": null,
+            "group_id": "54ab35a2-d0d4-4af1-89c2-f5d39d37ba6e",
+            "name": "NON HAZARDOUS NH",
+            "owner_id": "5cb398d6-498c-4361-bc86-bae5ea32e241",
+            "priority": 8,
+            "state": "WY",
+            "type": "disposal"
+          }
+        ],
+        "flag": null
+      }
+    }
+  }
+}

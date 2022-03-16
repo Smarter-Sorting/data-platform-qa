@@ -1,0 +1,41 @@
+{
+  "uri": "/bin_results/multicomponent",
+  "variants": {
+    "two children with different regulated bins [AEROSOL AER] and [CORROSIVE ACID C-A], there should not be roll-up bin and flag should be [disassembly needed]": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          {
+            "portal_product_id": "12572"
+          },
+          {
+            "portal_product_id": "12574"
+          }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [],
+        "flag": "DISASSEMBLY_REQUIRED"
+      }
+    },
+    "two children with different regulated bins [OXIDIZER OX] and [FLAMMABLE FL], there should not be roll-up bin and flag should be [disassembly needed]": {
+      "request": {
+        "company": "albertsons",
+        "children": [
+          {
+            "portal_product_id": "12573"
+          },
+          {
+            "portal_product_id": "12576"
+          }
+        ]
+      },
+      "responseCode": 200,
+      "response": {
+        "bins": [],
+        "flag": "DISASSEMBLY_REQUIRED"
+      }
+    }
+  }
+}

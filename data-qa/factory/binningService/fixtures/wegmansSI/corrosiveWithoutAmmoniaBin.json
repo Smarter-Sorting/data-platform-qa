@@ -86,5 +86,6 @@
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
   "name": "Corrosive Caustic Materials Without Ammonia",
-  "priority": 7
+  "priority": 7,
+  "type": "disposal"
 }

@@ -31,6 +31,17 @@ describe('Single item binning - Albertsons', function () {
 
 function runtest(testData) {
   Object.entries(testData.variants).forEach(([variant, data]) => {
+    // before(async () => {
+    //   //trigger rebinning POST request
+    //   console.debug('before for ' + variant);
+    //   const rebinning = await commons.postRequest(
+    //     config.localhostBinning,
+    //     testData.triggerBinningUri,
+    //     data.request,
+    //     ``,
+    //   );
+    //   expect(rebinning.statusCode).to.be.equal(data.responseCode);
+    // });
     it(`Verify response for rule:  ${variant}`, async () => {
       //trigger rebinning POST request
       const rebinning = await commons.postRequest(

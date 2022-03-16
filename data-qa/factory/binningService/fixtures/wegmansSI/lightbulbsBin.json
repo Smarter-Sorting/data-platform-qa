@@ -18,5 +18,6 @@
   "getBinsUri": "/product/09122116/bins?company=wegmans",
   "company": "wegmans",
   "name": "Light Bulbs",
-  "priority": 2
+  "priority": 2,
+  "type": "disposal"
 }

@@ -55,3 +55,45 @@ List of predefined scripts is available in package.json file
 - [npm test:conf:staging] - Will run tests with default configuration (staging env variables)
 
 Note: factory and binning tests require connection to gcloud containers
+
+## AUTOMATION PROJECT: Data platform api services
+
+```
+STAGING
+
+Wegmans Multi-component product 12326:
+portal id | bins
+12122 Battery Box
+12327 Electronics Recycling
+12328 Reclamation
+12329 Reclamation, Other Liquid Materials Non-Food
+12330 Reclamation, Aerosols/Flammables
+12333 Lightbulbs
+12334 Cylinders
+12335 Oxidizers/Bleach, Other Liquid Materials Non-Food, Reclamation
+12336 Corrosive Caustic Chemicals with Ammonia
+12337 Corrosive Caustic Materials Without Ammonia
+12338 Corrosive Acidic Materials
+12339 OTC Nictotine Products (P-Listed Acute Toxic), Other Liquid Materials Non-Food, Reclamation
+12340 OTC Nictotine Products (P-Listed Acute Toxic), Other Liquid Materials Non-Food, Reclamation
+12341 Toxic
+12342 Other Liquid Materials Non-Food, Reclamation
+12343 Compactor/Solid Trash
+12344 Compactor/Solid Trash
+12345 Oxidizers/Bleach, Toxic
+
+Albertsons Multi-component product 12570:
+portal id | bins
+12571 UNIVERSAL WASTE UW
+12572 AEROSOL AER
+12573 OXIDIZER OX, FLAMMABLE FL
+12574 CORROSIVE ACID C-A, FLAMMABLE FL
+12575 CORROSIVE BASE C-B, FLAMMABLE FL
+12576 FLAMMABLE FL
+12577 FLAMMABLE FL
+12580 AEROSOLS AER
+12581 STATE REG-TOXIC ST
+12582 STATE REG-TOXIC ST
+12583 NON HAZARDOUS NH
+12584 NON HAZARDOUS NH
+```
