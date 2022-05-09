@@ -118,14 +118,14 @@
             "catalog_attribute": "flashpoint",
             "confidence": 0.1,
             "normalized_value": {
-              "lower_95_fahrenheit": 161.44529176388522,
-              "predicted_flashpoint_fahrenheit": 75.0034407206252,
-              "upper_95_fahrenheit": 676.2975274814568
+              "lower_95_fahrenheit": 75.68575499246363,
+              "predicted_flashpoint_fahrenheit": 60.09608206428831,
+              "upper_95_fahrenheit": 242.74133611737508
             },
             "raw_value": {
-              "lower_95_fahrenheit": 161.44529176388522,
-              "predicted_flashpoint_fahrenheit": 75.0034407206252,
-              "upper_95_fahrenheit": 676.2975274814568
+              "lower_95_fahrenheit": 75.68575499246363,
+              "predicted_flashpoint_fahrenheit": 60.09608206428831,
+              "upper_95_fahrenheit": 242.74133611737508
             },
             "successful_result": true
           }
