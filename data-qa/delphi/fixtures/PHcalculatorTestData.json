@@ -9,7 +9,9 @@
             "cas": "64-17-5",
             "weight_min": 24,
             "weight_max": 24,
-            "ghs": ["Flam. Liq. 2 (H225)"],
+            "ghs": [
+              "Flam. Liq. 2 (H225)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -20,7 +22,10 @@
             "cas": "94-09-7",
             "weight_min": 20,
             "weight_max": 20,
-            "ghs": ["Skin Sens. 1 (H317)", "STOT SE 1 (H370)"],
+            "ghs": [
+              "Skin Sens. 1 (H317)",
+              "STOT SE 1 (H370)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -42,7 +47,9 @@
             "cas": "1401-55-4",
             "weight_min": 6.8,
             "weight_max": 6.8,
-            "ghs": ["Eye Irrit. 2A (H319)"],
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -53,7 +60,10 @@
             "cas": "100-51-6",
             "weight_min": 3.9,
             "weight_max": 3.9,
-            "ghs": ["Acute Tox. 4 (inh.) (H332)", "Acute Tox. 4 (oral) (H302)"],
+            "ghs": [
+              "Acute Tox. 4 (inh.) (H332)",
+              "Acute Tox. 4 (oral) (H302)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -90,14 +100,15 @@
             "cas": "1310-73-2",
             "weight_min": null,
             "weight_max": 15,
-            "ghs": ["Skin Corr. 1A (H314)"],
+            "ghs": [
+              "Skin Corr. 1A (H314)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": true,
             "parsed_from_sds": false
           }
         ],
-
         "form": "liquid"
       },
       "responseCode": 200,
@@ -110,21 +121,28 @@
               "insoluble_corrosives": [],
               "max": 14.57,
               "min": 14.57,
-              "missing_cas": ["94-09-7", "1401-55-4", "9004-98-2"]
+              "missing_cas": [
+                "94-09-7",
+                "1401-55-4",
+                "9004-98-2"
+              ]
             },
             "raw_value": {
               "insoluble_corrosives": [],
               "max": 14.57,
               "min": 14.57,
-              "missing_cas": ["94-09-7", "1401-55-4", "9004-98-2"]
+              "missing_cas": [
+                "94-09-7",
+                "1401-55-4",
+                "9004-98-2"
+              ]
             },
             "successful_result": true
           }
         ]
       }
     },
-
-    "gas": {
+    "gas [not calculated]": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -132,7 +150,9 @@
             "cas": "64-17-5",
             "weight_min": 24,
             "weight_max": 24,
-            "ghs": ["Flam. Liq. 2 (H225)"],
+            "ghs": [
+              "Flam. Liq. 2 (H225)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -140,6 +160,52 @@
           }
         ],
         "form": "gas"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 0.8,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": null,
+              "min": null,
+              "missing_cas": []
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": null,
+              "min": null,
+              "missing_cas": []
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "wipes [not calculated]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Sodium Hydroxide",
+            "cas": "1310-73-2",
+            "weight_min": 10,
+            "weight_max": 50,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Corr. 1A (H314)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid_absorbed_in_solid"
       },
       "responseCode": 200,
       "response": {
