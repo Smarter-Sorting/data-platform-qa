@@ -1,6 +1,123 @@
 {
   "uri": "/ph_calculator",
   "variants": {
+    "liquid [calculated 0.56-0.26]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Hydrochloric acid",
+            "cas": "7647-01-0",
+            "weight_min": 1,
+            "weight_max": 2,
+            "data_source": "sds_section_3"
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 1.0,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": 0.26,
+              "min": 0.56,
+              "missing_cas": []
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": 0.26,
+              "min": 0.56,
+              "missing_cas": []
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 2.00]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Hydrochloric acid",
+            "cas": "7647-01-0",
+            "weight_min": 0.0361,
+            "weight_max": 0.0361,
+            "data_source": "sds_section_3"
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 1,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": 2,
+              "min": 2,
+              "missing_cas": []
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": 2,
+              "min": 2,
+              "missing_cas": []
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 8.66]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Symclosene",
+            "cas": "87-90-1",
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "weight_min": 94.05,
+            "weight_max": 94.05
+          },
+          {
+            "name": "Boric acid",
+            "cas": "10043-35-3",
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "weight_min": 0.1,
+            "weight_max": 0.4
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 1.0,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": 8.66,
+              "min": 8.66,
+              "missing_cas": []
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": 8.66,
+              "min": 8.66,
+              "missing_cas": []
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
     "liquid [calculated 11.98]": {
       "request": {
         "cas_number_and_weights": [
@@ -135,6 +252,244 @@
                 "94-09-7",
                 "1401-55-4",
                 "9004-98-2"
+              ]
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 12.50]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Sodium hydroxide",
+            "cas": "1310-73-2",
+            "weight_min": 0.126,
+            "weight_max": 0.126,
+            "data_source": "sds_section_3"
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 1.0,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": 12.5,
+              "min": 12.5,
+              "missing_cas": []
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": 12.5,
+              "min": 12.5,
+              "missing_cas": []
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 13.88]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "d-Limonene",
+            "cas": "5989-27-5",
+            "weight_min": 65,
+            "weight_max": 85,
+            "ghs": [
+              "Flam. Liq. 3 (H226)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Microcrystalline Wax",
+            "cas": "63231-60-7",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Paraffin Wax",
+            "cas": "8002-74-2",
+            "weight_min": 5,
+            "weight_max": 10,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Lanolin",
+            "cas": "8006-54-0",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Eucalytpus Oil",
+            "cas": "8000-48-4",
+            "weight_min": 0.1,
+            "weight_max": 1,
+            "ghs": [
+              "Flam. Liq. 3 (H226)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)",
+              "Chronic Aq. 2 (H411)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Gelatin",
+            "cas": "9000-70-8",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Glycerin",
+            "cas": "56-81-5",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "D-Glucitol",
+            "cas": "50-70-4",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Bitrex",
+            "cas": "3734-33-6",
+            "weight_min": 0,
+            "weight_max": 0.01,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Water",
+            "cas": "7732-18-5",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Color",
+            "cas": "1934-21-0",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "SODIUM HYDROXIDE",
+            "cas": "1310-73-2",
+            "weight_min": 3,
+            "weight_max": 3,
+            "ghs": [
+              "Skin Corr. 1A (H314)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": false,
+            "parsed_from_sds": true
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 0.25,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": 13.88,
+              "min": 13.88,
+              "missing_cas": [
+                "5989-27-5",
+                "63231-60-7",
+                "8002-74-2",
+                "8006-54-0",
+                "8000-48-4",
+                "9000-70-8",
+                "50-70-4",
+                "3734-33-6",
+                "1934-21-0"
+              ]
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": 13.88,
+              "min": 13.88,
+              "missing_cas": [
+                "5989-27-5",
+                "63231-60-7",
+                "8002-74-2",
+                "8006-54-0",
+                "8000-48-4",
+                "9000-70-8",
+                "50-70-4",
+                "3734-33-6",
+                "1934-21-0"
               ]
             },
             "successful_result": true
