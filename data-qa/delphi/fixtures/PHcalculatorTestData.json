@@ -1,7 +1,7 @@
 {
   "uri": "/ph_calculator",
   "variants": {
-    "liquid": {
+    "liquid [calculated 11.98]": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -119,8 +119,8 @@
             "confidence": 0.62,
             "normalized_value": {
               "insoluble_corrosives": [],
-              "max": 14.57,
-              "min": 14.57,
+              "max": 11.98,
+              "min": 11.98,
               "missing_cas": [
                 "94-09-7",
                 "1401-55-4",
@@ -129,8 +129,8 @@
             },
             "raw_value": {
               "insoluble_corrosives": [],
-              "max": 14.57,
-              "min": 14.57,
+              "max": 11.98,
+              "min": 11.98,
               "missing_cas": [
                 "94-09-7",
                 "1401-55-4",
