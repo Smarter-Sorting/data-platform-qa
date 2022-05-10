@@ -58,12 +58,14 @@
             "no_cas_found": false
           },
           {
+            "name": "Alcohol [USP]",
             "cas": "64-17-5",
             "weight_min": 0.01,
             "weight_max": 0.01,
             "data_source": "sds_section_3"
           },
           {
+            "name": "Methane",
             "cas": "74-82-8",
             "weight_min": 1,
             "weight_max": null,
@@ -3834,7 +3836,7 @@
         ]
       }
     },
-    "WIP (bug) FP is not calculated for wipes": {
+    "[BUG] wipes [not calculated]": {
       "request": {},
       "responseCode": {},
       "response": {}
