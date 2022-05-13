@@ -1,6 +1,42 @@
 {
   "uri": "/ph_calculator",
   "variants": {
+    "liquid [calculated -1.44]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Hydrochloric acid",
+            "cas": "7647-01-0",
+            "weight_min": 100,
+            "weight_max": 100,
+            "data_source": "sds_section_3"
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 1,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": -1.44,
+              "min": -1.44,
+              "missing_cas": []
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": -1.44,
+              "min": -1.44,
+              "missing_cas": []
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
     "liquid [calculated 0.56-0.26]": {
       "request": {
         "cas_number_and_weights": [
@@ -497,11 +533,60 @@
         ]
       }
     },
+    "liquid [calculated 1.62-15.35]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Hydrochloric acid",
+            "cas": "7647-01-0",
+            "weight_min": 1,
+            "weight_max": 10,
+            "data_source": "sds_section_3"
+          },
+          {
+            "name": "sodium hydroxide",
+            "cas": "1310-73-2",
+            "weight_min": 1,
+            "weight_max": 100,
+            "ghs": [
+              "Skin Corr. 1A (H314)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 1.0,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": 15.35,
+              "min": 1.62,
+              "missing_cas": []
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": 15.35,
+              "min": 1.62,
+              "missing_cas": []
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
     "solid [calculated 1.99]": {
       "request": {
         "cas_number_and_weights": [
           {
-            "name":"Hydrochloric acid",
+            "name": "Hydrochloric acid",
             "cas": "7647-01-0",
             "weight_min": 0.075,
             "weight_max": 0.075,
