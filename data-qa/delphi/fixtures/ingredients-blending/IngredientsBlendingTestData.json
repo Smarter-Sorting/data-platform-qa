@@ -1830,44 +1830,3110 @@
       ]
     },
     "only manually added ingredients [test 1] >> no calculated values": {
-      "request": {},
+      "request": {
+        "ingredient_text_input": "Water, Glycerin, Aloe Barbadensis (Aloe) Leaf Juice, Alcohol Denat, VP/VA Copolymer, Triethanolamine, Carbomer",
+        "sds_ingredients": []
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "7732-18-5",
+          "cas_name": "WATER",
+          "cas_numbers": [
+            "7732-18-5"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7732-18-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "WATER",
+          "parsed_from_sds": false,
+          "raw_text": "Water",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "56-81-5",
+          "cas_name": "GLYCERIN",
+          "cas_numbers": [
+            "56-81-5"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "56-81-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "GLYCERIN",
+          "parsed_from_sds": false,
+          "raw_text": "Glycerin",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": null,
+          "cas_name": "ALOE BARBADENSIS LEAF JUICE",
+          "cas_numbers": [
+            "85507-69-3",
+            "94349-62-9"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [],
+          "ghs_keywords_dict": {
+            "85507-69-3": null,
+            "94349-62-9": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "ALOE BARBADENSIS LEAF JUICE",
+          "parsed_from_sds": false,
+          "raw_text": "Aloe Barbadensis (Aloe) Leaf Juice",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "64-17-5",
+          "cas_name": "ALCOHOL DENAT.",
+          "cas_numbers": [
+            "64-17-5"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "flam_liq_2"
+          ],
+          "ghs_keywords_dict": {
+            "64-17-5": [
+              "flam_liq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "64-17-5": [
+              "Flam. Liq. 2 (H225)"
+            ]
+          },
+          "ingredient_order": 4,
+          "may_contain": false,
+          "name": "ALCOHOL DENAT.",
+          "parsed_from_sds": false,
+          "raw_text": "Alcohol Denat",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "25086-89-9",
+          "cas_name": "VP/VA COPOLYMER",
+          "cas_numbers": [
+            "25086-89-9"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "chron_aq_4"
+          ],
+          "ghs_keywords_dict": {
+            "25086-89-9": [
+              "acute_tox_oral_4",
+              "chron_aq_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "25086-89-9": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Chronic Aq. 4 (H413)"
+            ]
+          },
+          "ingredient_order": 5,
+          "may_contain": false,
+          "name": "VP/VA COPOLYMER",
+          "parsed_from_sds": false,
+          "raw_text": "VP/VA Copolymer",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "102-71-6",
+          "cas_name": "TRIETHANOLAMINE",
+          "cas_numbers": [
+            "102-71-6"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "eye_irrit_2a",
+            "repr_2"
+          ],
+          "ghs_keywords_dict": {
+            "102-71-6": [
+              "eye_irrit_2a",
+              "repr_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "102-71-6": [
+              "Eye Irrit. 2A (H319)",
+              "Repr. 2 (H361)"
+            ]
+          },
+          "ingredient_order": 6,
+          "may_contain": false,
+          "name": "TRIETHANOLAMINE",
+          "parsed_from_sds": false,
+          "raw_text": "Triethanolamine",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": null,
+          "cas_name": "CARBOMER",
+          "cas_numbers": [
+            "9007-20-9",
+            "9003-01-4",
+            "76050-42-5",
+            "9062-04-8",
+            "9007-16-3",
+            "9007-17-4"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "eye_irrit_2a",
+            "stot_se_3_resp",
+            "acute_aq_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "76050-42-5": null,
+            "9003-01-4": [
+              "acute_tox_oral_4",
+              "eye_irrit_2a",
+              "stot_se_3_resp",
+              "acute_aq_1",
+              "chron_aq_2"
+            ],
+            "9007-16-3": null,
+            "9007-17-4": null,
+            "9007-20-9": null,
+            "9062-04-8": null
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9003-01-4": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "ingredient_order": 7,
+          "may_contain": false,
+          "name": "CARBOMER",
+          "parsed_from_sds": false,
+          "raw_text": "Carbomer",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        }
+      ]
     },
     "only manually added ingredients [test 2] >> no calculated values": {
-      "request": {},
+      "request": {
+        "ingredient_text_input": "Starch, Cellulose, Caffeine, Acetaminophen",
+        "sds_ingredients": []
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "9005-25-8",
+          "cas_name": "STARCH",
+          "cas_numbers": [
+            "9005-25-8"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "eye_irrit_2b",
+            "acute_tox_inhal_4",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "9005-25-8": [
+              "eye_irrit_2b",
+              "acute_tox_inhal_4",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9005-25-8": [
+              "Eye Irrit. 2B (H320)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "STARCH",
+          "parsed_from_sds": false,
+          "raw_text": "Starch",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9004-34-6",
+          "cas_name": "CELLULOSE",
+          "cas_numbers": [
+            "9004-34-6"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "9004-34-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "CELLULOSE",
+          "parsed_from_sds": false,
+          "raw_text": "Cellulose",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "58-08-2",
+          "cas_name": "CAFFEINE",
+          "cas_numbers": [
+            "58-08-2"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "acute_tox_oral_4"
+          ],
+          "ghs_keywords_dict": {
+            "58-08-2": [
+              "acute_tox_oral_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "58-08-2": [
+              "Acute Tox. 4 (oral) (H302)"
+            ]
+          },
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "CAFFEINE",
+          "parsed_from_sds": false,
+          "raw_text": "Caffeine",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "103-90-2",
+          "cas_name": "ACETAMINOPHEN",
+          "cas_numbers": [
+            "103-90-2"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "stot_se_3_resp",
+            "acute_aq_1",
+            "chron_aq_3"
+          ],
+          "ghs_keywords_dict": {
+            "103-90-2": [
+              "acute_tox_oral_4",
+              "stot_se_3_resp",
+              "acute_aq_1",
+              "chron_aq_3"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "103-90-2": [
+              "Acute Tox. 4 (oral) (H302)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)"
+            ]
+          },
+          "ingredient_order": 4,
+          "may_contain": false,
+          "name": "ACETAMINOPHEN",
+          "parsed_from_sds": false,
+          "raw_text": "Acetaminophen",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        }
+      ]
     },
     "only manually added ingredients [test 3] >> no calculated values": {
-      "request": {},
+      "request": {
+        "ingredient_text_input": "Silicon Dioxide, BIOTIN, PYRIDOXINE HYDROCHLORIDE, Sugar, Maltodextrin, CALCIUM PHOSPHATE, L-ASCORBIC ACID, Turmeric Oleoresin (color), Tocopherols (to preserve freshness), Dextrose, Magnesium Stearate, Hydrogenated Soybean Oil, Gelatin (fish), Dibasic Calcium Phosphate, Beta-Carotene (color), Ascorbyl Palmitate (to preserve freshness), Stearic Acid, ZINC OXIDE",
+        "sds_ingredients": []
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": null,
+          "cas_name": "SILICON DIOXIDE",
+          "cas_numbers": [
+            "7631-86-9",
+            "112945-52-5",
+            "60676-86-0"
+          ],
+          "data_source": "iupac",
+          "ghs_keywords": [
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "112945-52-5": null,
+            "60676-86-0": [
+              "eye_irrit_2a"
+            ],
+            "7631-86-9": null
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "60676-86-0": [
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "SILICON DIOXIDE",
+          "parsed_from_sds": false,
+          "raw_text": "Silicon Dioxide",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "58-85-5",
+          "cas_name": "BIOTIN",
+          "cas_numbers": [
+            "58-85-5"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "58-85-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "BIOTIN",
+          "parsed_from_sds": false,
+          "raw_text": "BIOTIN",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "58-56-0",
+          "cas_name": "PYRIDOXINE HYDROCHLORIDE",
+          "cas_numbers": [
+            "58-56-0"
+          ],
+          "data_source": "popular_ingredient_map",
+          "ghs_keywords": [
+            "eye_dam_1"
+          ],
+          "ghs_keywords_dict": {
+            "58-56-0": [
+              "eye_dam_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "58-56-0": [
+              "Eye Dam. 1 (H318)"
+            ]
+          },
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "PYRIDOXINE HYDROCHLORIDE",
+          "parsed_from_sds": false,
+          "raw_text": "PYRIDOXINE HYDROCHLORIDE",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "57-50-1",
+          "cas_name": "SUGAR",
+          "cas_numbers": [
+            "57-50-1"
+          ],
+          "data_source": "popular_ingredient_map",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "57-50-1": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 4,
+          "may_contain": false,
+          "name": "SUGAR",
+          "parsed_from_sds": false,
+          "raw_text": "Sugar",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9050-36-6",
+          "cas_name": "MALTODEXTRIN",
+          "cas_numbers": [
+            "9050-36-6"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "9050-36-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 5,
+          "may_contain": false,
+          "name": "MALTODEXTRIN",
+          "parsed_from_sds": false,
+          "raw_text": "Maltodextrin",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7758-87-4",
+          "cas_name": "CALCIUM PHOSPHATE",
+          "cas_numbers": [
+            "7758-87-4"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7758-87-4": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 6,
+          "may_contain": false,
+          "name": "CALCIUM PHOSPHATE",
+          "parsed_from_sds": false,
+          "raw_text": "CALCIUM PHOSPHATE",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "50-81-7",
+          "cas_name": "L-ASCORBIC ACID",
+          "cas_numbers": [
+            "50-81-7"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "50-81-7": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 7,
+          "may_contain": false,
+          "name": "L-ASCORBIC ACID",
+          "parsed_from_sds": false,
+          "raw_text": "L-ASCORBIC ACID",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": null,
+          "cas_name": "TURMERIC OLEORESIN",
+          "cas_numbers": [
+            "8024-37-1",
+            "129828-29-1"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "acute_tox_oral_1",
+            "asp_haz_1",
+            "skin_sens_1",
+            "acute_aq_1",
+            "chron_aq_3"
+          ],
+          "ghs_keywords_dict": {
+            "129828-29-1": null,
+            "8024-37-1": [
+              "acute_tox_oral_1",
+              "asp_haz_1",
+              "skin_sens_1",
+              "acute_aq_1",
+              "chron_aq_3"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "8024-37-1": [
+              "Acute Tox. 1 (oral) (H300)",
+              "Asp. Haz. 1 (H304)",
+              "Skin Sens. 1 (H317)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)"
+            ]
+          },
+          "ingredient_order": 8,
+          "may_contain": false,
+          "name": "TURMERIC OLEORESIN",
+          "parsed_from_sds": false,
+          "raw_text": "Turmeric Oleoresin (color)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "1406-66-2",
+          "cas_name": "TOCOPHEROLS",
+          "cas_numbers": [
+            "1406-66-2"
+          ],
+          "data_source": "popular_ingredient_map",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "1406-66-2": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 9,
+          "may_contain": false,
+          "name": "TOCOPHEROLS",
+          "parsed_from_sds": false,
+          "raw_text": "Tocopherols (to preserve freshness)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "14431-43-7",
+          "cas_name": "DEXTROSE",
+          "cas_numbers": [
+            "14431-43-7"
+          ],
+          "data_source": "popular_ingredient_map",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "14431-43-7": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 10,
+          "may_contain": false,
+          "name": "DEXTROSE",
+          "parsed_from_sds": false,
+          "raw_text": "Dextrose",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "557-04-0",
+          "cas_name": "MAGNESIUM STEARATE",
+          "cas_numbers": [
+            "557-04-0"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "skin_irrit_2",
+            "eye_irrit_2a",
+            "stot_se_3_resp",
+            "chron_aq_4"
+          ],
+          "ghs_keywords_dict": {
+            "557-04-0": [
+              "skin_irrit_2",
+              "eye_irrit_2a",
+              "stot_se_3_resp",
+              "chron_aq_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "557-04-0": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Chronic Aq. 4 (H413)"
+            ]
+          },
+          "ingredient_order": 11,
+          "may_contain": false,
+          "name": "MAGNESIUM STEARATE",
+          "parsed_from_sds": false,
+          "raw_text": "Magnesium Stearate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "8016-70-4",
+          "cas_name": "HYDROGENATED SOYBEAN OIL",
+          "cas_numbers": [
+            "8016-70-4"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "8016-70-4": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 12,
+          "may_contain": false,
+          "name": "HYDROGENATED SOYBEAN OIL",
+          "parsed_from_sds": false,
+          "raw_text": "Hydrogenated Soybean Oil",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9000-70-8",
+          "cas_name": "GELATIN",
+          "cas_numbers": [
+            "9000-70-8"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "9000-70-8": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 13,
+          "may_contain": false,
+          "name": "GELATIN",
+          "parsed_from_sds": false,
+          "raw_text": "Gelatin (fish)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7758-87-4",
+          "cas_name": "TRIBASIC CALCIUM PHOSPHATE",
+          "cas_numbers": [
+            "7758-87-4"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7758-87-4": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 14,
+          "may_contain": false,
+          "name": "TRIBASIC CALCIUM PHOSPHATE",
+          "parsed_from_sds": false,
+          "raw_text": "Dibasic Calcium Phosphate",
+          "rcra_dict": {},
+          "score": 94,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7235-40-7",
+          "cas_name": "BETA-CAROTENE",
+          "cas_numbers": [
+            "7235-40-7"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "self_heat_2",
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "7235-40-7": [
+              "self_heat_2",
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7235-40-7": [
+              "Self-Heat Subst. 2 (H252)",
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "ingredient_order": 15,
+          "may_contain": false,
+          "name": "BETA-CAROTENE",
+          "parsed_from_sds": false,
+          "raw_text": "Beta-Carotene (color)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "137-66-6",
+          "cas_name": "ASCORBYL PALMITATE",
+          "cas_numbers": [
+            "137-66-6"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "137-66-6": [
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "137-66-6": [
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "ingredient_order": 16,
+          "may_contain": false,
+          "name": "ASCORBYL PALMITATE",
+          "parsed_from_sds": false,
+          "raw_text": "Ascorbyl Palmitate (to preserve freshness)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "57-11-4",
+          "cas_name": "STEARIC ACID",
+          "cas_numbers": [
+            "57-11-4"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "57-11-4": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 17,
+          "may_contain": false,
+          "name": "STEARIC ACID",
+          "parsed_from_sds": false,
+          "raw_text": "Stearic Acid",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "1314-13-2",
+          "cas_name": "ZINC OXIDE",
+          "cas_numbers": [
+            "1314-13-2"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "acute_aq_1",
+            "chron_aq_1"
+          ],
+          "ghs_keywords_dict": {
+            "1314-13-2": [
+              "acute_aq_1",
+              "chron_aq_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "1314-13-2": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)"
+            ]
+          },
+          "ingredient_order": 18,
+          "may_contain": false,
+          "name": "ZINC OXIDE",
+          "parsed_from_sds": false,
+          "raw_text": "ZINC OXIDE",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        }
+      ]
     },
-
-    "only parsed ingredients [test 1] >> no calculated values": {
-      "request": {},
+    "only parsed ingredients (all NULL) [test 1] >> no calculated values": {
+      "request": {
+        "ingredient_text_input": "",
+        "sds_ingredients": [
+          {
+            "name": "Aluminum",
+            "cas": "7429-90-5",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Antimony Sulfide",
+            "cas": "1345-04-6",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Barium Nitrate",
+            "cas": "10022-31-8",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Bismuth Oxide",
+            "cas": "1304-76-3",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Calcium Carbonate",
+            "cas": "1317-65-3",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Carbon or Charcoal",
+            "cas": "7440-44-0",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Copper Carbonate",
+            "cas": "12069-69-1",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Copper Oxide",
+            "cas": "1317-38-0",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Cryolite (sodium aluminum fluoride)",
+            "cas": "15096-52-3",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Dextrine (Corn starch)",
+            "cas": "9004-53-9",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Iron and Iron Alloys (e.g., ferro/titanium)",
+            "cas": "7439-89-6",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Magnalium (Magnesium/Aluminum alloy)",
+            "cas": "7439-95-4",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "cas": "9004-70-0",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Phenol-formaldehyde resin (“Resinox”)",
+            "cas": "9003-35-4",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Polyvinyl Chloride",
+            "cas": "9002-86-2",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Potassium Benzoate",
+            "cas": "582-25-2",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Potassium Hydrogen Phthalate",
+            "cas": "877-24-7",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Potassium Nitrate",
+            "cas": "7757-79-1",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Potassium Perchlorate",
+            "cas": "7778-74-7",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Rice Starch",
+            "cas": "9005-25-8",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Shellac",
+            "cas": "9000-59-3",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Sodium Bicarbonate",
+            "cas": "144-55-8",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Sodium Oxalate",
+            "cas": "62-76-0",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Strontium Carbonate",
+            "cas": "1633-05-2",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Strontium Nitrate",
+            "cas": "7631-99-4",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Sulfur",
+            "cas": "7704-34-9",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Titanium( >149 microns)",
+            "cas": "7440-32-6",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "7439-95-4",
+          "cas_data_source": null,
+          "cas_name": "Magnalium (Magnesium/Aluminum alloy)",
+          "cas_numbers": [
+            "7439-95-4"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "pyro_sol_1",
+            "water_react_1"
+          ],
+          "ghs_keywords_dict": {
+            "7439-95-4": [
+              "pyro_sol_1",
+              "water_react_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7439-95-4": [
+              "Pyro. Sol. 1 (H250)",
+              "Water React. Subst. 1 (H260)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Magnalium (Magnesium/Aluminum alloy)",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Magnalium (Magnesium/Aluminum alloy)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "1345-04-6",
+          "cas_data_source": null,
+          "cas_name": "Antimony Sulfide",
+          "cas_numbers": [
+            "1345-04-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "carc_2",
+            "repr_1a",
+            "stot_se_3_resp",
+            "stot_re_2",
+            "acute_aq_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "1345-04-6": [
+              "carc_2",
+              "repr_1a",
+              "stot_se_3_resp",
+              "stot_re_2",
+              "acute_aq_1",
+              "chron_aq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "1345-04-6": [
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Carc. 2 (H351)",
+              "Repr. 1A (H360)",
+              "STOT RE 2 (H373)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Antimony Sulfide",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Antimony Sulfide",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9004-70-0",
+          "cas_data_source": null,
+          "cas_name": null,
+          "cas_numbers": [
+            "9004-70-0"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "explo_1_1"
+          ],
+          "ghs_keywords_dict": {
+            "9004-70-0": [
+              "explo_1_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9004-70-0": [
+              "Explo. 1.1 (H201)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": null,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": null,
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7440-44-0",
+          "cas_data_source": null,
+          "cas_name": "Carbon or Charcoal",
+          "cas_numbers": [
+            "7440-44-0"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "self_heat_2",
+            "eye_irrit_2a",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "7440-44-0": [
+              "self_heat_2",
+              "eye_irrit_2a",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7440-44-0": [
+              "Self-Heat Subst. 2 (H252)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Carbon or Charcoal",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Carbon or Charcoal",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7631-99-4",
+          "cas_data_source": null,
+          "cas_name": "Strontium Nitrate",
+          "cas_numbers": [
+            "7631-99-4"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "ox_sol_2",
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "7631-99-4": [
+              "ox_sol_2",
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7631-99-4": [
+              "Ox. Sol. 2 (H272)",
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Strontium Nitrate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Strontium Nitrate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7704-34-9",
+          "cas_data_source": null,
+          "cas_name": "Sulfur",
+          "cas_numbers": [
+            "7704-34-9"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "skin_irrit_2"
+          ],
+          "ghs_keywords_dict": {
+            "7704-34-9": [
+              "skin_irrit_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7704-34-9": [
+              "Skin Irrit. 2 (H315)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Sulfur",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Sulfur",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "10022-31-8",
+          "cas_data_source": null,
+          "cas_name": "Barium Nitrate",
+          "cas_numbers": [
+            "10022-31-8"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "ox_sol_2",
+            "acute_tox_oral_4",
+            "eye_irrit_2a",
+            "acute_tox_inhal_4"
+          ],
+          "ghs_keywords_dict": {
+            "10022-31-8": [
+              "ox_sol_2",
+              "acute_tox_oral_4",
+              "eye_irrit_2a",
+              "acute_tox_inhal_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Barium Nitrate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Barium Nitrate",
+          "rcra_dict": {
+            "10022-31-8": [
+              "D005 : Barium nitrate "
+            ]
+          },
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9003-35-4",
+          "cas_data_source": null,
+          "cas_name": "Phenol-formaldehyde resin (“Resinox”)",
+          "cas_numbers": [
+            "9003-35-4"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "9003-35-4": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Phenol-formaldehyde resin (“Resinox”)",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Phenol-formaldehyde resin (“Resinox”)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9004-53-9",
+          "cas_data_source": null,
+          "cas_name": "Dextrine (Corn starch)",
+          "cas_numbers": [
+            "9004-53-9"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "9004-53-9": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Dextrine (Corn starch)",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Dextrine (Corn starch)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "15096-52-3",
+          "cas_data_source": null,
+          "cas_name": "Cryolite (sodium aluminum fluoride)",
+          "cas_numbers": [
+            "15096-52-3"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_tox_inhal_4",
+            "stot_re_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "15096-52-3": [
+              "acute_tox_inhal_4",
+              "stot_re_1",
+              "chron_aq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "15096-52-3": [
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT RE 1 (H372)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Cryolite (sodium aluminum fluoride)",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Cryolite (sodium aluminum fluoride)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "1317-38-0",
+          "cas_data_source": null,
+          "cas_name": "Copper Oxide",
+          "cas_numbers": [
+            "1317-38-0"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_aq_1",
+            "chron_aq_1"
+          ],
+          "ghs_keywords_dict": {
+            "1317-38-0": [
+              "acute_aq_1",
+              "chron_aq_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "1317-38-0": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Copper Oxide",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Copper Oxide",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "877-24-7",
+          "cas_data_source": null,
+          "cas_name": "Potassium Hydrogen Phthalate",
+          "cas_numbers": [
+            "877-24-7"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "877-24-7": [
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "877-24-7": [
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Potassium Hydrogen Phthalate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Potassium Hydrogen Phthalate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9002-86-2",
+          "cas_data_source": null,
+          "cas_name": "Polyvinyl Chloride",
+          "cas_numbers": [
+            "9002-86-2"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "skin_irrit_2",
+            "eye_irrit_2a",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "9002-86-2": [
+              "skin_irrit_2",
+              "eye_irrit_2a",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9002-86-2": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Polyvinyl Chloride",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Polyvinyl Chloride",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7778-74-7",
+          "cas_data_source": null,
+          "cas_name": "Potassium Perchlorate",
+          "cas_numbers": [
+            "7778-74-7"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "ox_sol_1",
+            "acute_tox_oral_4"
+          ],
+          "ghs_keywords_dict": {
+            "7778-74-7": [
+              "ox_sol_1",
+              "acute_tox_oral_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7778-74-7": [
+              "Ox. Sol. 1 (H271)",
+              "Acute Tox. 4 (oral) (H302)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Potassium Perchlorate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Potassium Perchlorate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9005-25-8",
+          "cas_data_source": null,
+          "cas_name": "Rice Starch",
+          "cas_numbers": [
+            "9005-25-8"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "eye_irrit_2b",
+            "acute_tox_inhal_4",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "9005-25-8": [
+              "eye_irrit_2b",
+              "acute_tox_inhal_4",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9005-25-8": [
+              "Eye Irrit. 2B (H320)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Rice Starch",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Rice Starch",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7440-32-6",
+          "cas_data_source": null,
+          "cas_name": "Titanium( >149 microns)",
+          "cas_numbers": [
+            "7440-32-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "flam_sol_1"
+          ],
+          "ghs_keywords_dict": {
+            "7440-32-6": [
+              "flam_sol_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7440-32-6": [
+              "Flam. Sol. 1 (H228)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Titanium( >149 microns)",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Titanium( >149 microns)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "62-76-0",
+          "cas_data_source": null,
+          "cas_name": "Sodium Oxalate",
+          "cas_numbers": [
+            "62-76-0"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "acute_tox_dermal_4"
+          ],
+          "ghs_keywords_dict": {
+            "62-76-0": [
+              "acute_tox_oral_4",
+              "acute_tox_dermal_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "62-76-0": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (dermal) (H312)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Sodium Oxalate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Sodium Oxalate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "1317-65-3",
+          "cas_data_source": null,
+          "cas_name": "Calcium Carbonate",
+          "cas_numbers": [
+            "1317-65-3"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "skin_irrit_2"
+          ],
+          "ghs_keywords_dict": {
+            "1317-65-3": [
+              "skin_irrit_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "1317-65-3": [
+              "Skin Irrit. 2 (H315)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Calcium Carbonate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Calcium Carbonate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7429-90-5",
+          "cas_data_source": null,
+          "cas_name": "Aluminum",
+          "cas_numbers": [
+            "7429-90-5"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "pyro_sol_1",
+            "water_react_2",
+            "flam_sol_1",
+            "water_react_2"
+          ],
+          "ghs_keywords_dict": {
+            "7429-90-5": [
+              "pyro_sol_1",
+              "water_react_2",
+              "flam_sol_1",
+              "water_react_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7429-90-5": [
+              "Flam. Sol. 1 (H228)",
+              "Pyro. Sol. 1 (H250)",
+              "Water React. Subst. 2 (H261)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Aluminum",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Aluminum",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "12069-69-1",
+          "cas_data_source": null,
+          "cas_name": "Copper Carbonate",
+          "cas_numbers": [
+            "12069-69-1"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_tox_inhal_4",
+            "acute_tox_oral_4",
+            "eye_irrit_2a",
+            "acute_aq_1",
+            "chron_aq_1"
+          ],
+          "ghs_keywords_dict": {
+            "12069-69-1": [
+              "acute_tox_inhal_4",
+              "acute_tox_oral_4",
+              "eye_irrit_2a",
+              "acute_aq_1",
+              "chron_aq_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "12069-69-1": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Irrit. 2A (H319)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Copper Carbonate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Copper Carbonate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7439-89-6",
+          "cas_data_source": null,
+          "cas_name": "Iron and Iron Alloys (e.g., ferro/titanium)",
+          "cas_numbers": [
+            "7439-89-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "flam_sol_1",
+            "self_heat_1"
+          ],
+          "ghs_keywords_dict": {
+            "7439-89-6": [
+              "flam_sol_1",
+              "self_heat_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7439-89-6": [
+              "Flam. Sol. 1 (H228)",
+              "Self-Heat Subst. 1 (H251)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Iron and Iron Alloys (e.g., ferro/titanium)",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Iron and Iron Alloys (e.g., ferro/titanium)",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "582-25-2",
+          "cas_data_source": null,
+          "cas_name": "Potassium Benzoate",
+          "cas_numbers": [
+            "582-25-2"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "skin_irrit_2",
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "582-25-2": [
+              "skin_irrit_2",
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "582-25-2": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Potassium Benzoate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Potassium Benzoate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "144-55-8",
+          "cas_data_source": null,
+          "cas_name": "Sodium Bicarbonate",
+          "cas_numbers": [
+            "144-55-8"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "144-55-8": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Sodium Bicarbonate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Sodium Bicarbonate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "7757-79-1",
+          "cas_data_source": null,
+          "cas_name": "Potassium Nitrate",
+          "cas_numbers": [
+            "7757-79-1"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7757-79-1": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Potassium Nitrate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Potassium Nitrate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9000-59-3",
+          "cas_data_source": null,
+          "cas_name": "Shellac",
+          "cas_numbers": [
+            "9000-59-3"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "skin_irrit_2",
+            "eye_irrit_2a",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "9000-59-3": [
+              "acute_tox_oral_4",
+              "skin_irrit_2",
+              "eye_irrit_2a",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9000-59-3": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Shellac",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Shellac",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "1304-76-3",
+          "cas_data_source": null,
+          "cas_name": "Bismuth Oxide",
+          "cas_numbers": [
+            "1304-76-3"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "1304-76-3": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Bismuth Oxide",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Bismuth Oxide",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "1633-05-2",
+          "cas_data_source": null,
+          "cas_name": "Strontium Carbonate",
+          "cas_numbers": [
+            "1633-05-2"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "1633-05-2": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Strontium Carbonate",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Strontium Carbonate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        }
+      ]
     },
-
-    "only parsed ingredients [test 2] >> no calculated values": {
-      "request": {},
+    "only parsed ingredients (NULL + values) [test 2] >> no calculated values": {
+      "request": {
+        "ingredient_text_input": "",
+        "sds_ingredients": [
+          {
+            "name": "hydrated silica",
+            "cas": "7631-86-9",
+            "weight_min": 90,
+            "weight_max": 95,
+            "weight_exact": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "quartz",
+            "cas": "14808-60-7",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": 4,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "water",
+            "cas": "7732-18-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "2-Bromo-2-nitro-1,3 propanediol",
+            "cas": "52-51-7",
+            "weight_min": null,
+            "weight_max": 0.0065,
+            "weight_exact": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "dye",
+            "cas": "3844-45-9",
+            "weight_min": 0.05,
+            "weight_max": null,
+            "weight_exact": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "fragrance",
+            "cas": null,
+            "weight_min": 0.02,
+            "weight_max": 0.03,
+            "weight_exact": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "7631-86-9",
+          "cas_data_source": null,
+          "cas_name": "hydrated silica",
+          "cas_numbers": [
+            "7631-86-9"
+          ],
+          "cas_publicly_disclosed": false,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7631-86-9": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "hydrated silica",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": false,
+          "raw_text": "hydrated silica",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 95,
+          "weight_min": 90,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "14808-60-7",
+          "cas_data_source": null,
+          "cas_name": "quartz",
+          "cas_numbers": [
+            "14808-60-7"
+          ],
+          "cas_publicly_disclosed": false,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "carc_1a",
+            "stot_se_3_resp",
+            "stot_re_2"
+          ],
+          "ghs_keywords_dict": {
+            "14808-60-7": [
+              "carc_1a",
+              "stot_se_3_resp",
+              "stot_re_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "14808-60-7": [
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Carc. 1A (H350)",
+              "STOT RE 2 (H373)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "quartz",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": false,
+          "raw_text": "quartz",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": 4,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "3844-45-9",
+          "cas_data_source": null,
+          "cas_name": "dye",
+          "cas_numbers": [
+            "3844-45-9"
+          ],
+          "cas_publicly_disclosed": false,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "3844-45-9": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "dye",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": false,
+          "raw_text": "dye",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": 0.05,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "52-51-7",
+          "cas_data_source": null,
+          "cas_name": "2-Bromo-2-nitro-1,3 propanediol",
+          "cas_numbers": [
+            "52-51-7"
+          ],
+          "cas_publicly_disclosed": false,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_tox_dermal_4",
+            "acute_tox_oral_4",
+            "stot_se_3_resp",
+            "skin_irrit_2",
+            "eye_dam_1",
+            "acute_aq_1"
+          ],
+          "ghs_keywords_dict": {
+            "52-51-7": [
+              "acute_tox_dermal_4",
+              "acute_tox_oral_4",
+              "stot_se_3_resp",
+              "skin_irrit_2",
+              "eye_dam_1",
+              "acute_aq_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "52-51-7": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "2-Bromo-2-nitro-1,3 propanediol",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": false,
+          "raw_text": "2-Bromo-2-nitro-1,3 propanediol",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 0.0065,
+          "weight_min": null,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "7732-18-5",
+          "cas_data_source": null,
+          "cas_name": "water",
+          "cas_numbers": [
+            "7732-18-5"
+          ],
+          "cas_publicly_disclosed": false,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7732-18-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "water",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": false,
+          "raw_text": "water",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        }
+      ]
     },
-    "only parsed ingredients [test 3] >> no calculated values": {
-      "request": {},
+    "only parsed ingredients (all values) [test 3] >> no calculated values": {
+      "request": {
+        "ingredient_text_input": "",
+        "sds_ingredients": [
+          {
+            "name": "Menthol",
+            "cas": "2216-51-5",
+            "weight_exact": null,
+            "weight_min": 5,
+            "weight_max": 15,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Ceteareth-20",
+            "cas": "68439-49-6",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": 10,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Propylene Glycol",
+            "cas": "57-55-6",
+            "weight_exact": null,
+            "weight_min": 0.1,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Laureth-7",
+            "cas": "3055-97-8",
+            "weight_exact": 5,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Glycerin",
+            "cas": "56-81-5",
+            "weight_exact": null,
+            "weight_min": 0.1,
+            "weight_max": 5,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Lemongrass oil",
+            "cas": "8007-02-1",
+            "weight_exact": 2,
+            "weight_min": null,
+            "weight_max": null,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          },
+          {
+            "name": "Rosemary extract",
+            "cas": "84604-14-8",
+            "weight_exact": null,
+            "weight_min": null,
+            "weight_max": 2,
+            "parsed_from_sds": true,
+            "user_entered": false,
+            "hide_selected_cas": false,
+            "ingredient_publicly_disclosed": true,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "2216-51-5",
+          "cas_data_source": null,
+          "cas_name": "Menthol",
+          "cas_numbers": [
+            "2216-51-5"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "skin_irrit_2",
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "2216-51-5": [
+              "skin_irrit_2",
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "2216-51-5": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Menthol",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Menthol",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 15,
+          "weight_min": 5,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "68439-49-6",
+          "cas_data_source": null,
+          "cas_name": "Ceteareth-20",
+          "cas_numbers": [
+            "68439-49-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "eye_dam_1"
+          ],
+          "ghs_keywords_dict": {
+            "68439-49-6": [
+              "eye_dam_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "68439-49-6": [
+              "Eye Dam. 1 (H318)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Ceteareth-20",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Ceteareth-20",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 10,
+          "weight_min": null,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "3055-97-8",
+          "cas_data_source": null,
+          "cas_name": "Laureth-7",
+          "cas_numbers": [
+            "3055-97-8"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "skin_irrit_2",
+            "eye_irrit_2a",
+            "stot_se_3_resp",
+            "acute_aq_1"
+          ],
+          "ghs_keywords_dict": {
+            "3055-97-8": [
+              "acute_tox_oral_4",
+              "skin_irrit_2",
+              "eye_irrit_2a",
+              "stot_se_3_resp",
+              "acute_aq_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "3055-97-8": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Laureth-7",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Laureth-7",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": 5,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "56-81-5",
+          "cas_data_source": null,
+          "cas_name": "Glycerin",
+          "cas_numbers": [
+            "56-81-5"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "56-81-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Glycerin",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Glycerin",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 5,
+          "weight_min": 0.1,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "8007-02-1",
+          "cas_data_source": null,
+          "cas_name": "Lemongrass oil",
+          "cas_numbers": [
+            "8007-02-1"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_tox_oral_1",
+            "asp_haz_1",
+            "skin_irrit_2",
+            "skin_sens_1",
+            "eye_irrit_2a",
+            "stot_se_3_resp",
+            "acute_aq_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "8007-02-1": [
+              "acute_tox_oral_1",
+              "asp_haz_1",
+              "skin_irrit_2",
+              "skin_sens_1",
+              "eye_irrit_2a",
+              "stot_se_3_resp",
+              "acute_aq_1",
+              "chron_aq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "8007-02-1": [
+              "Acute Tox. 1 (oral) (H300)",
+              "Asp. Haz. 1 (H304)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Lemongrass oil",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Lemongrass oil",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": 2,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "84604-14-8",
+          "cas_data_source": null,
+          "cas_name": "Rosemary extract",
+          "cas_numbers": [
+            "84604-14-8"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": [
+            "flam_liq_3",
+            "acute_tox_oral_4",
+            "asp_haz_1",
+            "skin_irrit_2",
+            "skin_sens_1",
+            "eye_irrit_2a",
+            "stot_se_2",
+            "acute_aq_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "84604-14-8": [
+              "flam_liq_3",
+              "acute_tox_oral_4",
+              "asp_haz_1",
+              "skin_irrit_2",
+              "skin_sens_1",
+              "eye_irrit_2a",
+              "stot_se_2",
+              "acute_aq_1",
+              "chron_aq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "84604-14-8": [
+              "Flam. Liq. 3 (H226)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Asp. Haz. 1 (H304)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 2 (H371)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Rosemary extract",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Rosemary extract",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 2,
+          "weight_min": null,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "57-55-6",
+          "cas_data_source": null,
+          "cas_name": "Propylene Glycol",
+          "cas_numbers": [
+            "57-55-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "57-55-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Propylene Glycol",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Propylene Glycol",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": 0.1,
+          "weight_source": "sds"
+        }
+      ]
     },
-
     "mix [test 1] >> no calculated values": {
       "request": {},
       "responseCode": 200,
       "response": {}
     },
-
     "mix [test 2] >> no calculated values": {
       "request": {},
       "responseCode": 200,
@@ -1883,7 +4949,6 @@
       "responseCode": 200,
       "response": {}
     },
-
     "mix [test 5] >> no calculated values": {
       "request": {},
       "responseCode": 200,
