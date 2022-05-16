@@ -1,4 +1,4 @@
-let testData = require('../../fixtures/PHcalculatorTestData.json');
+let testData = require('../../fixtures/calculators/PHcalculatorTestData.json');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 

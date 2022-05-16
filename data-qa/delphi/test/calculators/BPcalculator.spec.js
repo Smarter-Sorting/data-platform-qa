@@ -1,4 +1,4 @@
-let testData = require('../../fixtures/BPcalculatorTestData.json');
+let testData = require('../../fixtures/calculators/BPcalculatorTestData.json');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 

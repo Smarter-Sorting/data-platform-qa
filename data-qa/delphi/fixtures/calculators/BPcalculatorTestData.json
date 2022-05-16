@@ -1,5 +1,5 @@
 {
-  "uri": "/boiling_point/predict",
+  "uri": "/interpret/boiling_point/predict",
   "variants": {
     "liquid": {
       "request": {

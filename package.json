@@ -11,7 +11,9 @@
     "test:staging:binning:albsi": "mocha --timeout 20000 'data-qa/factory/binningService/test/albertsonsSiBinning.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:staging:factory": "mocha --timeout 20000 'data-qa/factory/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:staging:ingblending:manuelentry": "mocha --timeout 20000 'data-qa/factory/ingBlending/test/manualEntryFlow.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
-    "test:conf:staging1": "mocha 'data-qa/test' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js dotenv_config_path=.envdifferentENV"
+    "test:conf:staging1": "mocha 'data-qa/test' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js dotenv_config_path=.envdifferentENV",
+    "run:mocha": "mocha 'data-qa/delphi/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
+    "rtest": "mocha --timeout 200000 'data-qa/delphi/test/ingredients-blending' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js"
   },
   "author": "",
   "license": "ISC",
