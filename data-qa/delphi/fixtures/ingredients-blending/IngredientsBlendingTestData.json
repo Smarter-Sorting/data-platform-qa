@@ -5666,10 +5666,417 @@
         }
       ]
     },
-    "mix [test 3] >> no calculated values": {
-      "request": {},
+    "mixed ingredients (parsed - all have ranges, manually entered ing mix (some are same some are different) [test 3] >> only ones that are not in parsed list should have calculated values, others should have: “weight_max”: null, “weight_min”: null, “weight_source”: null": {
+      "request": {
+        "ingredient_text_input": "Hydrogen peroxide, Paraffin, Water,Citronella oil",
+        "sds_ingredients": [
+          {
+            "name": "Hydrogen peroxide",
+            "cas": "7722-84-1",
+            "weight_min": 5,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Ox. Liq. 1 (H271)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Corr. 1A (H314)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Disodium dihydrogen ethylenediaminetetraacetate",
+            "cas": "139-33-3",
+            "weight_min": 0.1,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "STOT RE 2 (H373)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "water",
+            "cas": "7732-18-5",
+            "weight_min": 0.03,
+            "weight_max": 0.06,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "polyvinyl acetate",
+            "cas": "9003-20-7",
+            "weight_min": 2.02,
+            "weight_max": 3.03,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "polyvinyl alcohol",
+            "cas": "9002-89-5",
+            "weight_min": 0.09,
+            "weight_max": 1.09,
+            "weight_exact": null,
+            "ghs": [
+              "STOT SE 2 (H371)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "7722-84-1",
+          "cas_name": "HYDROGEN PEROXIDE",
+          "cas_numbers": [
+            "7722-84-1"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "ox_liq_1",
+            "acute_tox_inhal_4",
+            "acute_tox_oral_4",
+            "skin_corr_1a"
+          ],
+          "ghs_keywords_dict": {
+            "7722-84-1": [
+              "ox_liq_1",
+              "acute_tox_inhal_4",
+              "acute_tox_oral_4",
+              "skin_corr_1a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7722-84-1": [
+              "Ox. Liq. 1 (H271)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Corr. 1A (H314)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ]
+          },
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "HYDROGEN PEROXIDE",
+          "parsed_from_sds": true,
+          "raw_text": "Hydrogen peroxide",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 10,
+          "weight_min": 5,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "8002-74-2",
+          "cas_name": "PARAFFIN",
+          "cas_numbers": [
+            "8002-74-2"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "8002-74-2": [
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "8002-74-2": [
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "PARAFFIN",
+          "parsed_from_sds": false,
+          "raw_text": "Paraffin",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "7732-18-5",
+          "cas_name": "WATER",
+          "cas_numbers": [
+            "7732-18-5"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7732-18-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "WATER",
+          "parsed_from_sds": true,
+          "raw_text": "Water",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 0.06,
+          "weight_min": 0.03,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "8000-29-1",
+          "cas_name": "CITRONELLA OIL",
+          "cas_numbers": [
+            "8000-29-1"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "acute_tox_oral_1",
+            "asp_haz_1",
+            "skin_irrit_2",
+            "skin_sens_1",
+            "eye_dam_1",
+            "resp_sens_1",
+            "stot_se_3_resp",
+            "acute_aq_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "8000-29-1": [
+              "acute_tox_oral_1",
+              "asp_haz_1",
+              "skin_irrit_2",
+              "skin_sens_1",
+              "eye_dam_1",
+              "resp_sens_1",
+              "stot_se_3_resp",
+              "acute_aq_1",
+              "chron_aq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "8000-29-1": [
+              "Acute Tox. 1 (oral) (H300)",
+              "Asp. Haz. 1 (H304)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)",
+              "Resp. Sens. 1 (H334)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "ingredient_order": 4,
+          "may_contain": false,
+          "name": "CITRONELLA OIL",
+          "parsed_from_sds": false,
+          "raw_text": "Citronella oil",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 0.06,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "calculated": false,
+          "cas": "9003-20-7",
+          "cas_data_source": null,
+          "cas_name": "polyvinyl acetate",
+          "cas_numbers": [
+            "9003-20-7"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "9003-20-7": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "polyvinyl acetate",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "polyvinyl acetate",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 3.03,
+          "weight_min": 2.02,
+          "weight_source": "sds"
+        },
+        {
+          "calculated": false,
+          "cas": "9002-89-5",
+          "cas_data_source": null,
+          "cas_name": "polyvinyl alcohol",
+          "cas_numbers": [
+            "9002-89-5"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "STOT SE 2 (H371)"
+          ],
+          "ghs_keywords": [
+            "carc_2"
+          ],
+          "ghs_keywords_dict": {
+            "9002-89-5": [
+              "carc_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9002-89-5": [
+              "Carc. 2 (H351)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "polyvinyl alcohol",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "polyvinyl alcohol",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 1.09,
+          "weight_min": 0.09,
+          "weight_source": "sds"
+        },
+        {
+          "calculated": false,
+          "cas": "139-33-3",
+          "cas_data_source": null,
+          "cas_name": "Disodium dihydrogen ethylenediaminetetraacetate",
+          "cas_numbers": [
+            "139-33-3"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Acute Tox. 4 (inh.) (H332)",
+            "STOT SE 3 (resp. irrit.) (H335)",
+            "STOT RE 2 (H373)"
+          ],
+          "ghs_keywords": [
+            "acute_tox_inhal_4",
+            "stot_se_3_resp",
+            "stot_re_2"
+          ],
+          "ghs_keywords_dict": {
+            "139-33-3": [
+              "acute_tox_inhal_4",
+              "stot_se_3_resp",
+              "stot_re_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "139-33-3": [
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "STOT RE 2 (H373)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Disodium dihydrogen ethylenediaminetetraacetate",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Disodium dihydrogen ethylenediaminetetraacetate",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 1,
+          "weight_min": 0.1,
+          "weight_source": "sds"
+        }
+      ]
     },
     "mix [test 4] >> no calculated values": {
       "request": {},
