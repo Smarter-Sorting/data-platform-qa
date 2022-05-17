@@ -6078,17 +6078,657 @@
         }
       ]
     },
-    "mixed ingredients (parsed - at least 1 has ranges; others have null; manually entered - all same as parsed) [test 4] >> no calculated values": {
-      "request": {},
+    "mixed ingredients (parsed - at least 1 has range; others have null; manually entered - all same as parsed) [test 4] >> no calculated values": {
+      "request": {
+        "ingredient_text_input": "Proxel GXL, Dipropylene glycol monobutyl ether, Citric Acid, Water, Calfoam SLS-30, 1 3-BAC, Glydant, ",
+        "sds_ingredients": [
+          {
+            "name": "Dipropylene glycol monobutyl ether",
+            "cas": "29911-28-2",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Citric Acid",
+            "cas": "77-92-9",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Water",
+            "cas": "7732-18-5",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Calfoam SLS-30",
+            "cas": "151-21-3",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Flam. Sol. 2 (H228)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "1 3-BAC",
+            "cas": "2579-20-6",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Corr. 1A (H314)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Glydant",
+            "cas": "6440-58-0",
+            "weight_min": 1,
+            "weight_max": 11,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Proxel GXL",
+            "cas": "2634-33-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "2634-33-5",
+          "cas_name": "PROXEL GXL",
+          "cas_numbers": [
+            "2634-33-5"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "skin_irrit_2",
+            "eye_dam_1",
+            "skin_sens_1",
+            "acute_aq_1"
+          ],
+          "ghs_keywords_dict": {
+            "2634-33-5": [
+              "acute_tox_oral_4",
+              "skin_irrit_2",
+              "eye_dam_1",
+              "skin_sens_1",
+              "acute_aq_1"
+            ]
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {
+            "2634-33-5": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)",
+              "Acute Aq. 1 (H400)"
+            ]
+          },
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "PROXEL GXL",
+          "parsed_from_sds": true,
+          "raw_text": "Proxel GXL",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "29911-28-2",
+          "cas_name": "DIPROPYLENE GLYCOL MONOBUTYL ETHER",
+          "cas_numbers": [
+            "29911-28-2"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "29911-28-2": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "DIPROPYLENE GLYCOL MONOBUTYL ETHER",
+          "parsed_from_sds": true,
+          "raw_text": "Dipropylene glycol monobutyl ether",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "77-92-9",
+          "cas_name": "CITRIC ACID",
+          "cas_numbers": [
+            "77-92-9"
+          ],
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "77-92-9": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "CITRIC ACID",
+          "parsed_from_sds": true,
+          "raw_text": "Citric Acid",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 1,
+          "weight_min": 0,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "7732-18-5",
+          "cas_name": "WATER",
+          "cas_numbers": [
+            "7732-18-5"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7732-18-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 4,
+          "may_contain": false,
+          "name": "WATER",
+          "parsed_from_sds": true,
+          "raw_text": "Water",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 100,
+          "weight_min": 0,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "151-21-3",
+          "cas_name": null,
+          "cas_numbers": [
+            "151-21-3"
+          ],
+          "data_source": "sds",
+          "ghs_keywords": [
+            "flam_sol_2",
+            "acute_tox_oral_4",
+            "skin_irrit_2",
+            "eye_dam_1",
+            "acute_tox_inhal_4",
+            "stot_se_3_resp",
+            "acute_aq_1",
+            "chron_aq_3"
+          ],
+          "ghs_keywords_dict": {
+            "151-21-3": [
+              "flam_sol_2",
+              "acute_tox_oral_4",
+              "skin_irrit_2",
+              "eye_dam_1",
+              "acute_tox_inhal_4",
+              "stot_se_3_resp",
+              "acute_aq_1",
+              "chron_aq_3"
+            ]
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {
+            "151-21-3": [
+              "Flam. Sol. 2 (H228)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)"
+            ]
+          },
+          "ingredient_order": 5,
+          "may_contain": false,
+          "name": null,
+          "parsed_from_sds": true,
+          "raw_text": "Calfoam SLS-30",
+          "rcra_dict": {},
+          "score": 0,
+          "user_entered": false,
+          "weight_max": 1,
+          "weight_min": 0,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "2579-20-6",
+          "cas_name": null,
+          "cas_numbers": [
+            "2579-20-6"
+          ],
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "acute_tox_dermal_4",
+            "skin_corr_1a",
+            "eye_dam_1",
+            "acute_aq_1",
+            "chron_aq_3"
+          ],
+          "ghs_keywords_dict": {
+            "2579-20-6": [
+              "acute_tox_oral_4",
+              "acute_tox_dermal_4",
+              "skin_corr_1a",
+              "eye_dam_1",
+              "acute_aq_1",
+              "chron_aq_3"
+            ]
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {
+            "2579-20-6": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Corr. 1A (H314)",
+              "Eye Dam. 1 (H318)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)"
+            ]
+          },
+          "ingredient_order": 6,
+          "may_contain": false,
+          "name": null,
+          "parsed_from_sds": true,
+          "raw_text": "1 3-BAC",
+          "rcra_dict": {},
+          "score": 0,
+          "user_entered": false,
+          "weight_max": 1,
+          "weight_min": 0,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "6440-58-0",
+          "cas_name": "GLYDANT",
+          "cas_numbers": [
+            "6440-58-0"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "acute_tox_oral_4"
+          ],
+          "ghs_keywords_dict": {
+            "6440-58-0": [
+              "acute_tox_oral_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "6440-58-0": [
+              "Acute Tox. 4 (oral) (H302)"
+            ]
+          },
+          "ingredient_order": 7,
+          "may_contain": false,
+          "name": "GLYDANT",
+          "parsed_from_sds": true,
+          "raw_text": "Glydant",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 11,
+          "weight_min": 1,
+          "weight_source": "sds"
+        }
+      ]
     },
-    "mixed ingredients (parsed - at least 1 has ranges; others have null; manually entered - all different) [test 5] >> all manually entered should have calculated values": {
-      "request": {},
+    "mixed ingredients (parsed - at least 1 has range; others have null; manually entered - all different) [test 5] >> all manually entered should have calculated values": {
+      "request": {
+        "ingredient_text_input": "Citric Acid, Water, Glydant",
+        "sds_ingredients": [
+          {
+            "name": "Glycerin",
+            "cas": "56-81-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "cas_publicly_disclosed": null,
+            "range_publicly_disclosed": null,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Cetearyl alcohol",
+            "cas": "67762-27-0",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "cas_publicly_disclosed": null,
+            "range_publicly_disclosed": null,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Niacinamide",
+            "cas": "98-92-0",
+            "weight_min": 10,
+            "weight_max": 15,
+            "weight_exact": null,
+            "cas_publicly_disclosed": null,
+            "range_publicly_disclosed": null,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": null,
+          "cas_name": "CITRIC ACID",
+          "cas_numbers": [
+            "77-92-9",
+            "5949-29-1"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "skin_irrit_2"
+          ],
+          "ghs_keywords_dict": {
+            "5949-29-1": [
+              "skin_irrit_2"
+            ],
+            "77-92-9": null
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "5949-29-1": [
+              "Skin Irrit. 2 (H315)"
+            ]
+          },
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "CITRIC ACID",
+          "parsed_from_sds": false,
+          "raw_text": "Citric Acid",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "7732-18-5",
+          "cas_name": "WATER",
+          "cas_numbers": [
+            "7732-18-5"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7732-18-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "WATER",
+          "parsed_from_sds": false,
+          "raw_text": "Water",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "6440-58-0",
+          "cas_name": "GLYDANT",
+          "cas_numbers": [
+            "6440-58-0"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "acute_tox_oral_4"
+          ],
+          "ghs_keywords_dict": {
+            "6440-58-0": [
+              "acute_tox_oral_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "6440-58-0": [
+              "Acute Tox. 4 (oral) (H302)"
+            ]
+          },
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "GLYDANT",
+          "parsed_from_sds": false,
+          "raw_text": "Glydant",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "98-92-0",
+          "cas_data_source": null,
+          "cas_name": "Niacinamide",
+          "cas_numbers": [
+            "98-92-0"
+          ],
+          "cas_publicly_disclosed": null,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "98-92-0": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Niacinamide",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": null,
+          "raw_text": "Niacinamide",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 15,
+          "weight_min": 10,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "67762-27-0",
+          "cas_data_source": null,
+          "cas_name": "Cetearyl alcohol",
+          "cas_numbers": [
+            "67762-27-0"
+          ],
+          "cas_publicly_disclosed": null,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "67762-27-0": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Cetearyl alcohol",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": null,
+          "raw_text": "Cetearyl alcohol",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "56-81-5",
+          "cas_data_source": null,
+          "cas_name": "Glycerin",
+          "cas_numbers": [
+            "56-81-5"
+          ],
+          "cas_publicly_disclosed": null,
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "56-81-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Glycerin",
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": null,
+          "raw_text": "Glycerin",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        }
+      ]
     },
-    "mixed ingredients (parsed - at least 1 has ranges; others have null; manually entered - some are same some are different) [test 6] >> only ones that are not in parsed list should have calculated values, other should have parsed values": {
+    "mixed ingredients (parsed - at least 1 has range; others have null; manually entered - some are same some are different) [test 6] >> only ones that are not in parsed list should have calculated values, other should have parsed values": {
       "request": {},
       "responseCode": 200,
       "response": {}
