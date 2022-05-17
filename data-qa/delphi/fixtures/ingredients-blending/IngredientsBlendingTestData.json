@@ -5666,7 +5666,7 @@
         }
       ]
     },
-    "mixed ingredients (parsed - all have ranges, manually entered ing mix (some are same some are different) [test 3] >> only ones that are not in parsed list should have calculated values, others should have: “weight_max”: null, “weight_min”: null, “weight_source”: null": {
+    "mixed ingredients (parsed - all have ranges, manually entered ing mix (some are same some are different) [test 3] >> only ones that are not in parsed list should have calculated values, other should have parsed values": {
       "request": {
         "ingredient_text_input": "Hydrogen peroxide, Paraffin, Water,Citronella oil",
         "sds_ingredients": [
@@ -6078,32 +6078,32 @@
         }
       ]
     },
-    "mix [test 4] >> no calculated values": {
+    "mixed ingredients (parsed - at least 1 has ranges; others have null; manually entered - all same as parsed) [test 4] >> no calculated values": {
       "request": {},
       "responseCode": 200,
       "response": {}
     },
-    "mix [test 5] >> no calculated values": {
+    "mixed ingredients (parsed - at least 1 has ranges; others have null; manually entered - all different) [test 5] >> all manually entered should have calculated values": {
       "request": {},
       "responseCode": 200,
       "response": {}
     },
-    "mix [test 6] >> no calculated values": {
+    "mixed ingredients (parsed - at least 1 has ranges; others have null; manually entered - some are same some are different) [test 6] >> only ones that are not in parsed list should have calculated values, other should have parsed values": {
       "request": {},
       "responseCode": 200,
       "response": {}
     },
-    "mix [test 7] >> no calculated values": {
+    "mixed ingredients (parsed - ranges=null; manually entered - all same as parsed) [test 7] >> no calculated values": {
       "request": {},
       "responseCode": 200,
       "response": {}
     },
-    "mix [test 8] >> no calculated values": {
+    "mixed ingredients (parsed - ranges=null; manually entered - all different) [test 8] >> no calculated values": {
       "request": {},
       "responseCode": 200,
       "response": {}
     },
-    "mix [test 9] >> no calculated values": {
+    "mixed ingredients (parsed - ranges=null; manually entered - some are same some are different [test 9] >> no calculated values": {
       "request": {},
       "responseCode": 200,
       "response": {}
