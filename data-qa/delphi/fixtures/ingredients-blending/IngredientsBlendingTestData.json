@@ -4929,15 +4929,742 @@
         }
       ]
     },
-    "mix [test 1] >> no calculated values": {
-      "request": {},
+    "mixed ingredients (parsed - all have ranges; manually entered - all same as parsed) [test 1] >> no calculated values": {
+      "request": {
+        "ingredient_text_input": "Alcohols,  C16-18| 2-Octyldodecan-1-ol| 2-methyl-p-phenylenediamine sulphate| Monoethanolamine| Alcohols, C16-18, 20EO| Ammonium hydroxide ((NH4)(OH))| 2-(2,4-diaminophenoxy)ethanol dihydrochloride|",
+        "sds_ingredients": [
+          {
+            "name": "Alcohols, C16-18",
+            "cas": "67762-27-0",
+            "weight_min": 1,
+            "weight_max": 3,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "2-Octyldodecan-1-ol",
+            "cas": "5333-42-6",
+            "weight_min": 1,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "2-methyl-p-phenylenediamine sulphate",
+            "cas": "615-50-9",
+            "weight_min": 2,
+            "weight_max": 4,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)",
+              "Acute Tox. 3 (oral) (H301)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Sens. 1 (H317)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Monoethanolamine",
+            "cas": "141-43-5",
+            "weight_min": 4,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Corr. 1B (H314)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Alcohols, C16-18, 20EO",
+            "cas": "68439-49-6",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Ammonium hydroxide ((NH4)(OH))",
+            "cas": "1336-21-6",
+            "weight_min": 9,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Skin Corr. 1B (H314)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "2-(2,4-diaminophenoxy)ethanol dihydrochloride",
+            "cas": "66422-95-5",
+            "weight_min": 1.01,
+            "weight_max": 5.01,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Sens. 1B (H317)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "67762-27-0",
+          "cas_name": "ALCOHOLS, C16-18",
+          "cas_numbers": [
+            "67762-27-0",
+            "8005-44-5"
+          ],
+          "data_source": "iupac",
+          "ghs_keywords": [],
+          "ghs_keywords_dict": {
+            "67762-27-0": null,
+            "8005-44-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "ALCOHOLS, C16-18",
+          "parsed_from_sds": true,
+          "raw_text": "Alcohols,  C16-18",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 3,
+          "weight_min": 1,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "5333-42-6",
+          "cas_name": "2-OCTYLDODECAN-1-OL",
+          "cas_numbers": [
+            "5333-42-6"
+          ],
+          "data_source": "iupac",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "5333-42-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "2-OCTYLDODECAN-1-OL",
+          "parsed_from_sds": true,
+          "raw_text": "2-Octyldodecan-1-ol",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 5,
+          "weight_min": 1,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "615-50-9",
+          "cas_name": "2-METHYL-P-PHENYLENEDIAMINE SULPHATE",
+          "cas_numbers": [
+            "615-50-9"
+          ],
+          "data_source": "sds",
+          "ghs_keywords": [
+            "acute_tox_oral_3",
+            "acute_tox_inhal_4",
+            "acute_tox_dermal_4",
+            "skin_sens_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "615-50-9": [
+              "acute_tox_oral_3",
+              "acute_tox_inhal_4",
+              "acute_tox_dermal_4",
+              "skin_sens_1",
+              "chron_aq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {
+            "615-50-9": [
+              "Acute Tox. 3 (oral) (H301)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Sens. 1 (H317)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "2-METHYL-P-PHENYLENEDIAMINE SULPHATE",
+          "parsed_from_sds": true,
+          "raw_text": "2-methyl-p-phenylenediamine sulphate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 4,
+          "weight_min": 2,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "141-43-5",
+          "cas_name": "MONOETHANOLAMINE",
+          "cas_numbers": [
+            "141-43-5"
+          ],
+          "data_source": "popular_ingredient_map",
+          "ghs_keywords": [
+            "acute_tox_inhal_4",
+            "acute_tox_dermal_4",
+            "acute_tox_oral_4",
+            "skin_corr_1b"
+          ],
+          "ghs_keywords_dict": {
+            "141-43-5": [
+              "acute_tox_inhal_4",
+              "acute_tox_dermal_4",
+              "acute_tox_oral_4",
+              "skin_corr_1b"
+            ]
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {
+            "141-43-5": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Corr. 1B (H314)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ]
+          },
+          "ingredient_order": 4,
+          "may_contain": false,
+          "name": "MONOETHANOLAMINE",
+          "parsed_from_sds": true,
+          "raw_text": "Monoethanolamine",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 5,
+          "weight_min": 4,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "68439-49-6",
+          "cas_name": null,
+          "cas_numbers": [
+            "68439-49-6"
+          ],
+          "data_source": "sds",
+          "ghs_keywords": [
+            "eye_dam_1"
+          ],
+          "ghs_keywords_dict": {
+            "68439-49-6": [
+              "eye_dam_1"
+            ]
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {
+            "68439-49-6": [
+              "Eye Dam. 1 (H318)"
+            ]
+          },
+          "ingredient_order": 5,
+          "may_contain": false,
+          "name": null,
+          "parsed_from_sds": true,
+          "raw_text": "Alcohols, C16-18, 20EO",
+          "rcra_dict": {},
+          "score": 0,
+          "user_entered": false,
+          "weight_max": 5,
+          "weight_min": null,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "1336-21-6",
+          "cas_name": "AMMONIUM HYDROXIDE ((NH4)(OH))",
+          "cas_numbers": [
+            "1336-21-6"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "skin_corr_1b",
+            "acute_aq_1"
+          ],
+          "ghs_keywords_dict": {
+            "1336-21-6": [
+              "skin_corr_1b",
+              "acute_aq_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "1336-21-6": [
+              "Skin Corr. 1B (H314)",
+              "Acute Aq. 1 (H400)"
+            ]
+          },
+          "ingredient_order": 6,
+          "may_contain": false,
+          "name": "AMMONIUM HYDROXIDE ((NH4)(OH))",
+          "parsed_from_sds": true,
+          "raw_text": "Ammonium hydroxide ((NH4)(OH))",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": null,
+          "weight_min": 9,
+          "weight_source": "sds"
+        },
+        {
+          "cas": "66422-95-5",
+          "cas_name": "2-(2,4-DIAMINOPHENOXY)ETHANOL DIHYDROCHLORIDE",
+          "cas_numbers": [
+            "66422-95-5"
+          ],
+          "data_source": "iupac",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "skin_sens_1b",
+            "eye_irrit_2a",
+            "acute_aq_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "66422-95-5": [
+              "acute_tox_oral_4",
+              "skin_sens_1b",
+              "eye_irrit_2a",
+              "acute_aq_1",
+              "chron_aq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "66422-95-5": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Sens. 1B (H317)",
+              "Eye Irrit. 2A (H319)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "ingredient_order": 7,
+          "may_contain": false,
+          "name": "2-(2,4-DIAMINOPHENOXY)ETHANOL DIHYDROCHLORIDE",
+          "parsed_from_sds": true,
+          "raw_text": "2-(2,4-diaminophenoxy)ethanol dihydrochloride",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": 5.01,
+          "weight_min": 1.01,
+          "weight_source": "sds"
+        }
+      ]
     },
-    "mix [test 2] >> no calculated values": {
-      "request": {},
+    "mixed ingredients (parsed - all have ranges, manually entered - all different) [test 2] >> all manually entered should have calculated values": {
+      "request": {
+        "ingredient_text_input": "Water, Paraffin, Citronella oil",
+        "sds_ingredients": [
+          {
+            "name": "Propane-1,2-diol",
+            "cas": "57-55-6",
+            "weight_min": 2,
+            "weight_max": 3,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Alcohols, C16-18",
+            "cas": "67762-27-0",
+            "weight_min": 1,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "hydrogen peroxide solution",
+            "cas": "7722-84-1",
+            "weight_min": 6,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Ox. Liq. 1 (H271)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Corr. 1A (H314)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "7732-18-5",
+          "cas_name": "WATER",
+          "cas_numbers": [
+            "7732-18-5"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7732-18-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "WATER",
+          "parsed_from_sds": false,
+          "raw_text": "Water",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 100,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "8002-74-2",
+          "cas_name": "PARAFFIN",
+          "cas_numbers": [
+            "8002-74-2"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "8002-74-2": [
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "8002-74-2": [
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "PARAFFIN",
+          "parsed_from_sds": false,
+          "raw_text": "Paraffin",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "8000-29-1",
+          "cas_name": "CITRONELLA OIL",
+          "cas_numbers": [
+            "8000-29-1"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "acute_tox_oral_1",
+            "asp_haz_1",
+            "skin_irrit_2",
+            "skin_sens_1",
+            "eye_dam_1",
+            "resp_sens_1",
+            "stot_se_3_resp",
+            "acute_aq_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "8000-29-1": [
+              "acute_tox_oral_1",
+              "asp_haz_1",
+              "skin_irrit_2",
+              "skin_sens_1",
+              "eye_dam_1",
+              "resp_sens_1",
+              "stot_se_3_resp",
+              "acute_aq_1",
+              "chron_aq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "8000-29-1": [
+              "Acute Tox. 1 (oral) (H300)",
+              "Asp. Haz. 1 (H304)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)",
+              "Resp. Sens. 1 (H334)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "CITRONELLA OIL",
+          "parsed_from_sds": false,
+          "raw_text": "Citronella oil",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "calculated": false,
+          "cas": "7722-84-1",
+          "cas_data_source": null,
+          "cas_name": "hydrogen peroxide solution",
+          "cas_numbers": [
+            "7722-84-1"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Ox. Liq. 1 (H271)",
+            "Acute Tox. 4 (oral) (H302)",
+            "Skin Corr. 1A (H314)",
+            "Acute Tox. 4 (inh.) (H332)"
+          ],
+          "ghs_keywords": [
+            "ox_liq_1",
+            "acute_tox_inhal_4",
+            "acute_tox_oral_4",
+            "skin_corr_1a"
+          ],
+          "ghs_keywords_dict": {
+            "7722-84-1": [
+              "ox_liq_1",
+              "acute_tox_inhal_4",
+              "acute_tox_oral_4",
+              "skin_corr_1a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7722-84-1": [
+              "Ox. Liq. 1 (H271)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Corr. 1A (H314)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "hydrogen peroxide solution",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "hydrogen peroxide solution",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 10,
+          "weight_min": 6,
+          "weight_source": "sds"
+        },
+        {
+          "calculated": false,
+          "cas": "67762-27-0",
+          "cas_data_source": null,
+          "cas_name": "Alcohols, C16-18",
+          "cas_numbers": [
+            "67762-27-0"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "67762-27-0": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Alcohols, C16-18",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Alcohols, C16-18",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 5,
+          "weight_min": 1,
+          "weight_source": "sds"
+        },
+        {
+          "calculated": false,
+          "cas": "57-55-6",
+          "cas_data_source": null,
+          "cas_name": "Propane-1,2-diol",
+          "cas_numbers": [
+            "57-55-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "57-55-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Propane-1,2-diol",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Propane-1,2-diol",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": 3,
+          "weight_min": 2,
+          "weight_source": "sds"
+        }
+      ]
     },
     "mix [test 3] >> no calculated values": {
       "request": {},
@@ -4955,6 +5682,21 @@
       "response": {}
     },
     "mix [test 6] >> no calculated values": {
+      "request": {},
+      "responseCode": 200,
+      "response": {}
+    },
+    "mix [test 7] >> no calculated values": {
+      "request": {},
+      "responseCode": 200,
+      "response": {}
+    },
+    "mix [test 8] >> no calculated values": {
+      "request": {},
+      "responseCode": 200,
+      "response": {}
+    },
+    "mix [test 9] >> no calculated values": {
       "request": {},
       "responseCode": 200,
       "response": {}
