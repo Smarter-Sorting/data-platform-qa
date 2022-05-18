@@ -1,5 +1,5 @@
 {
-  "uri": "/interpret/flashpoint/predict",
+  "uri": "/flashpoint/predict",
   "variants": {
     "liquid": {
       "request": {
