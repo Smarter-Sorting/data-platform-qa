@@ -12,10 +12,11 @@ describe('Ingredients blending tests', function () {
             config.interpretersBaseUrl,
             testData.uri,
             data.request,
-            "",
+            '',
           );
           expect(res.statusCode).to.be.equal(data.responseCode);
-          expect(res.body).to.be.deep.equal(data.response);
+          //expect(res.body).to.be.deep.equal(data.response); //some responces have ingrdients listed in different order so deep.equal fails
+          expect(res.body).to.deep.equalInAnyOrder(data.response);
         });
       });
     },

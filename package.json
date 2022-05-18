@@ -13,7 +13,7 @@
     "test:staging:ingblending:manuelentry": "mocha --timeout 20000 'data-qa/factory/ingBlending/test/manualEntryFlow.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:conf:staging1": "mocha 'data-qa/test' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js dotenv_config_path=.envdifferentENV",
     "run:mocha": "mocha 'data-qa/delphi/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
-    "rtest": "mocha --timeout 200000 'data-qa/delphi/test/ingredients-blending' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js"
+    "rtest": "mocha --timeout 20000 'data-qa/delphi/test/ingredients-blending' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "formidable": "^2.0.1",
     "mocha": "^9.1.3",
     "prettier": "^2.5.1",
-    "supertest": "^6.1.6"
+    "supertest": "^6.1.6",
+    "deep-equal-in-any-order": "^1.1.18"
   }
 }
