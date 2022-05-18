@@ -6921,15 +6921,2436 @@
         }
       ]
     },
-    "mixed ingredients (parsed - ranges=null; manually entered - all different) [test 8] >> no calculated values": {
-      "request": {},
+    "mixed ingredients (parsed - ranges=null; manually entered - all different) [test 8] >> all manually entered should have calculated values": {
+      "request": {
+        "ingredient_text_input": "Starch, Cellulose, Caffeine, Acetaminophen, Ginkgo biloba, Polygonatum multiflorum, Zinc amino acid chelate, Phtalogyanine Blue, pigment violet, Carbon black, Glycerin, pigment yellow G, pigment orange G, Phloxine, Calcium carbonate, Acrylic resin, scarlet powder, Hydroxyethyl cellulose, Titanium Dioxide, Methyl 4 hydroxybenzoate",
+        "sds_ingredients": [
+          {
+            "name": "Water",
+            "cas": "7732-18-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "PPG",
+            "cas": "57-55-6",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Z-6010U",
+            "cas": "5102-83-0",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Aluminum",
+            "cas": "7429-90-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Sol. 1 (H228)",
+              "Pyro. Sol. 1 (H250)",
+              "Water React. Subst. 2 (H261)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Triethanolamine",
+            "cas": "102-71-6",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)",
+              "Repr. 2 (H361)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Oleic Acid",
+            "cas": "112-80-1",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Z-6050E",
+            "cas": "18472-87-2",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Dibromocyanoacetamide",
+            "cas": "10222-01-2",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Acute Tox. 3 (oral) (H301)",
+              "Acute Tox. 2 (dermal) (H310)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 2 (inh.) (H330)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "9005-25-8",
+          "cas_name": "STARCH",
+          "cas_numbers": [
+            "9005-25-8"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "eye_irrit_2b",
+            "acute_tox_inhal_4",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "9005-25-8": [
+              "eye_irrit_2b",
+              "acute_tox_inhal_4",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9005-25-8": [
+              "Eye Irrit. 2B (H320)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "STARCH",
+          "parsed_from_sds": false,
+          "raw_text": "Starch",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "9004-34-6",
+          "cas_name": "CELLULOSE",
+          "cas_numbers": [
+            "9004-34-6"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "9004-34-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "CELLULOSE",
+          "parsed_from_sds": false,
+          "raw_text": "Cellulose",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "58-08-2",
+          "cas_name": "CAFFEINE",
+          "cas_numbers": [
+            "58-08-2"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "acute_tox_oral_4"
+          ],
+          "ghs_keywords_dict": {
+            "58-08-2": [
+              "acute_tox_oral_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "58-08-2": [
+              "Acute Tox. 4 (oral) (H302)"
+            ]
+          },
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "CAFFEINE",
+          "parsed_from_sds": false,
+          "raw_text": "Caffeine",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "103-90-2",
+          "cas_name": "ACETAMINOPHEN",
+          "cas_numbers": [
+            "103-90-2"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "stot_se_3_resp",
+            "acute_aq_1",
+            "chron_aq_3"
+          ],
+          "ghs_keywords_dict": {
+            "103-90-2": [
+              "acute_tox_oral_4",
+              "stot_se_3_resp",
+              "acute_aq_1",
+              "chron_aq_3"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "103-90-2": [
+              "Acute Tox. 4 (oral) (H302)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)"
+            ]
+          },
+          "ingredient_order": 4,
+          "may_contain": false,
+          "name": "ACETAMINOPHEN",
+          "parsed_from_sds": false,
+          "raw_text": "Acetaminophen",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "90045-36-6",
+          "cas_name": "GINKGO BILOBA",
+          "cas_numbers": [
+            "90045-36-6"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "flam_liq_3"
+          ],
+          "ghs_keywords_dict": {
+            "90045-36-6": [
+              "flam_liq_3"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "90045-36-6": [
+              "Flam. Liq. 3 (H226)"
+            ]
+          },
+          "ingredient_order": 5,
+          "may_contain": false,
+          "name": "GINKGO BILOBA",
+          "parsed_from_sds": false,
+          "raw_text": "Ginkgo biloba",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": null,
+          "cas_name": null,
+          "cas_numbers": [],
+          "data_source": null,
+          "ghs_keywords": [],
+          "ghs_keywords_dict": {},
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 6,
+          "may_contain": false,
+          "name": null,
+          "parsed_from_sds": false,
+          "raw_text": "Polygonatum multiflorum",
+          "rcra_dict": {},
+          "score": 0,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": null,
+          "cas_name": null,
+          "cas_numbers": [],
+          "data_source": null,
+          "ghs_keywords": [],
+          "ghs_keywords_dict": {},
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 7,
+          "may_contain": false,
+          "name": null,
+          "parsed_from_sds": false,
+          "raw_text": "Zinc amino acid chelate",
+          "rcra_dict": {},
+          "score": 0,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": null,
+          "cas_name": null,
+          "cas_numbers": [],
+          "data_source": null,
+          "ghs_keywords": [],
+          "ghs_keywords_dict": {},
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 8,
+          "may_contain": false,
+          "name": null,
+          "parsed_from_sds": false,
+          "raw_text": "Phtalogyanine Blue",
+          "rcra_dict": {},
+          "score": 0,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": null,
+          "cas_name": null,
+          "cas_numbers": [],
+          "data_source": null,
+          "ghs_keywords": [],
+          "ghs_keywords_dict": {},
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 9,
+          "may_contain": false,
+          "name": null,
+          "parsed_from_sds": false,
+          "raw_text": "pigment violet",
+          "rcra_dict": {},
+          "score": 0,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "1333-86-4",
+          "cas_name": "CARBON BLACK",
+          "cas_numbers": [
+            "1333-86-4"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "1333-86-4": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 10,
+          "may_contain": false,
+          "name": "CARBON BLACK",
+          "parsed_from_sds": false,
+          "raw_text": "Carbon black",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "56-81-5",
+          "cas_name": "GLYCERIN",
+          "cas_numbers": [
+            "56-81-5"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "56-81-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 11,
+          "may_contain": false,
+          "name": "GLYCERIN",
+          "parsed_from_sds": false,
+          "raw_text": "Glycerin",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "2512-29-0",
+          "cas_name": "PIGMENT YELLOW G",
+          "cas_numbers": [
+            "2512-29-0"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "2512-29-0": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 12,
+          "may_contain": false,
+          "name": "PIGMENT YELLOW G",
+          "parsed_from_sds": false,
+          "raw_text": "pigment yellow G",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "3520-72-7",
+          "cas_name": "PIGMENT ORANGE G",
+          "cas_numbers": [
+            "3520-72-7"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "3520-72-7": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 13,
+          "may_contain": false,
+          "name": "PIGMENT ORANGE G",
+          "parsed_from_sds": false,
+          "raw_text": "pigment orange G",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "6441-77-6",
+          "cas_name": "PHLOXINE",
+          "cas_numbers": [
+            "6441-77-6"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "6441-77-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 14,
+          "may_contain": false,
+          "name": "PHLOXINE",
+          "parsed_from_sds": false,
+          "raw_text": "Phloxine",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": null,
+          "cas_name": "CALCIUM CARBONATE",
+          "cas_numbers": [
+            "1317-65-3",
+            "471-34-1"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "skin_irrit_2",
+            "skin_irrit_2",
+            "eye_dam_1",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "1317-65-3": [
+              "skin_irrit_2"
+            ],
+            "471-34-1": [
+              "skin_irrit_2",
+              "eye_dam_1",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "1317-65-3": [
+              "Skin Irrit. 2 (H315)"
+            ],
+            "471-34-1": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "ingredient_order": 15,
+          "may_contain": false,
+          "name": "CALCIUM CARBONATE",
+          "parsed_from_sds": false,
+          "raw_text": "Calcium carbonate",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "9003-01-4",
+          "cas_name": "ACRYLIC RESIN",
+          "cas_numbers": [
+            "9003-01-4"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "acute_tox_oral_4",
+            "eye_irrit_2a",
+            "stot_se_3_resp",
+            "acute_aq_1",
+            "chron_aq_2"
+          ],
+          "ghs_keywords_dict": {
+            "9003-01-4": [
+              "acute_tox_oral_4",
+              "eye_irrit_2a",
+              "stot_se_3_resp",
+              "acute_aq_1",
+              "chron_aq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9003-01-4": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ]
+          },
+          "ingredient_order": 16,
+          "may_contain": false,
+          "name": "ACRYLIC RESIN",
+          "parsed_from_sds": false,
+          "raw_text": "Acrylic resin",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": null,
+          "cas_name": null,
+          "cas_numbers": [],
+          "data_source": null,
+          "ghs_keywords": [],
+          "ghs_keywords_dict": {},
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 17,
+          "may_contain": false,
+          "name": null,
+          "parsed_from_sds": false,
+          "raw_text": "scarlet powder",
+          "rcra_dict": {},
+          "score": 0,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "9004-62-0",
+          "cas_name": "HYDROXYETHYL CELLULOSE",
+          "cas_numbers": [
+            "9004-62-0"
+          ],
+          "data_source": "cas_master",
+          "ghs_keywords": [
+            "skin_irrit_2",
+            "eye_irrit_2a",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "9004-62-0": [
+              "skin_irrit_2",
+              "eye_irrit_2a",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9004-62-0": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "ingredient_order": 18,
+          "may_contain": false,
+          "name": "HYDROXYETHYL CELLULOSE",
+          "parsed_from_sds": false,
+          "raw_text": "Hydroxyethyl cellulose",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "13463-67-7",
+          "cas_name": "TITANIUM DIOXIDE",
+          "cas_numbers": [
+            "13463-67-7"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "carc_2"
+          ],
+          "ghs_keywords_dict": {
+            "13463-67-7": [
+              "carc_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "13463-67-7": [
+              "Carc. 2 (H351)"
+            ]
+          },
+          "ingredient_order": 19,
+          "may_contain": false,
+          "name": "TITANIUM DIOXIDE",
+          "parsed_from_sds": false,
+          "raw_text": "Titanium Dioxide",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "2150-46-1",
+          "cas_name": "METHYL DIHYDROXYBENZOATE",
+          "cas_numbers": [
+            "2150-46-1"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "skin_sens_1",
+            "eye_irrit_2a",
+            "acute_aq_1"
+          ],
+          "ghs_keywords_dict": {
+            "2150-46-1": [
+              "skin_sens_1",
+              "eye_irrit_2a",
+              "acute_aq_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "2150-46-1": [
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)",
+              "Acute Aq. 1 (H400)"
+            ]
+          },
+          "ingredient_order": 20,
+          "may_contain": false,
+          "name": "METHYL DIHYDROXYBENZOATE",
+          "parsed_from_sds": false,
+          "raw_text": "Methyl 4 hydroxybenzoate",
+          "rcra_dict": {},
+          "score": 92,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "calculated": false,
+          "cas": "7429-90-5",
+          "cas_data_source": null,
+          "cas_name": "Aluminum",
+          "cas_numbers": [
+            "7429-90-5"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Flam. Sol. 1 (H228)",
+            "Pyro. Sol. 1 (H250)",
+            "Water React. Subst. 2 (H261)"
+          ],
+          "ghs_keywords": [
+            "pyro_sol_1",
+            "water_react_2",
+            "flam_sol_1",
+            "water_react_2"
+          ],
+          "ghs_keywords_dict": {
+            "7429-90-5": [
+              "pyro_sol_1",
+              "water_react_2",
+              "flam_sol_1",
+              "water_react_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "7429-90-5": [
+              "Flam. Sol. 1 (H228)",
+              "Pyro. Sol. 1 (H250)",
+              "Water React. Subst. 2 (H261)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Aluminum",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Aluminum",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "5102-83-0",
+          "cas_data_source": null,
+          "cas_name": "Z-6010U",
+          "cas_numbers": [
+            "5102-83-0"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "5102-83-0": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Z-6010U",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Z-6010U",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "57-55-6",
+          "cas_data_source": null,
+          "cas_name": "PPG",
+          "cas_numbers": [
+            "57-55-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "57-55-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "PPG",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "PPG",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "7732-18-5",
+          "cas_data_source": null,
+          "cas_name": "Water",
+          "cas_numbers": [
+            "7732-18-5"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7732-18-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Water",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Water",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "102-71-6",
+          "cas_data_source": null,
+          "cas_name": "Triethanolamine",
+          "cas_numbers": [
+            "102-71-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Eye Irrit. 2A (H319)",
+            "Repr. 2 (H361)"
+          ],
+          "ghs_keywords": [
+            "eye_irrit_2a",
+            "repr_2"
+          ],
+          "ghs_keywords_dict": {
+            "102-71-6": [
+              "eye_irrit_2a",
+              "repr_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "102-71-6": [
+              "Eye Irrit. 2A (H319)",
+              "Repr. 2 (H361)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Triethanolamine",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Triethanolamine",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "10222-01-2",
+          "cas_data_source": null,
+          "cas_name": "Dibromocyanoacetamide",
+          "cas_numbers": [
+            "10222-01-2"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Acute Aq. 1 (H400)",
+            "Chronic Aq. 3 (H412)",
+            "Acute Tox. 3 (oral) (H301)",
+            "Acute Tox. 2 (dermal) (H310)",
+            "Skin Irrit. 2 (H315)",
+            "Skin Sens. 1 (H317)",
+            "Eye Dam. 1 (H318)",
+            "Acute Tox. 2 (inh.) (H330)"
+          ],
+          "ghs_keywords": [
+            "acute_tox_oral_3",
+            "acute_tox_dermal_2",
+            "skin_irrit_2",
+            "skin_sens_1",
+            "eye_dam_1",
+            "acute_tox_inhal_2",
+            "acute_aq_1",
+            "chron_aq_3"
+          ],
+          "ghs_keywords_dict": {
+            "10222-01-2": [
+              "acute_tox_oral_3",
+              "acute_tox_dermal_2",
+              "skin_irrit_2",
+              "skin_sens_1",
+              "eye_dam_1",
+              "acute_tox_inhal_2",
+              "acute_aq_1",
+              "chron_aq_3"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "10222-01-2": [
+              "Acute Tox. 3 (oral) (H301)",
+              "Acute Tox. 2 (dermal) (H310)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 2 (inh.) (H330)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Dibromocyanoacetamide",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Dibromocyanoacetamide",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "112-80-1",
+          "cas_data_source": null,
+          "cas_name": "Oleic Acid",
+          "cas_numbers": [
+            "112-80-1"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Skin Irrit. 2 (H315)",
+            "Eye Irrit. 2A (H319)",
+            "STOT SE 3 (resp. irrit.) (H335)"
+          ],
+          "ghs_keywords": [
+            "skin_irrit_2",
+            "eye_irrit_2a",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "112-80-1": [
+              "skin_irrit_2",
+              "eye_irrit_2a",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "112-80-1": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Oleic Acid",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Oleic Acid",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "18472-87-2",
+          "cas_data_source": null,
+          "cas_name": "Z-6050E",
+          "cas_numbers": [
+            "18472-87-2"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Acute Aq. 1 (H400)",
+            "Chronic Aq. 3 (H412)",
+            "Eye Irrit. 2A (H319)"
+          ],
+          "ghs_keywords": [
+            "eye_irrit_2a",
+            "acute_aq_1",
+            "chron_aq_3"
+          ],
+          "ghs_keywords_dict": {
+            "18472-87-2": [
+              "eye_irrit_2a",
+              "acute_aq_1",
+              "chron_aq_3"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "18472-87-2": [
+              "Eye Irrit. 2A (H319)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Z-6050E",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Z-6050E",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        }
+      ]
     },
-    "mixed ingredients (parsed - ranges=null; manually entered - some are same some are different [test 9] >> no calculated values": {
-      "request": {},
+    "mixed ingredients (parsed - ranges=null; manually entered - some are same some are different [test 9] >> all manually entered should have calculated values, other should have parsed values": {
+      "request": {
+        "ingredient_text_input": "Starch, Water, Cellulose, Lactic Acid, Caffeine, Lemon Fruit Extract, Menthol",
+        "sds_ingredients": [
+          {
+            "name": "Water",
+            "cas": "7732-18-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Betaine",
+            "cas": "107-43-7",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Allantoin",
+            "cas": "97-59-6",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Lactic Acid",
+            "cas": "50-21-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": null,
+            "user_enter_cas": null,
+            "no_cas_found": null,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Lemon Fruit Extract",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Lemon Peel Oil",
+            "cas": "8020-19-7",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Glycyrrhetinic Acid",
+            "cas": "471-53-4",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Sodium Dodecylbenzenesulfonate",
+            "cas": "25155-30-0",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Urea",
+            "cas": "57-13-6",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Glycerin",
+            "cas": "56-81-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Aloe Extract",
+            "cas": "84837-08-1",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 2 (H225)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Menthol",
+            "cas": "2216-51-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": null,
+            "user_enter_cas": null,
+            "no_cas_found": null,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Alcohol Denat.",
+            "cas": "64-17-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 2 (H225)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Glycolic Acid",
+            "cas": "79-14-1",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Corr. 1B (H314)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "Repr. 1B (H360)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Isopropyl Alcohol",
+            "cas": "67-63-0",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 2 (H225)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (narcotic) (H336)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Lemon oil",
+            "cas": "84929-31-7",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)",
+              "Flam. Liq. 3 (H226)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Sodium Citrate",
+            "cas": "994-36-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Lavender Oil",
+            "cas": "8000-28-0",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          }
+        ]
+      },
       "responseCode": 200,
-      "response": {}
+      "response": [
+        {
+          "cas": "9005-25-8",
+          "cas_name": "STARCH",
+          "cas_numbers": [
+            "9005-25-8"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": [
+            "eye_irrit_2b",
+            "acute_tox_inhal_4",
+            "stot_se_3_resp"
+          ],
+          "ghs_keywords_dict": {
+            "9005-25-8": [
+              "eye_irrit_2b",
+              "acute_tox_inhal_4",
+              "stot_se_3_resp"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "9005-25-8": [
+              "Eye Irrit. 2B (H320)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ]
+          },
+          "ingredient_order": 1,
+          "may_contain": false,
+          "name": "STARCH",
+          "parsed_from_sds": false,
+          "raw_text": "Starch",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "7732-18-5",
+          "cas_name": "WATER",
+          "cas_numbers": [
+            "7732-18-5"
+          ],
+          "data_source": "hcpa",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "7732-18-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 2,
+          "may_contain": false,
+          "name": "WATER",
+          "parsed_from_sds": true,
+          "raw_text": "Water",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "9004-34-6",
+          "cas_name": "CELLULOSE",
+          "cas_numbers": [
+            "9004-34-6"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "9004-34-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 3,
+          "may_contain": false,
+          "name": "CELLULOSE",
+          "parsed_from_sds": false,
+          "raw_text": "Cellulose",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": "50-21-5",
+          "cas_name": "LACTIC ACID",
+          "cas_numbers": [
+            "50-21-5"
+          ],
+          "data_source": "sds",
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "50-21-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 4,
+          "may_contain": false,
+          "name": "LACTIC ACID",
+          "parsed_from_sds": true,
+          "raw_text": "Lactic Acid",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "58-08-2",
+          "cas_name": "CAFFEINE",
+          "cas_numbers": [
+            "58-08-2"
+          ],
+          "data_source": "inci",
+          "ghs_keywords": [
+            "acute_tox_oral_4"
+          ],
+          "ghs_keywords_dict": {
+            "58-08-2": [
+              "acute_tox_oral_4"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "58-08-2": [
+              "Acute Tox. 4 (oral) (H302)"
+            ]
+          },
+          "ingredient_order": 5,
+          "may_contain": false,
+          "name": "CAFFEINE",
+          "parsed_from_sds": false,
+          "raw_text": "Caffeine",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": true,
+          "weight_max": 1.0,
+          "weight_min": 0.0,
+          "weight_source": "calculated"
+        },
+        {
+          "cas": null,
+          "cas_name": null,
+          "cas_numbers": [],
+          "data_source": "sds",
+          "ghs_keywords": [],
+          "ghs_keywords_dict": {},
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "ingredient_order": 6,
+          "may_contain": false,
+          "name": null,
+          "parsed_from_sds": true,
+          "raw_text": "Lemon Fruit Extract",
+          "rcra_dict": {},
+          "score": 0,
+          "user_entered": false,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "cas": "2216-51-5",
+          "cas_name": "MENTHOL",
+          "cas_numbers": [
+            "2216-51-5"
+          ],
+          "data_source": "sds",
+          "ghs_keywords": [
+            "skin_irrit_2",
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "2216-51-5": [
+              "skin_irrit_2",
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "2216-51-5": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "ingredient_order": 7,
+          "may_contain": false,
+          "name": "MENTHOL",
+          "parsed_from_sds": true,
+          "raw_text": "Menthol",
+          "rcra_dict": {},
+          "score": 100,
+          "user_entered": false,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "56-81-5",
+          "cas_data_source": null,
+          "cas_name": "Glycerin",
+          "cas_numbers": [
+            "56-81-5"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "56-81-5": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Glycerin",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Glycerin",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "79-14-1",
+          "cas_data_source": null,
+          "cas_name": "Glycolic Acid",
+          "cas_numbers": [
+            "79-14-1"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Skin Corr. 1B (H314)",
+            "Eye Dam. 1 (H318)",
+            "Acute Tox. 4 (inh.) (H332)",
+            "Repr. 1B (H360)"
+          ],
+          "ghs_keywords": [
+            "skin_corr_1b",
+            "eye_dam_1",
+            "acute_tox_inhal_4",
+            "repr_1b"
+          ],
+          "ghs_keywords_dict": {
+            "79-14-1": [
+              "skin_corr_1b",
+              "eye_dam_1",
+              "acute_tox_inhal_4",
+              "repr_1b"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "79-14-1": [
+              "Skin Corr. 1B (H314)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "Repr. 1B (H360)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Glycolic Acid",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Glycolic Acid",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "84929-31-7",
+          "cas_data_source": null,
+          "cas_name": "Lemon oil",
+          "cas_numbers": [
+            "84929-31-7"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Acute Aq. 1 (H400)",
+            "Chronic Aq. 1 (H410)",
+            "Flam. Liq. 3 (H226)",
+            "Skin Irrit. 2 (H315)",
+            "Skin Sens. 1 (H317)"
+          ],
+          "ghs_keywords": [
+            "flam_liq_3",
+            "acute_tox_oral_1",
+            "asp_haz_1",
+            "skin_irrit_2",
+            "skin_sens_1",
+            "acute_aq_1",
+            "chron_aq_1"
+          ],
+          "ghs_keywords_dict": {
+            "84929-31-7": [
+              "flam_liq_3",
+              "acute_tox_oral_1",
+              "asp_haz_1",
+              "skin_irrit_2",
+              "skin_sens_1",
+              "acute_aq_1",
+              "chron_aq_1"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "84929-31-7": [
+              "Flam. Liq. 3 (H226)",
+              "Acute Tox. 1 (oral) (H300)",
+              "Asp. Haz. 1 (H304)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Lemon oil",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Lemon oil",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "8000-28-0",
+          "cas_data_source": null,
+          "cas_name": "Lavender Oil",
+          "cas_numbers": [
+            "8000-28-0"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Chronic Aq. 3 (H412)",
+            "Skin Irrit. 2 (H315)",
+            "Skin Sens. 1 (H317)",
+            "Eye Irrit. 2A (H319)"
+          ],
+          "ghs_keywords": [
+            "acute_tox_oral_1",
+            "asp_haz_1",
+            "skin_irrit_2",
+            "skin_sens_1",
+            "eye_irrit_2a",
+            "acute_aq_1",
+            "chron_aq_3"
+          ],
+          "ghs_keywords_dict": {
+            "8000-28-0": [
+              "acute_tox_oral_1",
+              "asp_haz_1",
+              "skin_irrit_2",
+              "skin_sens_1",
+              "eye_irrit_2a",
+              "acute_aq_1",
+              "chron_aq_3"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "8000-28-0": [
+              "Acute Tox. 1 (oral) (H300)",
+              "Asp. Haz. 1 (H304)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Lavender Oil",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Lavender Oil",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "107-43-7",
+          "cas_data_source": null,
+          "cas_name": "Betaine",
+          "cas_numbers": [
+            "107-43-7"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "107-43-7": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Betaine",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Betaine",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "84837-08-1",
+          "cas_data_source": null,
+          "cas_name": "Aloe Extract",
+          "cas_numbers": [
+            "84837-08-1"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Flam. Liq. 2 (H225)"
+          ],
+          "ghs_keywords": [
+            "flam_liq_2"
+          ],
+          "ghs_keywords_dict": {
+            "84837-08-1": [
+              "flam_liq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "84837-08-1": [
+              "Flam. Liq. 2 (H225)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Aloe Extract",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Aloe Extract",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "471-53-4",
+          "cas_data_source": null,
+          "cas_name": "Glycyrrhetinic Acid",
+          "cas_numbers": [
+            "471-53-4"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "471-53-4": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Glycyrrhetinic Acid",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Glycyrrhetinic Acid",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "64-17-5",
+          "cas_data_source": null,
+          "cas_name": "Alcohol Denat.",
+          "cas_numbers": [
+            "64-17-5"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Flam. Liq. 2 (H225)"
+          ],
+          "ghs_keywords": [
+            "flam_liq_2"
+          ],
+          "ghs_keywords_dict": {
+            "64-17-5": [
+              "flam_liq_2"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "64-17-5": [
+              "Flam. Liq. 2 (H225)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Alcohol Denat.",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Alcohol Denat.",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "994-36-5",
+          "cas_data_source": null,
+          "cas_name": "Sodium Citrate",
+          "cas_numbers": [
+            "994-36-5"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Eye Irrit. 2A (H319)"
+          ],
+          "ghs_keywords": [
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "994-36-5": [
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "994-36-5": [
+              "Eye Irrit. 2A (H319)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Sodium Citrate",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Sodium Citrate",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "67-63-0",
+          "cas_data_source": null,
+          "cas_name": "Isopropyl Alcohol",
+          "cas_numbers": [
+            "67-63-0"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [
+            "Flam. Liq. 2 (H225)",
+            "Eye Irrit. 2A (H319)",
+            "STOT SE 3 (narcotic) (H336)"
+          ],
+          "ghs_keywords": [
+            "flam_liq_2",
+            "stot_se_3_narc",
+            "eye_irrit_2a"
+          ],
+          "ghs_keywords_dict": {
+            "67-63-0": [
+              "flam_liq_2",
+              "stot_se_3_narc",
+              "eye_irrit_2a"
+            ]
+          },
+          "ghs_or_rcra_flag": true,
+          "ghs_readable_dict": {
+            "67-63-0": [
+              "Flam. Liq. 2 (H225)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (narcotic) (H336)"
+            ]
+          },
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Isopropyl Alcohol",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Isopropyl Alcohol",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "57-13-6",
+          "cas_data_source": null,
+          "cas_name": "Urea",
+          "cas_numbers": [
+            "57-13-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "57-13-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Urea",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Urea",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "8020-19-7",
+          "cas_data_source": null,
+          "cas_name": "Lemon Peel Oil",
+          "cas_numbers": [
+            "8020-19-7"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "8020-19-7": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Lemon Peel Oil",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Lemon Peel Oil",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "25155-30-0",
+          "cas_data_source": null,
+          "cas_name": "Sodium Dodecylbenzenesulfonate",
+          "cas_numbers": [
+            "25155-30-0"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "25155-30-0": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Sodium Dodecylbenzenesulfonate",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Sodium Dodecylbenzenesulfonate",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        },
+        {
+          "calculated": false,
+          "cas": "97-59-6",
+          "cas_data_source": null,
+          "cas_name": "Allantoin",
+          "cas_numbers": [
+            "97-59-6"
+          ],
+          "cas_publicly_disclosed": true,
+          "data_source": "sds",
+          "ghs": [],
+          "ghs_keywords": null,
+          "ghs_keywords_dict": {
+            "97-59-6": null
+          },
+          "ghs_or_rcra_flag": false,
+          "ghs_readable_dict": {},
+          "hide_selected_cas": false,
+          "ingredient_order": null,
+          "ingredient_publicly_disclosed": true,
+          "may_contain": null,
+          "name": "Allantoin",
+          "no_cas_found": false,
+          "parsed_from_sds": true,
+          "range_publicly_disclosed": true,
+          "raw_text": "Allantoin",
+          "rcra": [],
+          "rcra_dict": {},
+          "score": 100,
+          "undisclosed": false,
+          "user_enter_cas": false,
+          "user_entered": false,
+          "weight_exact": null,
+          "weight_max": null,
+          "weight_min": null,
+          "weight_source": null
+        }
+      ]
     }
   }
 }
