@@ -1,7 +1,919 @@
 {
   "uri": "/flashpoint/predict",
   "variants": {
-    "liquid": {
+    "liquid [calculated 8.04]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Ethyl Acetate",
+            "cas": "141-78-6",
+            "weight_min": 10,
+            "weight_max": 40,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 2 (H225)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (narcotic) (H336)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Nitrocellulose",
+            "cas": "9004-70-0",
+            "weight_min": 5,
+            "weight_max": 20,
+            "weight_exact": null,
+            "ghs": [
+              "Explo. 1.1 (H201)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Diacetone Alcohol",
+            "cas": "123-42-2",
+            "weight_min": 1,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Alcohol [USP]",
+            "cas": "64-17-5",
+            "weight_min": 0.01,
+            "weight_max": 0.01,
+            "data_source": "sds_section_3"
+          },
+          {
+            "name": "Methane",
+            "cas": "74-82-8",
+            "weight_min": 1,
+            "weight_max": null,
+            "data_source": "sds_section_3"
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 58.98116305635237,
+              "predicted_flashpoint_fahrenheit": 8.035710054982498,
+              "upper_95_fahrenheit": 192.67537789266095
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 58.98116305635237,
+              "predicted_flashpoint_fahrenheit": 8.035710054982498,
+              "upper_95_fahrenheit": 192.67537789266095
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 12.95]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Titanium dioxide",
+            "cas": "13463-67-7",
+            "weight_min": 30,
+            "weight_max": 60,
+            "weight_exact": null,
+            "ghs": [
+              "Carc. 2 (H351)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Naphtha, petroleum, hydrotreated light Products 1-3:",
+            "cas": "64742-49-0",
+            "weight_min": 0.01,
+            "weight_max": 0.01,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)",
+              "Flam. Liq. 2 (H225)",
+              "Skin Irrit. 2 (H315)",
+              "STOT SE 3 (narcotic) (H336)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Naphtha (petroleum), light alkylate",
+            "cas": "64741-66-8",
+            "weight_min": 0.01,
+            "weight_max": 0.01,
+            "weight_exact": null,
+            "ghs": [
+              "Asp. Haz. 1 (H304)",
+              "Muta. 1B (H340)",
+              "Carc. 1B (H350)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 12.882398237290618,
+              "predicted_flashpoint_fahrenheit": 12.94533119751474,
+              "upper_95_fahrenheit": 191.1179903230288
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 12.882398237290618,
+              "predicted_flashpoint_fahrenheit": 12.94533119751474,
+              "upper_95_fahrenheit": 191.1179903230288
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 30.47]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Styrene/Acrylates Copolymer",
+            "cas": "27306-39-4",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Tocopheryl Acetate",
+            "cas": "7695-91-2",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "CI 77492",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Polyurethane-11",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Borosilicate",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Glycidyl Neodecanoate/Phthalic Anhydride/TMP Crosspolymer",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Polyurethane-33",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Acrylates/Dimethicone Copolymer",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Cetyl PEG/PPG-10/1 Dimethicone",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Macrocystis",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Pyrifera (Kelp) Extract",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Iron Oxides (CI 77491",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Red 7 Lake (CI 15850)",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Synthetic Fluorphlogopite",
+            "cas": "12003-38-2",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Isosorbide Dicaprylate/Caprate",
+            "cas": "1215036-04-6",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Etocrylene",
+            "cas": "5232-99-5",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Stearalkonium Bentonite",
+            "cas": "130501-87-0",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Aqua/Water/Eau",
+            "cas": "7732-18-5",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Carthamus Tinctorius (Safflower) Seed Oil",
+            "cas": "8001-23-8",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Butylene Glycol",
+            "cas": "107-88-0",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Hydrolyzed Conchiolin Protein",
+            "cas": "169590-57-2",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Yellow 5 Lake (CI 19140)",
+            "cas": "12225-21-7",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Polyethylene Terephthalate",
+            "cas": "25038-59-9",
+            "weight_min": 0,
+            "weight_max": 25,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Adipic Acid/Neopentyl Glycol/Trimellitic Anhydride Copolymer",
+            "cas": "28407-73-0",
+            "weight_min": 2.5,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Silica",
+            "cas": "7631-86-9",
+            "weight_min": 0,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Acetyl Tributyl Citrate",
+            "cas": "77-90-7",
+            "weight_min": 0,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Black 2 [Nano] (CI 77266)",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Violet 2 (CI 60725)].\"",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "n-Butyl Alcohol",
+            "cas": "71-36-3",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 3 (H226)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "STOT SE 3 (narcotic) (H336)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Dimethicone",
+            "cas": "63148-62-9",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Trimethylsiloxysilicate",
+            "cas": "68988-56-7",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 3 (H226)",
+              "Eye Irrit. 2A (H319)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "CI 77499)",
+            "cas": "1309-37-1",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": null,
+            "user_enter_cas": null,
+            "no_cas_found": null
+          },
+          {
+            "name": "Calcium",
+            "cas": "7440-70-2",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Water React. Subst. 2 (H261)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Triphenyl Phosphate",
+            "cas": "115-86-6",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Diacetone Alcohol",
+            "cas": "123-42-2",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Kaolin",
+            "cas": "1332-58-7",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Methylparaben",
+            "cas": "99-76-3",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Phosphoric Acid",
+            "cas": "7664-38-2",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Corr. 1B (H314)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Ethyl Acetate",
+            "cas": "141-78-6",
+            "weight_min": 25,
+            "weight_max": 50,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 2 (H225)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (narcotic) (H336)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Butyl Acetate",
+            "cas": "123-86-4",
+            "weight_min": 20,
+            "weight_max": 25,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 3 (H226)",
+              "STOT SE 3 (narcotic) (H336)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Nitrocellulose",
+            "cas": "9004-70-0",
+            "weight_min": 10,
+            "weight_max": 25,
+            "weight_exact": null,
+            "ghs": [
+              "Explo. 1.1 (H201)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Isopropyl Alcohol",
+            "cas": "67-63-0",
+            "weight_min": 2.5,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 2 (H225)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (narcotic) (H336)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Aluminum Powder (CI 77000)",
+            "cas": "7429-90-5",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Sol. 1 (H228)",
+              "Pyro. Sol. 1 (H250)",
+              "Water React. Subst. 2 (H261)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Ferric Ammonium Ferrocyanide (CI 77510)",
+            "cas": "25869-00-5",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 4 (H413)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 25.086461780574233,
+              "predicted_flashpoint_fahrenheit": 30.471627858670637,
+              "upper_95_fahrenheit": 1487.1034082681167
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 25.086461780574233,
+              "predicted_flashpoint_fahrenheit": 30.471627858670637,
+              "upper_95_fahrenheit": 1487.1034082681167
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 60.10]": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -9,7 +921,9 @@
             "cas": "64-17-5",
             "weight_min": 24,
             "weight_max": 24,
-            "ghs": ["Flam. Liq. 2 (H225)"],
+            "ghs": [
+              "Flam. Liq. 2 (H225)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -20,7 +934,10 @@
             "cas": "94-09-7",
             "weight_min": 20,
             "weight_max": 20,
-            "ghs": ["Skin Sens. 1 (H317)", "STOT SE 1 (H370)"],
+            "ghs": [
+              "Skin Sens. 1 (H317)",
+              "STOT SE 1 (H370)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -42,7 +959,9 @@
             "cas": "1401-55-4",
             "weight_min": 6.8,
             "weight_max": 6.8,
-            "ghs": ["Eye Irrit. 2A (H319)"],
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -53,7 +972,10 @@
             "cas": "100-51-6",
             "weight_min": 3.9,
             "weight_max": 3.9,
-            "ghs": ["Acute Tox. 4 (inh.) (H332)", "Acute Tox. 4 (oral) (H302)"],
+            "ghs": [
+              "Acute Tox. 4 (inh.) (H332)",
+              "Acute Tox. 4 (oral) (H302)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -90,14 +1012,15 @@
             "cas": "1310-73-2",
             "weight_min": null,
             "weight_max": 15,
-            "ghs": ["Skin Corr. 1A (H314)"],
+            "ghs": [
+              "Skin Corr. 1A (H314)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": true,
             "parsed_from_sds": false
           }
         ],
-
         "form": "liquid"
       },
       "responseCode": 200,
@@ -107,22 +1030,2716 @@
             "catalog_attribute": "flashpoint",
             "confidence": 0.1,
             "normalized_value": {
-              "lower_95_fahrenheit": 161.44529176388522,
-              "predicted_flashpoint_fahrenheit": 75.0034407206252,
-              "upper_95_fahrenheit": 676.2975274814568
+              "lower_95_fahrenheit": 75.68575499246363,
+              "predicted_flashpoint_fahrenheit": 60.09608206428831,
+              "upper_95_fahrenheit": 242.74133611737508
             },
             "raw_value": {
-              "lower_95_fahrenheit": 161.44529176388522,
-              "predicted_flashpoint_fahrenheit": 75.0034407206252,
-              "upper_95_fahrenheit": 676.2975274814568
+              "lower_95_fahrenheit": 75.68575499246363,
+              "predicted_flashpoint_fahrenheit": 60.09608206428831,
+              "upper_95_fahrenheit": 242.74133611737508
             },
             "successful_result": true
           }
         ]
       }
     },
-
-    "gas": {
+    "liquid [calculated 72.29]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Ethanol",
+            "cas": "64-17-5",
+            "weight_min": 50,
+            "weight_max": 70,
+            "ghs": [
+              "Flam. Liq. 2 (H225)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": false,
+            "parsed_from_sds": true
+          },
+          {
+            "name": "Isopropyl Alcohol",
+            "cas": "67-63-0",
+            "weight_min": 1,
+            "weight_max": 5,
+            "ghs": [
+              "Flam. Liq. 2 (H225)",
+              "STOT SE 3 (narcotic) (H336)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": false,
+            "parsed_from_sds": true
+          },
+          {
+            "name": "Water (Aqua)",
+            "cas": "7732-18-5",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": false,
+            "parsed_from_sds": true
+          },
+          {
+            "name": "Dimethyl Siloxane,",
+            "cas": "102783-01-7",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": false,
+            "parsed_from_sds": true
+          },
+          {
+            "name": "Copper Gluconate",
+            "cas": "527-09-3",
+            "weight_min": 1,
+            "weight_max": 5,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Sens. 1B (H317)",
+              "STOT RE 2 (H373)",
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Diisopropyl Sebacate",
+            "cas": "7491-02-3",
+            "weight_min": null,
+            "weight_max": null,
+            "ghs": null,
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "PEG/PPG-20/6 Dimethicone",
+            "cas": "68937-55-3",
+            "weight_min": 1,
+            "weight_max": 5,
+            "ghs": [
+              "Chronic Aq. 4 (H413)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate",
+            "cas": "6683-19-8",
+            "weight_min": 1,
+            "weight_max": 5,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Chronic Aq. 3 (H412)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          },
+          {
+            "name": "Polyquaternium-37",
+            "cas": "26161-33-1",
+            "weight_min": 1,
+            "weight_max": 5,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)"
+            ],
+            "rcra": null,
+            "id": null,
+            "user_entered": true,
+            "parsed_from_sds": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 78.08348877975772,
+              "predicted_flashpoint_fahrenheit": 72.29240446786514,
+              "upper_95_fahrenheit": 84.15083245322144
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 78.08348877975772,
+              "predicted_flashpoint_fahrenheit": 72.29240446786514,
+              "upper_95_fahrenheit": 84.15083245322144
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 90.82]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "WATER",
+            "cas": "7732-18-5",
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "PEG-4 RAPESEEDAMIDE",
+            "cas": "85536-23-8",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": 8.13,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "PROPYLENE GLYCOL",
+            "cas": "57-55-6",
+            "weight_min": 0,
+            "weight_max": 6.93,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "DIPROPYLENE GLYCOL",
+            "cas": "25265-71-8",
+            "weight_min": 0,
+            "weight_max": 3,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "OLEYL ALCOHOL",
+            "cas": "68002-94-8",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": 1.1,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "FRAGRANCE",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 1.1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": true
+          },
+          {
+            "name": "AMMONIUM THIOLACTATE",
+            "cas": "13419-67-5",
+            "weight_min": 0,
+            "weight_max": 0.9,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "ERYTHORBIC ACID",
+            "cas": "89-65-6",
+            "weight_min": 0,
+            "weight_max": 0.9,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "ALCOHOL DENAT.",
+            "cas": "64-17-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": 8.19,
+            "ghs": [
+              "Flam. Liq. 2 (H225)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "GLYCERYL LAURYL ETHER",
+            "cas": "9022-75-7",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": 7,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)",
+              "Skin Corr. 1C (H314)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "DECETH-3",
+            "cas": "66455-15-0",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": 6.93,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "ETHANOLAMINE",
+            "cas": "141-43-5",
+            "weight_min": null,
+            "weight_max": 6,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Corr. 1B (H314)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "AMMONIUM HYDROXIDE",
+            "cas": "1336-21-6",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Skin Corr. 1B (H314)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "LAURETH-5 CARBOXYLIC ACID",
+            "cas": "27306-90-7",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": 4.5,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "HEXYLENE GLYCOL",
+            "cas": "107-41-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": 3,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "POLOXAMER 338",
+            "cas": "9003-11-6",
+            "weight_min": 0,
+            "weight_max": 3,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "1-HYDROXYETHYL 4,5-DIAMINO PYRAZOLE SULFATE",
+            "cas": "155601-30-2",
+            "weight_min": null,
+            "weight_max": 0.9,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "1-NAPHTHOL",
+            "cas": "90-15-3",
+            "weight_min": null,
+            "weight_max": 0.9,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "HYDROXYETHOXY AMINOPYRAZOLOPYRIDINE HCL",
+            "cas": "1079221-49-0",
+            "weight_min": 0,
+            "weight_max": 0.9,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Sens. 1B (H317)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "EDTA",
+            "cas": "60-00-4",
+            "weight_min": 0,
+            "weight_max": 0.9,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 71.84209062771815,
+              "predicted_flashpoint_fahrenheit": 90.82140447906764,
+              "upper_95_fahrenheit": 457.75351956032796
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 71.84209062771815,
+              "predicted_flashpoint_fahrenheit": 90.82140447906764,
+              "upper_95_fahrenheit": 457.75351956032796
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 136.80]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Propyleneimine",
+            "cas": "75-55-8",
+            "weight_min": null,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": null,
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Ethanol, 2,2'-iminobis-, N-tallow alkyl derivs.",
+            "cas": "61791-44-4",
+            "weight_min": null,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": null,
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 120.2897727895278,
+              "predicted_flashpoint_fahrenheit": 136.79248905448213,
+              "upper_95_fahrenheit": 320.49018236201476
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 120.2897727895278,
+              "predicted_flashpoint_fahrenheit": 136.79248905448213,
+              "upper_95_fahrenheit": 320.49018236201476
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 158.96]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Paraffin",
+            "cas": "8002-74-2",
+            "weight_min": null,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": null,
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Ethanol, 2,2'-iminobis-, N-tallow alkyl derivs.",
+            "cas": "61791-44-4",
+            "weight_min": null,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": null,
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 103.5160605374601,
+              "predicted_flashpoint_fahrenheit": 158.9637078300693,
+              "upper_95_fahrenheit": 296.9431828311229
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 103.5160605374601,
+              "predicted_flashpoint_fahrenheit": 158.9637078300693,
+              "upper_95_fahrenheit": 296.9431828311229
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 174.46]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Aqua",
+            "cas": "7732-18-5",
+            "weight_min": 5,
+            "weight_max": 6,
+            "data_source": "sds_section_3"
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 105.58852186010536,
+              "predicted_flashpoint_fahrenheit": 174.45649183266335,
+              "upper_95_fahrenheit": 224.39039715268524
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 105.58852186010536,
+              "predicted_flashpoint_fahrenheit": 174.45649183266335,
+              "upper_95_fahrenheit": 224.39039715268524
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 199.00]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "SODIUM LAUROYL GLUTAMATE",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "SODIUM LAUROYL GLYCINATE",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "FRAGRANCE (PARFUM)",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "WATER (AQUA)",
+            "cas": "7732-18-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "GLYCERIN",
+            "cas": "56-81-5",
+            "weight_min": 0,
+            "weight_max": 3,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "SODIUM CHLORIDE",
+            "cas": "7647-14-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "POLYSORBATE 20",
+            "cas": "9005-64-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "STEARIC ACID",
+            "cas": "57-11-4",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "CITRIC ACID",
+            "cas": "5949-29-1",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "COCAMIDOPROPYL BETAINE",
+            "cas": "61789-40-0",
+            "weight_min": 0,
+            "weight_max": 0.01,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "LAURIC ACID",
+            "cas": "143-07-7",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Lauroyl Isethionate",
+            "cas": "7381-01-3",
+            "weight_min": 0,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Methyl Lauroyl Taurate",
+            "cas": "4337-75-1",
+            "weight_min": 0,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "SODIUM LAURATE",
+            "cas": "629-25-4",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "PHENOXYETHANOL",
+            "cas": "122-99-6",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "PPG-9",
+            "cas": "25322-69-4",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "TETRASODIUM EDTA",
+            "cas": "64-02-8",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "IODOPROPYNYL BUTYLCARBAMATE",
+            "cas": "55406-53-6",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 3 (inh.) (H331)",
+              "STOT RE 1 (H372)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 144.1772863598586,
+              "predicted_flashpoint_fahrenheit": 199.00242607682108,
+              "upper_95_fahrenheit": 231.29106953086563
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 144.1772863598586,
+              "predicted_flashpoint_fahrenheit": 199.00242607682108,
+              "upper_95_fahrenheit": 231.29106953086563
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 201.00]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Hydrolyzed Elastin",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": true,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Hydrolyzed Wheat Protein",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": true,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Caulerpa Lentillifera Extract",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Fragrance (Parfum)",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Peg-6 Caprylic/Capric Glycerides",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Peg-150 Pentaerythrityl Tetrastearate",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Ppg-2 Hydroxyethyl Cocamide",
+            "cas": null,
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Water (Aqua)",
+            "cas": "7732-18-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Glycol Distearate",
+            "cas": "627-83-8",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Chloride",
+            "cas": "7647-14-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Hydrolyzed Keratin",
+            "cas": "69430-36-0",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Cocos Nucifera (Coconut) Oil",
+            "cas": "8001-31-8",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Gluconolactone",
+            "cas": "90-80-2",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Glycerin",
+            "cas": "56-81-5",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Sulfate",
+            "cas": "7757-82-6",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Trehalose",
+            "cas": "99-20-7",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Laureth Sulfate",
+            "cas": "68585-34-2",
+            "weight_min": 0,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Cocamidopropyl Betaine",
+            "cas": "61789-40-0",
+            "weight_min": 0,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Polyquaternium-10",
+            "cas": "81859-24-7",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Citric Acid",
+            "cas": "5949-29-1",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Disodium Edta",
+            "cas": "6381-92-6",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (dermal) (H312)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "STOT RE 2 (H373)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Cocamide Mea",
+            "cas": "68140-00-1",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Methylchloroisothiazolinone",
+            "cas": "26172-55-4",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)",
+              "Acute Tox. 3 (oral) (H301)",
+              "Acute Tox. 3 (dermal) (H311)",
+              "Skin Corr. 1B (H314)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 2 (inh.) (H330)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Methylisothiazolinone",
+            "cas": "2682-20-4",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)",
+              "Acute Tox. 3 (oral) (H301)",
+              "Acute Tox. 3 (dermal) (H311)",
+              "Skin Corr. 1B (H314)",
+              "Skin Sens. 1A (H317)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 2 (inh.) (H330)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Dmdm Hydantoin",
+            "cas": "6440-58-0",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Benzoate",
+            "cas": "532-32-1",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Ppg-9",
+            "cas": "25322-69-4",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 199.63134206245914,
+              "predicted_flashpoint_fahrenheit": 201.00455402792977,
+              "upper_95_fahrenheit": 1625.489599550739
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 199.63134206245914,
+              "predicted_flashpoint_fahrenheit": 201.00455402792977,
+              "upper_95_fahrenheit": 1625.489599550739
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 214.29]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Water (Aqua)",
+            "cas": "7732-18-5",
+            "weight_min": null,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Laureth Sulfate",
+            "cas": "68891-38-3",
+            "weight_min": null,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Cocamidopropyl Betaine",
+            "cas": "83138-08-3",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Glycerin",
+            "cas": "56-81-5",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Carbomer",
+            "cas": "9062-04-8",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Laureth-9",
+            "cas": "68002-97-1",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Silk Powder (Serica)",
+            "cas": "9009-99-8",
+            "weight_min": null,
+            "weight_max": 0.01,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Hydrolyzed Soy Protein",
+            "cas": "68607-88-5",
+            "weight_min": null,
+            "weight_max": 0.01,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Hydrolyzed Keratin",
+            "cas": "69430-36-0",
+            "weight_min": null,
+            "weight_max": 0.01,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Camellia Japonica Seed Oil",
+            "cas": "223748-13-8",
+            "weight_min": null,
+            "weight_max": 0.1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "PEG-45M",
+            "cas": "25322-68-3",
+            "weight_min": null,
+            "weight_max": 0.1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Magnesium Chloride",
+            "cas": "7791-18-6",
+            "weight_min": null,
+            "weight_max": 0.1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Magnesium Chloride",
+            "cas": "7786-30-3",
+            "weight_min": null,
+            "weight_max": 0.1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Carbomer",
+            "cas": "9007-16-3",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Hydrolyzed Keratin",
+            "cas": "73049-73-7",
+            "weight_min": null,
+            "weight_max": 0.01,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Carbomer",
+            "cas": "76050-42-5",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Lauryl Sulfate",
+            "cas": "73296-89-6",
+            "weight_min": null,
+            "weight_max": 25,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Carbomer",
+            "cas": "9007-17-4",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Fragrance (Parfum)",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": true
+          },
+          {
+            "name": "C11-15 Pareth-7",
+            "cas": "173244-48-9",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Lauryl Sulfate",
+            "cas": "85586-07-8",
+            "weight_min": null,
+            "weight_max": 25,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Flam. Sol. 1 (H228)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Dimethiconol",
+            "cas": "70131-67-8",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Ammonium Chloride",
+            "cas": "12125-02-9",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Cocamide MEA",
+            "cas": "68140-00-1",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Amodimethicone",
+            "cas": "71750-79-3",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "Acute Tox. 2 (inh.) (H330)",
+              "STOT SE 2 (H371)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Trideceth-12",
+            "cas": "78330-21-9",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Guar Hydroxypropyltrimonium Chloride",
+            "cas": "65497-29-2",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "Resp. Sens. 1 (H334)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "PPG-9",
+            "cas": "25322-69-4",
+            "weight_min": null,
+            "weight_max": 0.01,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Acute Tox. 4 (inh.) (H332)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "TEA-Dodecylbenzenesulfonate",
+            "cas": "90194-42-6",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "DMDM Hydantoin",
+            "cas": "6440-58-0",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Methylchloroisothiazolinone",
+            "cas": "26172-55-4",
+            "weight_min": null,
+            "weight_max": 0.1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)",
+              "Acute Tox. 3 (oral) (H301)",
+              "Acute Tox. 3 (dermal) (H311)",
+              "Skin Corr. 1B (H314)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 2 (inh.) (H330)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Methylisothiazolinone",
+            "cas": "2682-20-4",
+            "weight_min": null,
+            "weight_max": 0.1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)",
+              "Acute Tox. 3 (oral) (H301)",
+              "Acute Tox. 3 (dermal) (H311)",
+              "Skin Corr. 1B (H314)",
+              "Skin Sens. 1A (H317)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 2 (inh.) (H330)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Mica (CI 77019)",
+            "cas": "12001-26-2",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)",
+              "STOT RE 1 (H372)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Titanium Dioxide (CI 77891)",
+            "cas": "13463-67-7",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Carc. 2 (H351)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Lauryl Sulfate",
+            "cas": "151-21-3",
+            "weight_min": null,
+            "weight_max": 25,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Flam. Sol. 2 (H228)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Hydroxide",
+            "cas": "1310-73-2",
+            "weight_min": null,
+            "weight_max": 0.1,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Corr. 1A (H314)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Laureth Sulfate",
+            "cas": "3088-31-1",
+            "weight_min": null,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Laureth-9",
+            "cas": "68439-50-9",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Cocamidopropyl Betaine",
+            "cas": "61789-40-0",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Amodimethicone",
+            "cas": "68554-54-1",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 1 (H410)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Cocamidopropyl Betaine",
+            "cas": "97862-59-4",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "TEA-Dodecylbenzenesulfonate",
+            "cas": "27323-41-7",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Lauryl Sulfate",
+            "cas": "68955-19-1",
+            "weight_min": null,
+            "weight_max": 25,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Flam. Sol. 2 (H228)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Carbomer",
+            "cas": "9003-01-4",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Irrit. 2A (H319)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Laureth-9",
+            "cas": "3055-99-0",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 3 (H412)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Laureth-9",
+            "cas": "9002-92-0",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Magnesium Nitrate",
+            "cas": "10377-60-3",
+            "weight_min": null,
+            "weight_max": 0.1,
+            "weight_exact": null,
+            "ghs": [
+              "Ox. Sol. 3 (H272)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Lauryl Sulfate",
+            "cas": "68585-47-7",
+            "weight_min": null,
+            "weight_max": 25,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Flam. Sol. 1 (H228)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Trideceth-12",
+            "cas": "24938-91-8",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Aq. 1 (H400)",
+              "Chronic Aq. 2 (H411)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Laureth Sulfate",
+            "cas": "9004-82-4",
+            "weight_min": null,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Laureth Sulfate",
+            "cas": "68585-34-2",
+            "weight_min": null,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Amodimethicone",
+            "cas": "106842-44-8",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)",
+              "Acute Tox. 2 (inh.) (H330)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "PEG-5 Cocamide",
+            "cas": "61791-08-0",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Laureth Sulfate",
+            "cas": "91648-56-5",
+            "weight_min": null,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Sodium Laureth Sulfate",
+            "cas": "1335-72-4",
+            "weight_min": null,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Cocamidopropyl Betaine",
+            "cas": "70851-07-9",
+            "weight_min": null,
+            "weight_max": 5,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          },
+          {
+            "name": "Tetrasodium EDTA",
+            "cas": "64-02-8",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 68.809615985438,
+              "predicted_flashpoint_fahrenheit": 214.29161882835362,
+              "upper_95_fahrenheit": 686.8123870687813
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 68.809615985438,
+              "predicted_flashpoint_fahrenheit": 214.29161882835362,
+              "upper_95_fahrenheit": 686.8123870687813
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "liquid [calculated 329.47]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "HYDROGENATED CASTOR OIL",
+            "cas": "8001-78-3",
+            "weight_min": null,
+            "weight_max": 0.01,
+            "weight_exact": null,
+            "parsed_from_sds": false,
+            "user_entered": true
+          },
+          {
+            "name": "EUPHORBIA CERIFERA (CANDELILLA) WAX",
+            "cas": "8006-44-8",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "parsed_from_sds": false,
+            "user_entered": true
+          },
+          {
+            "name": "COPERNICIA CERIFERA (CARNAUBA) WAX",
+            "cas": "8015-86-9",
+            "weight_min": null,
+            "weight_max": 1,
+            "weight_exact": null,
+            "parsed_from_sds": false,
+            "user_entered": true
+          },
+          {
+            "name": "GARCINIA MANGOSTANA PEEL (AFRICAN MANGOSTEEN) EXTRACT",
+            "cas": "90045-25-3",
+            "weight_min": null,
+            "weight_max": null,
+            "weight_exact": null,
+            "parsed_from_sds": false,
+            "user_entered": true
+          },
+          {
+            "name": "COCOS NUCIFERA (COCONUT) FRUIT JUICE",
+            "cas": "8001-31-8",
+            "weight_min": null,
+            "weight_max": 100,
+            "weight_exact": null,
+            "parsed_from_sds": false,
+            "user_entered": true
+          },
+          {
+            "name": "PYRUS MALUS (APPLE) FRUIT EXTRACT",
+            "cas": "85251-63-4",
+            "weight_min": null,
+            "weight_max": 100,
+            "weight_exact": null,
+            "parsed_from_sds": false,
+            "user_entered": true
+          },
+          {
+            "name": "HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL",
+            "cas": "8001-21-6",
+            "weight_min": null,
+            "weight_max": 100,
+            "weight_exact": null,
+            "parsed_from_sds": false,
+            "user_entered": true
+          },
+          {
+            "name": "Ricinus communis oil",
+            "cas": "8001-79-4",
+            "weight_min": 60,
+            "weight_max": 100,
+            "weight_exact": null,
+            "parsed_from_sds": true,
+            "user_entered": false
+          },
+          {
+            "name": "SILICA",
+            "cas": "60676-86-0",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "parsed_from_sds": false,
+            "user_entered": true
+          },
+          {
+            "name": "LITCHI CHINENSIS (LYCHEE) FRUIT EXTRACT",
+            "cas": "91722-81-5",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "parsed_from_sds": false,
+            "user_entered": true
+          },
+          {
+            "name": "Tetrachlorophthalic anhydride",
+            "cas": "117-08-8",
+            "weight_min": 0.01,
+            "weight_max": 1,
+            "data_source": "sds_section_3"
+          },
+          {
+            "name": "Polyoxypropylene (12)",
+            "cas": "25322-69-4",
+            "weight_min": 1,
+            "weight_max": 100,
+            "data_source": "sds_section_3"
+          },
+          {
+            "name": "1,3-Butanediol",
+            "cas": "107-88-0",
+            "weight_min": 100,
+            "weight_max": 100,
+            "data_source": "sds_section_3"
+          },
+          {
+            "name": "Polybutene",
+            "cas": "9003-29-6",
+            "weight_min": 1,
+            "weight_max": 100,
+            "data_source": "sds_section_3"
+          }
+        ],
+        "form": "liquid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "confidence": 0.1,
+            "normalized_value": {
+              "lower_95_fahrenheit": 285.95212965220725,
+              "predicted_flashpoint_fahrenheit": 329.4722474886991,
+              "upper_95_fahrenheit": 565.7154526310652
+            },
+            "raw_value": {
+              "lower_95_fahrenheit": 285.95212965220725,
+              "predicted_flashpoint_fahrenheit": 329.4722474886991,
+              "upper_95_fahrenheit": 565.7154526310652
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "gas [not calculated]": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -130,7 +3747,9 @@
             "cas": "64-17-5",
             "weight_min": 24,
             "weight_max": 24,
-            "ghs": ["Flam. Liq. 2 (H225)"],
+            "ghs": [
+              "Flam. Liq. 2 (H225)"
+            ],
             "rcra": null,
             "id": null,
             "user_entered": false,
@@ -150,6 +3769,77 @@
           }
         ]
       }
+    },
+    "solid [not calculated]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Hydrochloric acid",
+            "cas": "7647-01-0",
+            "weight_min": 1,
+            "weight_max": 2,
+            "data_source": "sds_section_3"
+          }
+        ],
+        "form": "solid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "normalized_value": null,
+            "raw_value": null,
+            "successful_result": false
+          }
+        ]
+      }
+    },
+    "aerosol [not calculated]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Sodium Lauryl Sulfate",
+            "cas": "68585-47-7",
+            "weight_min": null,
+            "weight_max": 25,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Flam. Sol. 1 (H228)",
+              "Acute Tox. 4 (oral) (H302)",
+              "Skin Irrit. 2 (H315)",
+              "Eye Dam. 1 (H318)",
+              "Acute Tox. 4 (inh.) (H332)",
+              "STOT SE 3 (resp. irrit.) (H335)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "aerosol"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "flashpoint",
+            "normalized_value": null,
+            "raw_value": null,
+            "successful_result": false
+          }
+        ]
+      }
+    },
+    "[BUG] wipes [not calculated]": {
+      "request": {},
+      "responseCode": {},
+      "response": {}
     }
   }
 }
