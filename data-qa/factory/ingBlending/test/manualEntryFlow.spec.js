@@ -2,7 +2,7 @@ let testData = require('../testDataLoad');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
-describe('Factory - Ingredients blending API', function () {
+describe('Factory - Ingredients blending API', () => {
   context('Validate [Manual entry] flow - single ingredient list', () => {
     runtest(testData.manualFlowSingleIng);
   });

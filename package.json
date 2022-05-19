@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha 'data-qa/test' --require chaiconf.js",
     "test:staging": "mocha --timeout 20000 'data-qa/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:staging:binning": "mocha --timeout 20000 'data-qa/factory/binningService/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:staging:binning:wegsi": "mocha --timeout 20000 'data-qa/factory/binningService/test/wegmansSiBinning.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
@@ -12,8 +11,8 @@
     "test:staging:factory": "mocha --timeout 20000 'data-qa/factory/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:staging:ingblending:manuelentry": "mocha --timeout 20000 'data-qa/factory/ingBlending/test/manualEntryFlow.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:conf:staging1": "mocha 'data-qa/test' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js dotenv_config_path=.envdifferentENV",
-    "run:mocha": "mocha 'data-qa/delphi/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js"
-    },
+    "run:mocha": "mocha --timeout 20000 'data-qa/delphi/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -23,6 +22,7 @@
     "formidable": "^2.0.1",
     "mocha": "^9.2.2",
     "prettier": "^2.5.1",
-    "supertest": "^6.1.6"
+    "supertest": "^6.1.6",
+    "deep-equal-in-any-order": "^1.1.18"
   }
 }

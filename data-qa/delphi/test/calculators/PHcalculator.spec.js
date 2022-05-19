@@ -1,11 +1,11 @@
-let testData = require('../../fixtures/PHcalculatorTestData.json');
+let testData = require('../../fixtures/calculators/PHcalculatorTestData.json');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
-describe('PH calculator tests', function () {
+describe('PH calculator tests', () => {
   context(
     'Validate that sending request in correct format expected response will be received',
-    function () {
+    () => {
       Object.entries(testData.variants).forEach(([variant, data]) => {
         it(`Should get a proper response with ${variant}`, async () => {
           const res = await commons.postRequest(

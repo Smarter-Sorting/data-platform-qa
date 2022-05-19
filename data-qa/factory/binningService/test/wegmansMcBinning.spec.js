@@ -2,7 +2,7 @@ let testData = require('../testDataLoad');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
-describe('Multi-component Binning - Wegmans', function () {
+describe('Multi-component Binning - Wegmans', () => {
   context(
     'Validate that sending request in correct format expected response will be received',
     () => {
@@ -29,4 +29,4 @@ function runtest(testData) {
       expect(res.body).to.be.deep.equal(data.response);
     });
   });
-}
+};

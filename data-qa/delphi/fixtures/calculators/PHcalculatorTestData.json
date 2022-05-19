@@ -1,5 +1,5 @@
 {
-  "uri": "/ph_calculator",
+  "uri": "/interpret/ph_calculator",
   "variants": {
     "liquid [calculated -1.44]": {
       "request": {
