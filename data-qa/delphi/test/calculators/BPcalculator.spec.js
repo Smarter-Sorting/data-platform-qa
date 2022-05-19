@@ -2,10 +2,10 @@ let testData = require('../../fixtures/calculators/BPcalculatorTestData.json');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
-describe('BP calculator tests', function () {
+describe('BP calculator tests', () => {
   context(
     'Validate that sending request in correct format expected response will be received',
-    function () {
+    () => {
       Object.entries(testData.variants).forEach(([variant, data]) => {
         it(`Should get a proper response with ${variant}`, async () => {
           const res = await commons.postRequest(

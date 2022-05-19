@@ -2,7 +2,7 @@ let testData = require('../testDataLoad');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
-describe('Single item binning - Wegmans', function () {
+describe('Single item binning - Wegmans', () => {
   context('Validate [Electronics Recycling] bin rules', () => {
     runtest(testData.wegElectronicRecycling);
   });

@@ -2,10 +2,10 @@ let testData = require('../../fixtures/calculators/FPcalculatorTestData.json');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
-describe('FP calculator tests', function () {
+describe('FP calculator tests', () => {
   context(
     'Validate that sending request in correct format expected response will be received',
-    function () {
+    () => {
       Object.entries(testData.variants).forEach(([variant, data]) => {
         it(`Should get a proper response with ${variant}`, async () => {
           const res = await commons.postRequest(

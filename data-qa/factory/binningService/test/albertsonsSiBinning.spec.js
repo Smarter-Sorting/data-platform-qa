@@ -2,7 +2,7 @@ let testData = require('../testDataLoad');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
-describe('Single item binning - Albertsons', function () {
+describe('Single item binning - Albertsons', () => {
   context('Validate [UNIVERSAL WASTE] bin rules', () => {
     runtest(testData.albUniversalWaste);
   });
