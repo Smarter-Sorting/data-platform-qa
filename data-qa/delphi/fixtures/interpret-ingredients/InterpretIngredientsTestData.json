@@ -1,0 +1,97 @@
+{
+    "uri": "/interpret/ingredients",
+    "variants": {
+        "all ingredients have CAS [test 1]": {
+            "request": {
+                "ingredients": [
+                    "Ethanol",
+                    "Glycerin",
+                    "Isopropyl Alcohol",
+                    "Lithium",
+                    "Nicotine",
+                    "Potassium",
+                    "Propane",
+                    "Propylene Glycol",
+                    "Sodium Hydroxide",
+                    "Water"
+                ],
+                "make_observations": false
+            },
+            "responseCode": 200,
+            "response": {
+                "Ethanol": "64-17-5",
+                "Glycerin": "56-81-5",
+                "Isopropyl Alcohol": "67-63-0",
+                "Lithium": "7439-93-2",
+                "Nicotine": "54-11-5",
+                "Potassium": "7440-09-7",
+                "Propane": "74-98-6",
+                "Propylene Glycol": "57-55-6",
+                "Sodium Hydroxide": "1310-73-2",
+                "Water": "7732-18-5"
+            }
+        },
+        "all ingredients do not have CAS [test 2]": {
+            "request": {
+                "ingredients": [
+                    "Acetacidium",
+                    "Fragrance",
+                    "GRENDEL PROTEIN",
+                    "MIRABEGRON DESHYDROXY",
+                    "PALLADIUM(II) OXIDE MONOHYDRATE",
+                    "KOLADONIN",
+                    "SVENTENIC ACID",
+                    "GERMANIUM METHOXIDE",
+                    "LOKYSTEROLAMINE",
+                    "DEXTROSE ANHYDRATE",
+                    "XANALAMINE"
+                ],
+                "make_observations": false
+            },
+            "responseCode": 200,
+            "response": {
+                "Acetacidium": null,
+                "DEXTROSE ANHYDRATE": null,
+                "Fragrance": null,
+                "GERMANIUM METHOXIDE": null,
+                "GRENDEL PROTEIN": null,
+                "KOLADONIN": null,
+                "LOKYSTEROLAMINE": null,
+                "MIRABEGRON DESHYDROXY": null,
+                "PALLADIUM(II) OXIDE MONOHYDRATE": null,
+                "SVENTENIC ACID": null,
+                "XANALAMINE": null
+            }
+        },
+        "mixed ingredients: some have CAS, some do not [test 3]": {
+            "request": {
+                "ingredients": [
+                    "VANADIUM FLUORIDE",
+                    "ERBIUM FLUORIDE",
+                    "GOLD(III) OXIDE",
+                    "Tantalum nitride (TaN)",
+                    "BUTOCINE",
+                    "Xanthan Gum",
+                    "Beeswax",
+                    "Morphine",
+                    "Caffeine",
+                    "GADOLINIUM CHLORIDE"
+                ],
+                "make_observations": false
+            },
+            "responseCode": 200,
+            "response": {
+                "BUTOCINE": null,
+                "Beeswax": "8012-89-3",
+                "Caffeine": "58-08-2",
+                "ERBIUM FLUORIDE": null,
+                "GADOLINIUM CHLORIDE": "10138-52-0",
+                "GOLD(III) OXIDE": null,
+                "Morphine": "57-27-2",
+                "Tantalum nitride (TaN)": null,
+                "VANADIUM FLUORIDE": null,
+                "Xanthan Gum": "11138-66-2"
+            }
+        }
+    }
+}
