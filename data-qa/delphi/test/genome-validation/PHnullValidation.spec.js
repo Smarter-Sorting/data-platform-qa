@@ -15,11 +15,7 @@ describe('Validate genome - PH null validation tests', function () {
                         '',
                     );
                     expect(res.statusCode).to.be.equal(data.responseCode);
-                    expect(res.body).to.be.deep.equal(data.response); //we are not verifying the full response
-                    //expect(res.body).to.deep.include(data.response);
-                    
-                    //console.log(res.body);
-                    //expect(res.body).to.have.deep.nested.property('observations.normalized_value.ph_details.validation_tests', data.response);
+                    expect(res.body).to.be.deep.equal(data.response);
                 });
             });
         },

@@ -2884,7 +2884,7 @@
                 ]
             }
         },
-        "[BUG] (ph for wipes is not calculated therefore test for form should be true; currently false) NULL VALIDATOR for form = TRUE & NULL VALIDATOR for corrosive FALSE [test 10] >> NULL validation TRUE": {
+        "[BUG] (ph for wipes is not calculated: test for form should be true; currently false) NULL VALIDATOR for form = TRUE & NULL VALIDATOR for corrosive FALSE [test 10] >> NULL validation TRUE": {
             "request": {
                 "form": "liquid_absorbed_in_solid",
                 "cas_number_and_weights": [
