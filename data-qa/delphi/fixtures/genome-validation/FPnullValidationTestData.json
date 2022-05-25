@@ -1006,26 +1006,382 @@
         "NULL VALIDATOR for form TRUE & NULL VALIDATOR for cas flash TRUE [test 13] >> NULL validation TRUE": {
             "request": {},
             "responseCode": 200,
-            "response_fp": ,
+            "response_fp": true,
             "response_fp_details": {}
         },
         "NULL VALIDATOR for form TRUE & NULL VALIDATOR for cas flash FALSE [test 14] >> NULL validation TRUE": {
-            "request": {},
+            "request": {
+                "form": "solid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "POLY(METHYL METHACRYLATE)",
+                        "cas": "9011-14-7",
+                        "weight_min": 10,
+                        "weight_max": 30,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": true,
+                        "range_publicly_disclosed": true,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "ETHYL CYANOACRYLATE",
+                        "cas": "7085-85-0",
+                        "weight_min": 60,
+                        "weight_max": 100,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Skin Irrit. 2 (H315)",
+                            "Eye Irrit. 2A (H319)",
+                            "STOT SE 3 (resp. irrit.) (H335)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": true,
+                        "range_publicly_disclosed": true,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Hydroquinone",
+                        "cas": "123-31-9",
+                        "weight_min": 0.05,
+                        "weight_max": 0.1,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Acute Aq. 1 (H400)",
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Skin Sens. 1 (H317)",
+                            "Eye Dam. 1 (H318)",
+                            "Muta. 2 (H341)",
+                            "Carc. 2 (H351)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": true,
+                        "range_publicly_disclosed": true,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
             "responseCode": 200,
-            "response_fp": ,
-            "response_fp_details": {}
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": false
+                    }
+                ]
+            }
         },
         "NULL VALIDATOR for form FALSE & NULL VALIDATOR for cas flash TRUE [test 15] >> NULL validation TRUE": {
-            "request": {},
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "N-Nitrosopyrrolidine",
+                        "cas": "930-55-2",
+                        "weight_min": 0.1,
+                        "weight_max": 0.1,
+                        "data_source": "sds_section_3"
+                    },
+                    {
+                        "name": "Myristyl alcohol [NF]",
+                        "cas": "112-72-1",
+                        "weight_min": 0.1,
+                        "weight_max": 0.1,
+                        "data_source": "sds_section_3"
+                    },
+                    {
+                        "name": "Phenyl chloroformate",
+                        "cas": "1885-14-9",
+                        "weight_min": 0.1,
+                        "weight_max": 0.1,
+                        "data_source": "sds_section_3"
+                    },
+                    {
+                        "name": "Cetearyl alcohol",
+                        "cas": "67762-27-0",
+                        "weight_min": 0.1,
+                        "weight_max": 0.1,
+                        "data_source": "sds_section_3"
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
             "responseCode": 200,
-            "response_fp": ,
-            "response_fp_details": {}
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": false
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": true
+                    }
+                ]
+            }
         },
         "NULL VALIDATOR for form FALSE & NULL VALIDATOR for cas flash FALSE [test 16] >> NULL validation FALSE": {
-            "request": {},
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Sugar",
+                        "cas": "57-50-1",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": 41.41,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": true,
+                        "range_publicly_disclosed": true,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Tapioca Syrup",
+                        "cas": null,
+                        "weight_min": 0,
+                        "weight_max": 41.41,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": true,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": true,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Blackberry Juice Concentrate",
+                        "cas": null,
+                        "weight_min": 0,
+                        "weight_max": 41.41,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": true,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": true,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Natural Flavoring",
+                        "cas": null,
+                        "weight_min": 0,
+                        "weight_max": 41.41,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": true,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": true,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Water",
+                        "cas": "7732-18-5",
+                        "weight_min": 0,
+                        "weight_max": 41.41,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": true,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Pectin (Pectin Sodium Citrate)",
+                        "cas": "9000-69-5",
+                        "weight_min": 0,
+                        "weight_max": 41.41,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": true,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Coconut Oil",
+                        "cas": "8001-31-8",
+                        "weight_min": 0,
+                        "weight_max": 41.41,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": true,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Citric Acid",
+                        "cas": "77-92-9",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": true,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Sunflower Lecithin",
+                        "cas": "8002-43-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": true,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": true,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Broad Spectrum Hemp Extract",
+                        "cas": "13956-29-1",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": 0.63,
+                        "ghs": [
+                            "Chronic Aq. 4 (H413)",
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Skin Sens. 1 (H317)",
+                            "Acute Tox. 4 (inh.) (H332)",
+                            "Repr. 2 (H361)",
+                            "STOT SE 2 (H371)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": true,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
             "responseCode": 200,
-            "response_fp": ,
-            "response_fp_details": {}
-        },
+            "response_fp": false,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": false,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": false
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": false
+                    }
+                ]
+            }
+        }
     }
 }
