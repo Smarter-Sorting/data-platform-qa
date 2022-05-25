@@ -1,0 +1,707 @@
+{
+    "uri": "/validate/genome",
+    "variants": {
+        "form: liquid [test 1] >> flashpoint: NULL VALIDATOR for form FALSE": {
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "WATER",
+                        "cas": "7732-18-5",
+                        "weight_min": 0,
+                        "weight_max": 100,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "CETEARYL ALCOHOL",
+                        "cas": "67762-27-0",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TRIDECETH-2 CARBOXAMIDE MEA",
+                        "cas": "107628-04-6",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "GLYCERIN",
+                        "cas": "56-81-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM PYROPHOSPHATE",
+                        "cas": "7722-88-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "HYDROGEN PEROXIDE",
+                        "cas": "7722-84-1",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": 6,
+                        "parsed_from_sds": true,
+                        "user_entered": false
+                    },
+                    {
+                        "name": "CETEARETH-25",
+                        "cas": "68439-49-6",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM ETIDRONATE",
+                        "cas": "3794-83-0",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "SODIUM SALICYLATE",
+                        "cas": "54-21-7",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "PHOSPHORIC ACID",
+                        "cas": "7664-38-2",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
+            "responseCode": 200,
+            "response_fp": false,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": false,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": false
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": false
+                    }
+                ]
+            }
+        },
+        "form: wipes [test 2] >> flashpoint: NULL VALIDATOR for form FALSE": {
+            "request": {
+                "form": "liquid_absorbed_in_solid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "WATER",
+                        "cas": "7732-18-5",
+                        "weight_min": 0,
+                        "weight_max": 100,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "CETEARYL ALCOHOL",
+                        "cas": "67762-27-0",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TRIDECETH-2 CARBOXAMIDE MEA",
+                        "cas": "107628-04-6",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "GLYCERIN",
+                        "cas": "56-81-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM PYROPHOSPHATE",
+                        "cas": "7722-88-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "HYDROGEN PEROXIDE",
+                        "cas": "7722-84-1",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": 6,
+                        "parsed_from_sds": true,
+                        "user_entered": false
+                    },
+                    {
+                        "name": "CETEARETH-25",
+                        "cas": "68439-49-6",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM ETIDRONATE",
+                        "cas": "3794-83-0",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "SODIUM SALICYLATE",
+                        "cas": "54-21-7",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "PHOSPHORIC ACID",
+                        "cas": "7664-38-2",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
+            "responseCode": 200,
+            "response_fp": false,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": false,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": false
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": false
+                    }
+                ]
+            }
+        },
+        "form: null [test 3] >> flashpoint: NULL VALIDATOR for form FALSE": {
+            "request": {
+                "form": null,
+                "cas_number_and_weights": [
+                    {
+                        "name": "WATER",
+                        "cas": "7732-18-5",
+                        "weight_min": 0,
+                        "weight_max": 100,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "CETEARYL ALCOHOL",
+                        "cas": "67762-27-0",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TRIDECETH-2 CARBOXAMIDE MEA",
+                        "cas": "107628-04-6",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "GLYCERIN",
+                        "cas": "56-81-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM PYROPHOSPHATE",
+                        "cas": "7722-88-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "HYDROGEN PEROXIDE",
+                        "cas": "7722-84-1",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": 6,
+                        "parsed_from_sds": true,
+                        "user_entered": false
+                    },
+                    {
+                        "name": "CETEARETH-25",
+                        "cas": "68439-49-6",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM ETIDRONATE",
+                        "cas": "3794-83-0",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "SODIUM SALICYLATE",
+                        "cas": "54-21-7",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "PHOSPHORIC ACID",
+                        "cas": "7664-38-2",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
+            "responseCode": 200,
+            "response_fp": false,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": false,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": false
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": false
+                    }
+                ]
+            }
+        },
+        "form: solid [test 4] >> flashpoint: NULL VALIDATOR for form TRUE": {
+            "request": {
+                "form": "solid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "WATER",
+                        "cas": "7732-18-5",
+                        "weight_min": 0,
+                        "weight_max": 100,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "CETEARYL ALCOHOL",
+                        "cas": "67762-27-0",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TRIDECETH-2 CARBOXAMIDE MEA",
+                        "cas": "107628-04-6",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "GLYCERIN",
+                        "cas": "56-81-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM PYROPHOSPHATE",
+                        "cas": "7722-88-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "HYDROGEN PEROXIDE",
+                        "cas": "7722-84-1",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": 6,
+                        "parsed_from_sds": true,
+                        "user_entered": false
+                    },
+                    {
+                        "name": "CETEARETH-25",
+                        "cas": "68439-49-6",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM ETIDRONATE",
+                        "cas": "3794-83-0",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "SODIUM SALICYLATE",
+                        "cas": "54-21-7",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "PHOSPHORIC ACID",
+                        "cas": "7664-38-2",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
+            "responseCode": 200,
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": false
+                    }
+                ]
+            }
+        },
+        "form: aerosol [test 5] >> flashpoint: NULL VALIDATOR for form TRUE": {
+            "request": {
+                "form": "aerosol",
+                "cas_number_and_weights": [
+                    {
+                        "name": "WATER",
+                        "cas": "7732-18-5",
+                        "weight_min": 0,
+                        "weight_max": 100,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "CETEARYL ALCOHOL",
+                        "cas": "67762-27-0",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TRIDECETH-2 CARBOXAMIDE MEA",
+                        "cas": "107628-04-6",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "GLYCERIN",
+                        "cas": "56-81-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM PYROPHOSPHATE",
+                        "cas": "7722-88-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "HYDROGEN PEROXIDE",
+                        "cas": "7722-84-1",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": 6,
+                        "parsed_from_sds": true,
+                        "user_entered": false
+                    },
+                    {
+                        "name": "CETEARETH-25",
+                        "cas": "68439-49-6",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM ETIDRONATE",
+                        "cas": "3794-83-0",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "SODIUM SALICYLATE",
+                        "cas": "54-21-7",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "PHOSPHORIC ACID",
+                        "cas": "7664-38-2",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
+            "responseCode": 200,
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": false
+                    }
+                ]
+            }
+        },
+        "form: gas [test 6] >> flashpoint: NULL VALIDATOR for form TRUE": {
+            "request": {
+                "form": "gas",
+                "cas_number_and_weights": [
+                    {
+                        "name": "WATER",
+                        "cas": "7732-18-5",
+                        "weight_min": 0,
+                        "weight_max": 100,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "CETEARYL ALCOHOL",
+                        "cas": "67762-27-0",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TRIDECETH-2 CARBOXAMIDE MEA",
+                        "cas": "107628-04-6",
+                        "weight_min": 0,
+                        "weight_max": 6,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "GLYCERIN",
+                        "cas": "56-81-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM PYROPHOSPHATE",
+                        "cas": "7722-88-5",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "HYDROGEN PEROXIDE",
+                        "cas": "7722-84-1",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": 6,
+                        "parsed_from_sds": true,
+                        "user_entered": false
+                    },
+                    {
+                        "name": "CETEARETH-25",
+                        "cas": "68439-49-6",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "TETRASODIUM ETIDRONATE",
+                        "cas": "3794-83-0",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "SODIUM SALICYLATE",
+                        "cas": "54-21-7",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    },
+                    {
+                        "name": "PHOSPHORIC ACID",
+                        "cas": "7664-38-2",
+                        "weight_min": 0,
+                        "weight_max": 1,
+                        "weight_exact": null,
+                        "parsed_from_sds": false,
+                        "user_entered": true
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
+            "responseCode": 200,
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": false
+                    }
+                ]
+            }
+        }
+    }
+}
