@@ -1,30 +1,477 @@
 {
-    "uri": "/genome/validate",
+    "uri": "/validate/genome",
     "variants": {
         "entered FP=-328 [test 1] >> VALUE VALIDATOR limits FALSE": {
-            "request": {},
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Ethyl Acetate",
+                        "cas": "141-78-6",
+                        "weight_min": 10,
+                        "weight_max": 40,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Flam. Liq. 2 (H225)",
+                            "Eye Irrit. 2A (H319)",
+                            "STOT SE 3 (narcotic) (H336)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Nitrocellulose",
+                        "cas": "9004-70-0",
+                        "weight_min": 5,
+                        "weight_max": 20,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Explo. 1.1 (H201)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Diacetone Alcohol",
+                        "cas": "123-42-2",
+                        "weight_min": 1,
+                        "weight_max": 100,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Eye Irrit. 2A (H319)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    }
+                ],
+                "flashpoint": -328,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
             "responseCode": 200,
-            "response": {}
+            "response_fp": false,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": false,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": false
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": true
+                    }
+                ]
+            }
         },
         "entered FP=-327 [test 2] >> VALUE VALIDATOR limits TRUE": {
-            "request": {},
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Ethyl Acetate",
+                        "cas": "141-78-6",
+                        "weight_min": 10,
+                        "weight_max": 40,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Flam. Liq. 2 (H225)",
+                            "Eye Irrit. 2A (H319)",
+                            "STOT SE 3 (narcotic) (H336)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Nitrocellulose",
+                        "cas": "9004-70-0",
+                        "weight_min": 5,
+                        "weight_max": 20,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Explo. 1.1 (H201)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Diacetone Alcohol",
+                        "cas": "123-42-2",
+                        "weight_min": 1,
+                        "weight_max": 100,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Eye Irrit. 2A (H319)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": true,
+                        "calculated": false,
+                        "user_entered": false,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    }
+                ],
+                "flashpoint": -327,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
             "responseCode": 200,
-            "response": {}
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": true
+                    }
+                ]
+            }
         },
         "entered FP=10000 [test 3] >> VALUE VALIDATOR limits FALSE": {
-            "request": {},
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Water",
+                        "cas": "7732-18-5",
+                        "weight_min": 70,
+                        "weight_max": 80,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Glycerine",
+                        "cas": "56-81-5",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Triethanolamine",
+                        "cas": "102-71-6",
+                        "weight_min": 0,
+                        "weight_max": 5,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Eye Irrit. 2A (H319)",
+                            "Repr. 2 (H361)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    }
+                ],
+                "flashpoint": 10000,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
             "responseCode": 200,
-            "response": {}
+            "response_fp": false,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": false,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": false
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": true
+                    }
+                ]
+            }
         },
         "entered FP=9999 [test 4] >> VALUE VALIDATOR limits TRUE": {
-            "request": {},
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Water",
+                        "cas": "7732-18-5",
+                        "weight_min": 70,
+                        "weight_max": 80,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Glycerine",
+                        "cas": "56-81-5",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Triethanolamine",
+                        "cas": "102-71-6",
+                        "weight_min": 0,
+                        "weight_max": 5,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Eye Irrit. 2A (H319)",
+                            "Repr. 2 (H361)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    }
+                ],
+                "flashpoint": 9999,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
             "responseCode": 200,
-            "response": {}
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": true
+                    }
+                ]
+            }
         },
         "entered FP=80 [test 5] >> VALUE VALIDATOR limits TRUE": {
-            "request": {},
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Water",
+                        "cas": "7732-18-5",
+                        "weight_min": 50,
+                        "weight_max": 60,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Glycerin",
+                        "cas": "56-81-5",
+                        "weight_min": 10,
+                        "weight_max": 15,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Polyethylene glycol",
+                        "cas": "25322-68-3",
+                        "weight_min": 10,
+                        "weight_max": 15,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Bronopol",
+                        "cas": "52-51-7",
+                        "weight_min": 0,
+                        "weight_max": 0.02,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Acute Aq. 1 (H400)",
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Acute Tox. 4 (dermal) (H312)",
+                            "Skin Irrit. 2 (H315)",
+                            "Eye Dam. 1 (H318)",
+                            "STOT SE 3 (resp. irrit.) (H335)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    },
+                    {
+                        "name": "Octhilinone",
+                        "cas": "26530-20-1",
+                        "weight_min": 0,
+                        "weight_max": 0.004,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Acute Aq. 1 (H400)",
+                            "Chronic Aq. 1 (H410)",
+                            "Acute Tox. 3 (oral) (H301)",
+                            "Acute Tox. 3 (dermal) (H311)",
+                            "Skin Corr. 1 (H314)",
+                            "Skin Sens. 1A (H317)",
+                            "Eye Dam. 1 (H318)",
+                            "Acute Tox. 2 (inh.) (H330)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false,
+                        "cas_publicly_disclosed": false,
+                        "range_publicly_disclosed": false,
+                        "ingredient_publicly_disclosed": true,
+                        "hide_selected_cas": false
+                    }
+                ],
+                "flashpoint": 80,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
             "responseCode": 200,
-            "response": {}
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": true
+                    }
+                ]
+            }
         }
     }
 }
