@@ -1004,10 +1004,73 @@
             }
         },
         "NULL VALIDATOR for form TRUE & NULL VALIDATOR for cas flash TRUE [test 13] >> NULL validation TRUE": {
-            "request": {},
+            "request": {
+                "form": "aerosol",
+                "cas_number_and_weights": [
+                    {
+                        "name": "1,3-Benzenedicarbonyl chloride",
+                        "cas": "99-63-8",
+                        "weight_min": 0.1,
+                        "weight_max": 0.1,
+                        "data_source": "sds_section_3"
+                    },
+                    {
+                        "name": "Hexachlorocyclohexanes",
+                        "cas": "608-73-1",
+                        "weight_min": 0.1,
+                        "weight_max": 0.5,
+                        "data_source": "sds_section_3"
+                    },
+                    {
+                        "name": "Dazomet",
+                        "cas": "533-74-4",
+                        "weight_min": 0.1,
+                        "weight_max": 1,
+                        "data_source": "sds_section_3"
+                    },
+                    {
+                        "name": "Boron trifluoride diethyl etherate",
+                        "cas": "109-63-7",
+                        "weight_min": 2,
+                        "weight_max": 2,
+                        "data_source": "sds_section_3"
+                    },
+                    {
+                        "name": "Bifenthrin",
+                        "cas": "82657-04-3",
+                        "weight_min": 0.1,
+                        "weight_max": 1,
+                        "data_source": "sds_section_3"
+                    },
+                    {
+                        "name": "Hexamethylene tetramine",
+                        "cas": "100-97-0",
+                        "weight_min": 3,
+                        "weight_max": 3,
+                        "data_source": "sds_section_3"
+                    }
+                ],
+                "flashpoint": null,
+                "boiling_point": null,
+                "ph_max": 1,
+                "ph_min": 1
+            },
             "responseCode": 200,
             "response_fp": true,
-            "response_fp_details": {}
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for form",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: NULL VALIDATOR for cas flash",
+                        "valid": true
+                    }
+                ]
+            }
         },
         "NULL VALIDATOR for form TRUE & NULL VALIDATOR for cas flash FALSE [test 14] >> NULL validation TRUE": {
             "request": {
