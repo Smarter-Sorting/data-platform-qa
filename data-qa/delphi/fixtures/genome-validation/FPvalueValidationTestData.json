@@ -472,6 +472,627 @@
                     }
                 ]
             }
+        },
+        "entered FP=122.30 (>73.4) (+50.01), predicted FP=72.29 (<140), upper_95 FP=84.15 (<200) [test 6] >> ML MODEL VALUE VALIDATOR FALSE": {
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Ethanol",
+                        "cas": "64-17-5",
+                        "weight_min": 50,
+                        "weight_max": 70,
+                        "ghs": [
+                            "Flam. Liq. 2 (H225)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Isopropyl Alcohol",
+                        "cas": "67-63-0",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Flam. Liq. 2 (H225)",
+                            "STOT SE 3 (narcotic) (H336)",
+                            "Eye Irrit. 2A (H319)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Water (Aqua)",
+                        "cas": "7732-18-5",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "ghs": null,
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Dimethyl Siloxane,",
+                        "cas": "102783-01-7",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "ghs": null,
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Copper Gluconate",
+                        "cas": "527-09-3",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Skin Sens. 1B (H317)",
+                            "STOT RE 2 (H373)",
+                            "Acute Aq. 1 (H400)",
+                            "Chronic Aq. 2 (H411)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "Diisopropyl Sebacate",
+                        "cas": "7491-02-3",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "ghs": null,
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "PEG/PPG-20/6 Dimethicone",
+                        "cas": "68937-55-3",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Chronic Aq. 4 (H413)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate",
+                        "cas": "6683-19-8",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Skin Irrit. 2 (H315)",
+                            "Chronic Aq. 3 (H412)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "Polyquaternium-37",
+                        "cas": "26161-33-1",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Acute Aq. 1 (H400)",
+                            "Chronic Aq. 2 (H411)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    }
+                ],
+                "flashpoint": 122.30,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
+            "responseCode": 200,
+            "response_fp": false,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": false,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": false
+                    }
+                ]
+            }
+        },
+        "entered FP=122.29 (>73.4) (+50), predicted FP=72.29 (<140), upper_95 FP=84.15 (<200) [test 7] >> ML MODEL VALUE VALIDATOR TRUE": {
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Ethanol",
+                        "cas": "64-17-5",
+                        "weight_min": 50,
+                        "weight_max": 70,
+                        "ghs": [
+                            "Flam. Liq. 2 (H225)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Isopropyl Alcohol",
+                        "cas": "67-63-0",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Flam. Liq. 2 (H225)",
+                            "STOT SE 3 (narcotic) (H336)",
+                            "Eye Irrit. 2A (H319)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Water (Aqua)",
+                        "cas": "7732-18-5",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "ghs": null,
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Dimethyl Siloxane,",
+                        "cas": "102783-01-7",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "ghs": null,
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Copper Gluconate",
+                        "cas": "527-09-3",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Skin Sens. 1B (H317)",
+                            "STOT RE 2 (H373)",
+                            "Acute Aq. 1 (H400)",
+                            "Chronic Aq. 2 (H411)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "Diisopropyl Sebacate",
+                        "cas": "7491-02-3",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "ghs": null,
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "PEG/PPG-20/6 Dimethicone",
+                        "cas": "68937-55-3",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Chronic Aq. 4 (H413)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate",
+                        "cas": "6683-19-8",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Skin Irrit. 2 (H315)",
+                            "Chronic Aq. 3 (H412)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "Polyquaternium-37",
+                        "cas": "26161-33-1",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Acute Aq. 1 (H400)",
+                            "Chronic Aq. 2 (H411)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    }
+                ],
+                "flashpoint": 122.29,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
+            "responseCode": 200,
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": true
+                    }
+                ]
+            }
+        },
+        "entered FP=22.29 (<73.4) (-50), predicted FP=72.29 (<140), upper_95 FP=84.15 (<200) [test 8] >> ML MODEL VALUE VALIDATOR TRUE": {
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Ethanol",
+                        "cas": "64-17-5",
+                        "weight_min": 50,
+                        "weight_max": 70,
+                        "ghs": [
+                            "Flam. Liq. 2 (H225)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Isopropyl Alcohol",
+                        "cas": "67-63-0",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Flam. Liq. 2 (H225)",
+                            "STOT SE 3 (narcotic) (H336)",
+                            "Eye Irrit. 2A (H319)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Water (Aqua)",
+                        "cas": "7732-18-5",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "ghs": null,
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Dimethyl Siloxane,",
+                        "cas": "102783-01-7",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "ghs": null,
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": false,
+                        "parsed_from_sds": true
+                    },
+                    {
+                        "name": "Copper Gluconate",
+                        "cas": "527-09-3",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Skin Sens. 1B (H317)",
+                            "STOT RE 2 (H373)",
+                            "Acute Aq. 1 (H400)",
+                            "Chronic Aq. 2 (H411)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "Diisopropyl Sebacate",
+                        "cas": "7491-02-3",
+                        "weight_min": null,
+                        "weight_max": null,
+                        "ghs": null,
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "PEG/PPG-20/6 Dimethicone",
+                        "cas": "68937-55-3",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Chronic Aq. 4 (H413)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate",
+                        "cas": "6683-19-8",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Skin Irrit. 2 (H315)",
+                            "Chronic Aq. 3 (H412)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    },
+                    {
+                        "name": "Polyquaternium-37",
+                        "cas": "26161-33-1",
+                        "weight_min": 1,
+                        "weight_max": 5,
+                        "ghs": [
+                            "Acute Aq. 1 (H400)",
+                            "Chronic Aq. 2 (H411)"
+                        ],
+                        "rcra": null,
+                        "id": null,
+                        "user_entered": true,
+                        "parsed_from_sds": false
+                    }
+                ],
+                "flashpoint": 22.29,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
+            "responseCode": 200,
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": true
+                    }
+                ]
+            }
+        },
+        "entered FP=86.45 (>73.4) (-50), predicted FP=136.45 (<140), upper_95 FP=199.54 (<200)[test 9] >> ML MODEL VALUE VALIDATOR TRUE": {
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Sorbitol",
+                        "cas": "50-70-4",
+                        "weight_min": 10,
+                        "weight_max": 20,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Ci 19140 Yellow 5",
+                        "cas": null,
+                        "weight_min": 1,
+                        "weight_max": 2,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Aqua",
+                        "cas": "7732-18-5",
+                        "weight_min": 4,
+                        "weight_max": 4,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Guanidine Carbonate",
+                        "cas": "593-85-1",
+                        "weight_min": 1,
+                        "weight_max": 60,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Eye Dam. 1 (H318)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    }
+                ],
+                "flashpoint": 86.45,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
+            "responseCode": 200,
+            "response_fp": true,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": true,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": true
+                    }
+                ]
+            }
+        },
+        "entered FP=86.44 (>73.4) (-50.01), predicted FP=136.45 (<140), upper_95 FP=199.54 (<200) [test 10] >> ML MODEL VALUE VALIDATOR FALSE": {
+            "request": {
+                "form": "liquid",
+                "cas_number_and_weights": [
+                    {
+                        "name": "Sorbitol",
+                        "cas": "50-70-4",
+                        "weight_min": 10,
+                        "weight_max": 20,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Ci 19140 Yellow 5",
+                        "cas": null,
+                        "weight_min": 1,
+                        "weight_max": 2,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Aqua",
+                        "cas": "7732-18-5",
+                        "weight_min": 4,
+                        "weight_max": 4,
+                        "weight_exact": null,
+                        "ghs": [],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    },
+                    {
+                        "name": "Guanidine Carbonate",
+                        "cas": "593-85-1",
+                        "weight_min": 1,
+                        "weight_max": 60,
+                        "weight_exact": null,
+                        "ghs": [
+                            "Acute Tox. 4 (oral) (H302)",
+                            "Eye Dam. 1 (H318)"
+                        ],
+                        "rcra": [],
+                        "parsed_from_sds": false,
+                        "calculated": false,
+                        "user_entered": true,
+                        "undisclosed": false,
+                        "user_enter_cas": false,
+                        "no_cas_found": false
+                    }
+                ],
+                "flashpoint": 86.44,
+                "boiling_point": null,
+                "ph_max": null,
+                "ph_min": null
+            },
+            "responseCode": 200,
+            "response_fp": false,
+            "response_fp_details": {
+                "missing_args": false,
+                "valid": false,
+                "validation_tests": [
+                    {
+                        "test_name": "flashpoint: VALUE VALIDATOR limits",
+                        "valid": true
+                    },
+                    {
+                        "test_name": "flashpoint: ML MODEL VALUE VALIDATOR",
+                        "valid": false
+                    }
+                ]
+            }
         }
     }
 }
