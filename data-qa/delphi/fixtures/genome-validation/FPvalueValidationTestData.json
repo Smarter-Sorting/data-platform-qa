@@ -1,0 +1,30 @@
+{
+    "uri": "/genome/validate",
+    "variants": {
+        "entered FP=-328 [test 1] >> VALUE VALIDATOR limits FALSE": {
+            "request": {},
+            "responseCode": 200,
+            "response": {}
+        },
+        "entered FP=-327 [test 2] >> VALUE VALIDATOR limits TRUE": {
+            "request": {},
+            "responseCode": 200,
+            "response": {}
+        },
+        "entered FP=10000 [test 3] >> VALUE VALIDATOR limits FALSE": {
+            "request": {},
+            "responseCode": 200,
+            "response": {}
+        },
+        "entered FP=9999 [test 4] >> VALUE VALIDATOR limits TRUE": {
+            "request": {},
+            "responseCode": 200,
+            "response": {}
+        },
+        "entered FP=80 [test 5] >> VALUE VALIDATOR limits TRUE": {
+            "request": {},
+            "responseCode": 200,
+            "response": {}
+        }
+    }
+}
