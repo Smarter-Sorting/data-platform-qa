@@ -892,6 +892,382 @@
         ]
       }
     },
+    "[BUG] wipes [calculated 0.56--0.14]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "cas": "7647-01-0",
+            "weight_min": 1,
+            "weight_max": 5,
+            "data_source": "sds_section_3"
+          }
+        ],
+        "form": "liquid_absorbed_in_solid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 1.0,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": -0.14,
+              "min": 0.56,
+              "missing_cas": []
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": -0.14,
+              "min": 0.56,
+              "missing_cas": []
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "[BUG] wipes [calculated 8.13-7.98]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Acrylates/Ethylhexyl Acrylate Copolymer",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 100,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Citric acid",
+            "cas": "77-92-9",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Sorbitol",
+            "cas": null,
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Parfum",
+            "cas": "100-09-4",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": true,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Biotin",
+            "cas": "58-85-5",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Carbon black",
+            "cas": "1333-86-4",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Alcohol",
+            "cas": "64-17-5",
+            "weight_min": 1,
+            "weight_max": 10,
+            "weight_exact": null,
+            "ghs": [
+              "Flam. Liq. 2 (H225)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": true,
+            "calculated": false,
+            "user_entered": false,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": true,
+            "range_publicly_disclosed": true,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Sodium carbonate",
+            "cas": "497-19-8",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Rosa centifolia extract",
+            "cas": "84604-12-6",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Irrit. 2 (H315)",
+              "Skin Sens. 1 (H317)",
+              "Eye Irrit. 2A (H319)",
+              "Muta. 2 (H341)",
+              "Carc. 2 (H351)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Phenoxyethanol",
+            "cas": "122-99-6",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Acute Tox. 4 (oral) (H302)",
+              "Eye Irrit. 2A (H319)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Ethylhexylglycerin",
+            "cas": "70445-33-9",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 3 (H412)",
+              "Eye Dam. 1 (H318)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          },
+          {
+            "name": "Ceteareth-25",
+            "cas": "68439-49-6",
+            "weight_min": 0,
+            "weight_max": 1,
+            "weight_exact": null,
+            "ghs": [
+              "Chronic Aq. 2 (H411)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": true,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false,
+            "cas_publicly_disclosed": false,
+            "range_publicly_disclosed": false,
+            "ingredient_publicly_disclosed": true,
+            "hide_selected_cas": false
+          }
+        ],
+        "form": "liquid_absorbed_in_solid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 0.25,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": 7.98,
+              "min": 8.13,
+              "missing_cas": [
+                null,
+                null,
+                "100-09-4",
+                "58-85-5",
+                "1333-86-4",
+                "84604-12-6",
+                "122-99-6",
+                "70445-33-9",
+                "68439-49-6"
+              ]
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": 7.98,
+              "min": 8.13,
+              "missing_cas": [
+                null,
+                null,
+                "100-09-4",
+                "58-85-5",
+                "1333-86-4",
+                "84604-12-6",
+                "122-99-6",
+                "70445-33-9",
+                "68439-49-6"
+              ]
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
+    "[BUG] wipes [calculated 13.4-13.88]": {
+      "request": {
+        "cas_number_and_weights": [
+          {
+            "name": "Sodium Hydroxide",
+            "cas": "1310-73-2",
+            "weight_min": 1,
+            "weight_max": 3,
+            "weight_exact": null,
+            "ghs": [
+              "Skin Corr. 1A (H314)"
+            ],
+            "rcra": [],
+            "parsed_from_sds": false,
+            "calculated": false,
+            "user_entered": true,
+            "undisclosed": false,
+            "user_enter_cas": false,
+            "no_cas_found": false
+          }
+        ],
+        "form": "liquid_absorbed_in_solid"
+      },
+      "responseCode": 200,
+      "response": {
+        "observations": [
+          {
+            "catalog_attribute": "ph_calculated",
+            "confidence": 1.0,
+            "normalized_value": {
+              "insoluble_corrosives": [],
+              "max": 13.88,
+              "min": 13.4,
+              "missing_cas": []
+            },
+            "raw_value": {
+              "insoluble_corrosives": [],
+              "max": 13.88,
+              "min": 13.4,
+              "missing_cas": []
+            },
+            "successful_result": true
+          }
+        ]
+      }
+    },
     "gas [not calculated]": {
       "request": {
         "cas_number_and_weights": [
@@ -910,52 +1286,6 @@
           }
         ],
         "form": "gas"
-      },
-      "responseCode": 200,
-      "response": {
-        "observations": [
-          {
-            "catalog_attribute": "ph_calculated",
-            "confidence": 0.8,
-            "normalized_value": {
-              "insoluble_corrosives": [],
-              "max": null,
-              "min": null,
-              "missing_cas": []
-            },
-            "raw_value": {
-              "insoluble_corrosives": [],
-              "max": null,
-              "min": null,
-              "missing_cas": []
-            },
-            "successful_result": true
-          }
-        ]
-      }
-    },
-    "wipes [not calculated]": {
-      "request": {
-        "cas_number_and_weights": [
-          {
-            "name": "Sodium Hydroxide",
-            "cas": "1310-73-2",
-            "weight_min": 10,
-            "weight_max": 50,
-            "weight_exact": null,
-            "ghs": [
-              "Skin Corr. 1A (H314)"
-            ],
-            "rcra": [],
-            "parsed_from_sds": false,
-            "calculated": false,
-            "user_entered": true,
-            "undisclosed": false,
-            "user_enter_cas": false,
-            "no_cas_found": false
-          }
-        ],
-        "form": "liquid_absorbed_in_solid"
       },
       "responseCode": 200,
       "response": {
