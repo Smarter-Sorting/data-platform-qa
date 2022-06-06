@@ -1,12 +1,19 @@
-let FPvalueValidationTestData = require('../../fixtures/genome-validation/FPvalueValidationTestData.json');
+let fpNullValidationTestData = require('../../fixtures/genome-validation/FPnullValidationTestData.json');
+let fpValueValidationTestData = require('../../fixtures/genome-validation/FPvalueValidationTestData.json');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
 describe('Validate genome - FP validation tests', () => {
     context(
+        'FP null validation: Validate that sending request in correct format expected response will be received',
+        () => {
+            fpValidation(fpNullValidationTestData);
+        },
+    );
+    context(
         'FP value validation: Validate that sending request in correct format expected response will be received',
         () => {
-            fpValidation(FPvalueValidationTestData);
+            fpValidation(fpValueValidationTestData);
         },
     );
 });
