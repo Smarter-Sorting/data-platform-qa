@@ -5018,7 +5018,7 @@
           "cas_numbers": [
             "141-78-6"
           ],
-          "data_source": "inci",
+          "data_source": "hcpa",
           "ghs_keywords": [
             "flam_liq_2",
             "stot_se_3_narc",
@@ -5328,18 +5328,18 @@
           "cas": null,
           "cas_name": "ACRYLATES COPOLYMER",
           "cas_numbers": [
-            "159666-35-0",
-            "25035-69-2",
             "25212-88-8",
-            "25685-29-4"
+            "25685-29-4",
+            "159666-35-0",
+            "25035-69-2"
           ],
           "data_source": "hcpa",
           "ghs_keywords": [
+            "acute_tox_inhal_4",
+            "chron_aq_4",
             "skin_irrit_2",
             "eye_irrit_2a",
-            "stot_se_3_resp",
-            "acute_tox_inhal_4",
-            "chron_aq_4"
+            "stot_se_3_resp"
           ],
           "ghs_keywords_dict": {
             "159666-35-0": null,
