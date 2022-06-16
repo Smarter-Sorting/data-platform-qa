@@ -1,0 +1,33 @@
+{
+    "uri": "/validate/cas_ghs",
+    "variants": {
+        "Ingredient does not have ghs [test 1] Water 7732-18-5": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Water",
+                        "cas": "7732-18-5",
+                        "weight_max": 80.5,
+                        "weight_min": 0.5
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {}
+        },
+        "Ingredient does not have ghs [test 2] Flupyrazofos 122431-24-7": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Flupyrazofos",
+                        "cas": "122431-24-7",
+                        "weight_max": 1,
+                        "weight_min": 3
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {}
+        }
+    }
+}
