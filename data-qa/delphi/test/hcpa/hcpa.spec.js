@@ -19,8 +19,6 @@ describe('Ingredients blending tests', function () {
           expect(res.statusCode).to.be.equal(200);
           let actualCasValues = res.body[0].cas_numbers;
           let expectedCasValues = data.cas_numbers.split(',');
-          console.debug('expected cas values ' + expectedCasValues);
-          console.debug('actual cas values ' + actualCasValues);
 
           if (expectedCasValues == '') {
             expect(actualCasValues.toString()).to.equal(data.cas_numbers);
