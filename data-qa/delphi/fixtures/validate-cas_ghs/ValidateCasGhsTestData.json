@@ -1,0 +1,932 @@
+{
+    "uri": "/validate/cas_ghs",
+    "variants": {
+        "Ingredient does not have ghs [test 1] Water 7732-18-5": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Water",
+                        "cas": "7732-18-5",
+                        "weight_max": 80.5,
+                        "weight_min": 0.5
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {}
+        },
+        "Ingredient does not have ghs [test 2] Glycerin 56-81-5": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Glycerin",
+                        "cas": "56-81-5",
+                        "weight_max": 1,
+                        "weight_min": 3
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {}
+        },
+        "Ingredient does not have ghs [test 3] 1-Butene, homopolymer 9003-28-5": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "1-Butene, homopolymer",
+                        "cas": "9003-28-5",
+                        "weight_max": 15,
+                        "weight_min": 0.01
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {}
+        },
+        "Ingredient does not have ghs [test 4] Gallium oxide 12024-21-4 (+ no weights in the request)": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Gallium oxide",
+                        "cas": "12024-21-4"
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {}
+        },
+        "Ingredient has ghs [test 5] Copper(II) sulfate, pentahydrate 7758-99-8": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Copper(II) sulfate, pentahydrate",
+                        "cas": "7758-99-8",
+                        "weight_max": 1,
+                        "weight_min": 0.01
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "7758-99-8": [
+                    "acute_tox_oral_4",
+                    "skin_irrit_2",
+                    "eye_irrit_2a",
+                    "acute_aq_1",
+                    "chron_aq_1"
+                ]
+            }
+        },
+        "Ingredient has ghs [test 6] Cetyl alcohol 36653-82-4": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Cetyl alcohol",
+                        "cas": "36653-82-4",
+                        "weight_max": 1,
+                        "weight_min": 0.01
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "36653-82-4": [
+                    "flam_liq_2",
+                    "acute_tox_oral_4",
+                    "acute_tox_dermal_4",
+                    "eye_irrit_2a",
+                    "stot_se_3_resp",
+                    "acute_aq_1",
+                    "chron_aq_2"
+                ]
+            }
+        },
+        "Ingredient has ghs [test 7] Corn sugar gum 11138-66-2": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Corn sugar gum",
+                        "cas": "11138-66-2",
+                        "weight_max": 10,
+                        "weight_min": 0.01
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "11138-66-2": [
+                    "skin_irrit_2",
+                    "eye_irrit_2a"
+                ]
+            }
+        },
+        "Ingredient has ghs [test 8] Silica, vitreous 60676-86-0 (+ no weights in the request)": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Silica, vitreous",
+                        "cas": "60676-86-0"
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "60676-86-0": [
+                    "eye_irrit_2a"
+                ]
+            }
+        },
+        "Invalid cas number [test 9] 123-00-0": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "cas_name": "Invalid cas",
+                        "cas": "123-00-0",
+                        "weight_max": 15,
+                        "weight_min": 0.01
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {}
+        },
+        "Multiple ingredients: some has ghs data, some do not [test 10]": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "name": "TRIMETHYL phosphate",
+                        "cas": "512-56-1",
+                        "weight_min": null,
+                        "weight_max": null
+                    },
+                    {
+                        "name": "Nadolol",
+                        "cas": "42200-33-9",
+                        "weight_min": 1,
+                        "weight_max": 2.5
+                    },
+                    {
+                        "name": "Ethyl Acetate",
+                        "cas": "141-78-6",
+                        "weight_min": 25,
+                        "weight_max": 50
+                    },
+                    {
+                        "name": "N-Butyl Acetate",
+                        "cas": "123-86-4",
+                        "weight_min": 10,
+                        "weight_max": 25
+                    },
+                    {
+                        "name": "Nitrocellulose",
+                        "cas": "9004-70-0",
+                        "weight_min": 10,
+                        "weight_max": 25
+                    },
+                    {
+                        "name": "Isopropyl alcohol",
+                        "cas": "67-63-0",
+                        "weight_min": 2.5,
+                        "weight_max": 10
+                    },
+                    {
+                        "name": "Ethanol",
+                        "cas": "64-17-5",
+                        "weight_min": 2.5,
+                        "weight_max": 10
+                    },
+                    {
+                        "name": "TRIPHENYL PHOSPHATE",
+                        "cas": "115-86-6",
+                        "weight_min": 2.5,
+                        "weight_max": 10
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "115-86-6": [
+                    "acute_aq_1",
+                    "chron_aq_1"
+                ],
+                "123-86-4": [
+                    "flam_liq_3",
+                    "stot_se_3_narc"
+                ],
+                "141-78-6": [
+                    "flam_liq_2",
+                    "stot_se_3_narc",
+                    "eye_irrit_2a"
+                ],
+                "64-17-5": [
+                    "flam_liq_2"
+                ],
+                "67-63-0": [
+                    "flam_liq_2",
+                    "stot_se_3_narc",
+                    "eye_irrit_2a"
+                ],
+                "9004-70-0": [
+                    "explo_1_1"
+                ]
+            }
+        },
+        "Multiple ingredients: some has ghs data, some do not [test 11]": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "name": "1,2,3-Propanetricarboxylic acid, 2-(acetyloxy)-,",
+                        "cas": "77-90-7",
+                        "weight_min": 2.5,
+                        "weight_max": 10
+                    },
+                    {
+                        "name": "Carbon Black",
+                        "cas": "1333-86-4",
+                        "weight_min": 0.1,
+                        "weight_max": 1
+                    },
+                    {
+                        "name": "LAURYL GLUCOSIDE",
+                        "cas": "110615-47-9",
+                        "weight_min": 0,
+                        "weight_max": 5.73
+                    },
+                    {
+                        "name": "BETAINE",
+                        "cas": "107-43-7",
+                        "weight_min": 0,
+                        "weight_max": 100
+                    },
+                    {
+                        "name": "ALOE BARBADENSIS LEAF EXTRACT",
+                        "cas": "85507-69-3",
+                        "weight_min": 0,
+                        "weight_max": 2.99
+                    },
+                    {
+                        "name": "Titanium Dioxide",
+                        "cas": "13463-67-7",
+                        "weight_min": 1,
+                        "weight_max": 2.5
+                    },
+                    {
+                        "name": "Neopentane",
+                        "cas": "463-82-1",
+                        "weight_min": 1,
+                        "weight_max": 2.1
+                    },
+                    {
+                        "name": "1-(2,4,5-Trimethylphenyl)ethan-1-one",
+                        "cas": "2040-07-5",
+                        "weight_min": 0.11,
+                        "weight_max": 2.11
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "13463-67-7": [
+                    "carc_2"
+                ],
+                "2040-07-5": [
+                    "flam_liq_3"
+                ],
+                "463-82-1": [
+                    "flam_gas_1a",
+                    "chron_aq_2",
+                    "press_gas"
+                ]
+            }
+        },
+        "Multiple ingredients: some has ghs data, some do not [test 12]": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "name": "Water",
+                        "cas": "7732-18-5",
+                        "weight_min": null,
+                        "weight_max": null
+                    },
+                    {
+                        "name": "Benzenemethanaminium, N-ethyl-N-(4-((4-(ethyl((3-sulfophenyl)methyl)amino)phenyl)(2-sulfophenyl)methylene)-2,5-cyclohexadien-1-ylidene)-3-sulfo-, hydroxide, inner salt, disodium salt",
+                        "cas": "3844-45-9",
+                        "weight_min": null,
+                        "weight_max": null
+                    },
+                    {
+                        "name": "C.I. 71105",
+                        "cas": "4424-06-0",
+                        "weight_min": null,
+                        "weight_max": null
+                    },
+                    {
+                        "name": "PPG",
+                        "cas": "57-55-6",
+                        "weight_min": null,
+                        "weight_max": 1
+                    },
+                    {
+                        "name": "Z-6090U",
+                        "cas": "980-26-7",
+                        "weight_min": null,
+                        "weight_max": 7
+                    },
+                    {
+                        "name": "Z-6060U",
+                        "cas": "1328-53-6",
+                        "weight_min": 0.5,
+                        "weight_max": 3
+                    },
+                    {
+                        "name": "Z-6010U",
+                        "cas": "5102-83-0",
+                        "weight_min": 1,
+                        "weight_max": null
+                    },
+                    {
+                        "name": "Z-6030U",
+                        "cas": "147-14-8",
+                        "weight_min": 0.5,
+                        "weight_max": 6
+                    },
+                    {
+                        "name": "Z-6080U",
+                        "cas": "7023-61-2",
+                        "weight_min": 0.5,
+                        "weight_max": 2
+                    },
+                    {
+                        "name": "Z-6120E",
+                        "cas": "6358-69-6",
+                        "weight_min": null,
+                        "weight_max": 8.1
+                    },
+                    {
+                        "name": "Z-6040E",
+                        "cas": "8004-92-0",
+                        "weight_min": null,
+                        "weight_max": 3
+                    },
+                    {
+                        "name": "Z-6070U",
+                        "cas": "1333-86-4",
+                        "weight_min": null,
+                        "weight_max": 1
+                    },
+                    {
+                        "name": "Aluminum",
+                        "cas": "7429-90-5",
+                        "weight_min": 2,
+                        "weight_max": 2.7
+                    },
+                    {
+                        "name": "Triethanolamine",
+                        "cas": "102-71-6",
+                        "weight_min": null,
+                        "weight_max": 6
+                    },
+                    {
+                        "name": "Oleic Acid",
+                        "cas": "112-80-1",
+                        "weight_min": null,
+                        "weight_max": 9
+                    },
+                    {
+                        "name": "Z-6050E",
+                        "cas": "18472-87-2",
+                        "weight_min": 0.5,
+                        "weight_max": 0.6
+                    },
+                    {
+                        "name": "Dibromocyanoacetamide",
+                        "cas": "10222-01-2",
+                        "weight_min": null,
+                        "weight_max": 6
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "102-71-6": [
+                    "eye_irrit_2a",
+                    "repr_2"
+                ],
+                "10222-01-2": [
+                    "acute_tox_oral_3",
+                    "acute_tox_dermal_2",
+                    "skin_irrit_2",
+                    "skin_sens_1",
+                    "eye_dam_1",
+                    "acute_tox_inhal_2",
+                    "acute_aq_1",
+                    "chron_aq_3"
+                ],
+                "112-80-1": [
+                    "skin_irrit_2",
+                    "eye_irrit_2a",
+                    "stot_se_3_resp"
+                ],
+                "18472-87-2": [
+                    "eye_irrit_2a",
+                    "acute_aq_1",
+                    "chron_aq_3"
+                ],
+                "7429-90-5": [
+                    "pyro_sol_1",
+                    "water_react_2",
+                    "flam_sol_1",
+                    "water_react_2"
+                ]
+            }
+        },
+        "Multiple ingredients: all with ghs [test 13]": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "name": "PARAFFIN",
+                        "cas": "8002-74-2",
+                        "weight_min": null,
+                        "weight_max": 1
+                    },
+                    {
+                        "name": "Gasoline",
+                        "cas": "86290-81-5",
+                        "weight_min": null,
+                        "weight_max": 2
+                    },
+                    {
+                        "name": "3-Demethylthiocolchicine",
+                        "cas": "87424-25-7",
+                        "weight_min": null,
+                        "weight_max": 3
+                    },
+                    {
+                        "name": "Microcystin LY",
+                        "cas": "123304-10-9",
+                        "weight_min": null,
+                        "weight_max": 4
+                    },
+                    {
+                        "name": "Sodium chromotropate",
+                        "cas": "129-96-4",
+                        "weight_min": null,
+                        "weight_max": 5
+                    },
+                    {
+                        "name": "Psilocin",
+                        "cas": "520-53-6",
+                        "weight_min": null,
+                        "weight_max": 6
+                    },
+                    {
+                        "name": "Cadmium oxalate",
+                        "cas": "814-88-0",
+                        "weight_min": null,
+                        "weight_max": 7
+                    },
+                    {
+                        "name": "Triazolam",
+                        "cas": "28911-01-5",
+                        "weight_min": null,
+                        "weight_max": 8
+                    },
+                    {
+                        "name": "Acetyl cedrene",
+                        "cas": "32388-55-9",
+                        "weight_min": null,
+                        "weight_max": 9
+                    },
+                    {
+                        "name": "Talinolol [INN]",
+                        "cas": "57460-41-0",
+                        "weight_min": null,
+                        "weight_max": 10
+                    },
+                    {
+                        "name": "Naphtha (petroleum), light, sweetened",
+                        "cas": "68783-66-4",
+                        "weight_min": null,
+                        "weight_max": 12
+                    },
+                    {
+                        "name": "Butyl dihydrogen phosphate, potassium salt",
+                        "cas": "85391-11-3",
+                        "weight_min": null,
+                        "weight_max": 13
+                    },
+                    {
+                        "name": "MDL 72527",
+                        "cas": "93565-01-6",
+                        "weight_min": null,
+                        "weight_max": 14
+                    },
+                    {
+                        "name": "Soraphen A",
+                        "cas": "122547-72-2",
+                        "weight_min": null,
+                        "weight_max": 15
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "122547-72-2": [
+                    "skin_sens_1",
+                    "acute_aq_1",
+                    "chron_aq_1"
+                ],
+                "123304-10-9": [
+                    "acute_tox_oral_2",
+                    "acute_tox_dermal_2",
+                    "skin_irrit_2",
+                    "eye_irrit_2a",
+                    "acute_tox_inhal_1",
+                    "resp_sens_1",
+                    "stot_se_3_resp"
+                ],
+                "129-96-4": [
+                    "skin_irrit_2",
+                    "eye_irrit_2a",
+                    "stot_se_3_resp"
+                ],
+                "28911-01-5": [
+                    "repr_1b"
+                ],
+                "32388-55-9": [
+                    "skin_sens_1",
+                    "acute_aq_1",
+                    "chron_aq_1"
+                ],
+                "520-53-6": [
+                    "acute_tox_oral_4"
+                ],
+                "57460-41-0": [
+                    "acute_tox_oral_4",
+                    "acute_tox_inhal_4",
+                    "repr_2"
+                ],
+                "68783-66-4": [
+                    "carc_1b",
+                    "muta_1b",
+                    "asp_haz_1"
+                ],
+                "8002-74-2": [
+                    "eye_irrit_2a"
+                ],
+                "814-88-0": [
+                    "acute_tox_oral_4",
+                    "acute_tox_dermal_4",
+                    "acute_tox_inhal_4",
+                    "acute_aq_1",
+                    "chron_aq_1"
+                ],
+                "85391-11-3": [
+                    "eye_irrit_2a"
+                ],
+                "86290-81-5": [
+                    "carc_1b",
+                    "muta_1b",
+                    "asp_haz_1"
+                ],
+                "87424-25-7": [
+                    "acute_tox_oral_2",
+                    "eye_dam_1",
+                    "acute_tox_inhal_2"
+                ],
+                "93565-01-6": [
+                    "skin_irrit_2",
+                    "eye_irrit_2a",
+                    "stot_se_3_resp"
+                ]
+            }
+        },
+        "Multiple ingredients: all without ghs [test 14]": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "name": "glucose",
+                        "cas": "50-99-7",
+                        "weight_min": 1,
+                        "weight_max": 5
+                    },
+                    {
+                        "name": "maltose",
+                        "cas": "69-79-4",
+                        "weight_min": 40,
+                        "weight_max": 100
+                    },
+                    {
+                        "name": "dextrin",
+                        "cas": "9004-53-9",
+                        "weight_min": 40,
+                        "weight_max": 55
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {}
+        },
+        "Multiple ingredients: some has ghs data, some do not, some with invalid cas, some with null cas [test 15]": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "name": "Invalid cas",
+                        "cas": "8000-11-1",
+                        "weight_min": 1,
+                        "weight_max": 1
+                    },
+                    {
+                        "name": "Ethylhexyl Palmitate",
+                        "cas": "29806-73-3",
+                        "weight_min": 20,
+                        "weight_max": 50
+                    },
+                    {
+                        "name": "Polybutene",
+                        "cas": "9003-29-6",
+                        "weight_min": 20,
+                        "weight_max": 50
+                    },
+                    {
+                        "name": "Caprylic/Capric Triglyceride",
+                        "cas": "73398-61-5",
+                        "weight_min": 5,
+                        "weight_max": 20
+                    },
+                    {
+                        "name": "Diisostearyl Malate",
+                        "cas": "67763-18-2",
+                        "weight_min": 0.001,
+                        "weight_max": 15
+                    },
+                    {
+                        "name": "Hydrogenated Styrene/Isoprene Copolymer",
+                        "cas": "68648-89-5",
+                        "weight_min": 2,
+                        "weight_max": 10
+                    },
+                    {
+                        "name": "Silica Dimethyl Silylate",
+                        "cas": "68611-44-9",
+                        "weight_min": 2,
+                        "weight_max": 10
+                    },
+                    {
+                        "name": "Ceresin",
+                        "cas": "8001-75-0",
+                        "weight_min": 2,
+                        "weight_max": 10
+                    },
+                    {
+                        "name": "Sorbitan Sesquioleate",
+                        "cas": "8007-43-0",
+                        "weight_min": 0.2,
+                        "weight_max": 3
+                    },
+                    {
+                        "name": "Hydroxystearic Acid",
+                        "cas": "106-14-9",
+                        "weight_min": 0.1,
+                        "weight_max": 2
+                    },
+                    {
+                        "name": "mica",
+                        "cas": "1318-94-1",
+                        "weight_min": 0.1,
+                        "weight_max": 2
+                    },
+                    {
+                        "name": "synthetic fluorphlogopite",
+                        "cas": "12003-38-2",
+                        "weight_min": 0.1,
+                        "weight_max": 2
+                    },
+                    {
+                        "name": "Polyethylene Terephthalate",
+                        "cas": "25038-59-9",
+                        "weight_min": 0.1,
+                        "weight_max": 2
+                    },
+                    {
+                        "name": "Tocopheryl Acetate",
+                        "cas": "7695-91-2",
+                        "weight_min": 0.05,
+                        "weight_max": 1
+                    },
+                    {
+                        "name": "Caprylyl Glycol",
+                        "cas": "1117-86-8",
+                        "weight_min": 0.05,
+                        "weight_max": 1
+                    },
+                    {
+                        "name": "Phenoxyethanol",
+                        "cas": "122-99-6",
+                        "weight_min": 0.2,
+                        "weight_max": 0.8
+                    },
+                    {
+                        "name": "parfum",
+                        "cas": null,
+                        "weight_min": 0.1,
+                        "weight_max": 0.8
+                    },
+                    {
+                        "name": "Invalid cas",
+                        "cas": "10111-10-0",
+                        "weight_min": 0.1,
+                        "weight_max": 0.5
+                    },
+                    {
+                        "name": "Isophorone Diamine/Isophthalic Acid/Tromethamine Copolymer",
+                        "cas": null,
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "Bis(Glycidoxyphenyl)propane/Bisaminomethylnorbornane Copolymer",
+                        "cas": null,
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 77891",
+                        "cas": "13463-67-7",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 75470",
+                        "cas": "1260-17-9",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 77007",
+                        "cas": "12769-96-9",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 42090",
+                        "cas": "2650-18-2",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "ci 19140",
+                        "cas": "1934-21-0",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 15985",
+                        "cas": "2783-94-0",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 77491",
+                        "cas": "1345-25-1",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 77492",
+                        "cas": "52357-70-7",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 77499",
+                        "cas": "1345-27-3",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 77742",
+                        "cas": "10101-66-3",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 77288",
+                        "cas": "1308-38-9",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 77289",
+                        "cas": "12001-99-9",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 77510",
+                        "cas": "25869-00-5",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 15850",
+                        "cas": "5858-81-1",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 45410",
+                        "cas": "18472-87-2",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 16035",
+                        "cas": "25956-17-6",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "CI 45380",
+                        "cas": "94021-89-3",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "Acrylates Copolymer",
+                        "cas": "25035-69-2",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "Hydrated Silica",
+                        "cas": "112926-00-8",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    },
+                    {
+                        "name": "Polymethyl Methacrylate",
+                        "cas": "9011-14-7",
+                        "weight_min": 0.01,
+                        "weight_max": 0.1
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "1117-86-8": [
+                    "eye_irrit_2a"
+                ],
+                "12001-99-9": [
+                    "skin_irrit_2",
+                    "eye_irrit_2a",
+                    "stot_se_3_resp"
+                ],
+                "122-99-6": [
+                    "acute_tox_oral_4",
+                    "eye_irrit_2a"
+                ],
+                "1318-94-1": [
+                    "eye_irrit_2a"
+                ],
+                "13463-67-7": [
+                    "carc_2"
+                ],
+                "18472-87-2": [
+                    "eye_irrit_2a",
+                    "acute_aq_1",
+                    "chron_aq_3"
+                ],
+                "25035-69-2": [
+                    "skin_irrit_2",
+                    "eye_irrit_2a",
+                    "stot_se_3_resp"
+                ],
+                "25869-00-5": [
+                    "chron_aq_4"
+                ],
+                "68648-89-5": [
+                    "chron_aq_4"
+                ]
+            }
+        },
+        "Ingredient with cas = 'unknown' [test 16] Phosphorous acid, tri-2-propen-1-yl ester": {
+            "request": {
+                "cas_number_and_weights": [
+                    {
+                        "name": "Phosphorous acid, tri-2-propen-1-yl ester",
+                        "cas": "102-84-1",
+                        "weight_min": 1,
+                        "weight_max": 2.1
+                    }
+                ]
+            },
+            "responseCode": 200,
+            "response": {
+                "102-84-1": [
+                    "unknown"
+                ]
+            }
+        }
+    }
+}
