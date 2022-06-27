@@ -1,0 +1,22 @@
+{
+    "uri": "/intended_use_subcategory/predict",
+    "variants": {
+        "test 1": {
+            "request": {
+                "product_name": "Yellow Paint"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PAINT_RELATED",
+                        "raw_value": "PAINT_RELATED",
+                        "successful_result": true
+                    }
+                ]
+            }
+        }
+    }
+}
