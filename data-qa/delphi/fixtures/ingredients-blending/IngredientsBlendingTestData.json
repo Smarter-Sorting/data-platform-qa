@@ -124,7 +124,7 @@
           "cas_numbers": [
             "25086-89-9"
           ],
-          "data_source": "inci",
+          "data_source": "hcpa",
           "ghs_keywords": [
             "acute_tox_oral_4",
             "chron_aq_4"
@@ -4932,7 +4932,7 @@
             "cas_numbers": [
               "141-78-6"
             ],
-            "data_source": "inci",
+            "data_source": "hcpa",
             "ghs_keywords": [
               "flam_liq_2",
               "stot_se_3_narc",
@@ -5018,7 +5018,7 @@
           "cas_numbers": [
             "141-78-6"
           ],
-          "data_source": "inci",
+          "data_source": "hcpa",
           "ghs_keywords": [
             "flam_liq_2",
             "stot_se_3_narc",
@@ -5328,36 +5328,31 @@
           "cas": null,
           "cas_name": "ACRYLATES COPOLYMER",
           "cas_numbers": [
-            "25133-97-5",
-            "25035-69-2",
-            "25212-88-8"
+            "25212-88-8",
+            "25685-29-4",
+            "159666-35-0",
+            "25035-69-2"
           ],
-          "data_source": "inci",
+          "data_source": "hcpa",
           "ghs_keywords": [
-            "skin_irrit_2",
-            "eye_irrit_2a",
+            "acute_tox_inhal_4",
             "chron_aq_4",
             "skin_irrit_2",
             "eye_irrit_2a",
-            "stot_se_3_resp",
-            "acute_tox_inhal_4",
-            "chron_aq_4"
+            "stot_se_3_resp"
           ],
           "ghs_keywords_dict": {
+            "159666-35-0": null,
             "25035-69-2": [
               "skin_irrit_2",
               "eye_irrit_2a",
               "stot_se_3_resp"
             ],
-            "25133-97-5": [
-              "skin_irrit_2",
-              "eye_irrit_2a",
-              "chron_aq_4"
-            ],
             "25212-88-8": [
               "acute_tox_inhal_4",
               "chron_aq_4"
-            ]
+            ],
+            "25685-29-4": null
           },
           "ghs_or_rcra_flag": true,
           "ghs_readable_dict": {
@@ -5365,11 +5360,6 @@
               "Skin Irrit. 2 (H315)",
               "Eye Irrit. 2A (H319)",
               "STOT SE 3 (resp. irrit.) (H335)"
-            ],
-            "25133-97-5": [
-              "Skin Irrit. 2 (H315)",
-              "Eye Irrit. 2A (H319)",
-              "Chronic Aq. 4 (H413)"
             ],
             "25212-88-8": [
               "Acute Tox. 4 (inh.) (H332)",
@@ -5840,7 +5830,7 @@
           "cas_numbers": [
             "68441-17-8"
           ],
-          "data_source": "inci",
+          "data_source": "hcpa",
           "ghs_keywords": null,
           "ghs_keywords_dict": {
             "68441-17-8": null
