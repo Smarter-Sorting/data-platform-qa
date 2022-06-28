@@ -255,6 +255,40 @@
                 ]
             }
         },
+        "[BUG] product_name='First class plant foodie' [test 16] >> Sub-category: OTHER (FERTILIZER)": {
+            "request": {
+                "product_name": "First class plant foodie"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "[BUG] product_name='' [test 17] >> Sub-category: OTHER (FIRE_EXTINGUISHER)": {
+            "request": {
+                "product_name": "4th of July Fire Extinguisher"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
         "description=null [test 1] >> Sub-category: null": {
             "request": {
                 "description": null
