@@ -221,6 +221,40 @@
                 ]
             }
         },
+        "product_name='PAM Sauté and Grill Cooking Spray' [test 14] >> Sub-category: COOKING_OIL": {
+            "request": {
+                "product_name": "PAM Sauté and Grill Cooking Spray"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "COOKING_OIL",
+                        "raw_value": "COOKING_OIL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='apple juice' [test 15] >> Sub-category: OTHER (CONSUMABLE)": {
+            "request": {
+                "product_name": "apple juice"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
         "description=null [test 1] >> Sub-category: null": {
             "request": {
                 "description": null
