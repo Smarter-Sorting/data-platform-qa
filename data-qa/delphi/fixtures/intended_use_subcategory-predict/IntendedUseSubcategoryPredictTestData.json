@@ -1,7 +1,40 @@
 {
     "uri": "/intended_use_subcategory/predict",
     "variants": {
-        "test 1": {
+        "product_name=null [test 1] >> Sub-category: null": {
+            "request": {
+                "product_name": null
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "product_name='Invalid input' [test 2] >> Sub-category: null": {
+            "request": {
+                "product_name": "Invalid input"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "product_name='Yellow Paint' [test 3] >> Sub-category: PAINT_RELATED": {
             "request": {
                 "product_name": "Yellow Paint"
             },
@@ -13,6 +46,395 @@
                         "confidence": 0.9,
                         "normalized_value": "PAINT_RELATED",
                         "raw_value": "PAINT_RELATED",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='laptop battery' [test 4] >> Sub-category: LITHIUM_ION": {
+            "request": {
+                "product_name": "laptop battery"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LITHIUM_ION",
+                        "raw_value": "LITHIUM_ION",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Nickel Cadmium Batteries' [test 5] >> Sub-category: NICKEL_CADMIUM": {
+            "request": {
+                "product_name": "Nickel Cadmium Batteries"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "NICKEL_CADMIUM",
+                        "raw_value": "NICKEL_CADMIUM",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='(used on the label) Nickel Metal Hydride Battery' [test 6] >> Sub-category: NICKEL_METAL_HYDRIDE": {
+            "request": {
+                "product_name": "(used on the label) Nickel Metal Hydride Battery"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "NICKEL_METAL_HYDRIDE",
+                        "raw_value": "NICKEL_METAL_HYDRIDE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Silver-Oxide Battery' [test 7] >> Sub-category: SILVER_OXIDE": {
+            "request": {
+                "product_name": "Silver-Oxide Battery"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "SILVER_OXIDE",
+                        "raw_value": "SILVER_OXIDE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Duracell zinc air battery' [test 8] >> Sub-category: ZINC_AIR": {
+            "request": {
+                "product_name": "Duracell zinc air battery"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "ZINC_AIR",
+                        "raw_value": "ZINC_AIR",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='laundry bleach' [test 9] >> Sub-category: BLEACH": {
+            "request": {
+                "product_name": "laundry bleach"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "BLEACH",
+                        "raw_value": "BLEACH",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='protein bar' [test 10] >> Sub-category: FOOD": {
+            "request": {
+                "product_name": "protein bar"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FOOD",
+                        "raw_value": "FOOD",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='coors beer' [test 11] >> Sub-category: BEER": {
+            "request": {
+                "product_name": "coors beer"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "BEER",
+                        "raw_value": "BEER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='grill seasoning' [test 12] >> Sub-category: EXTRACT_AND_SEASONING": {
+            "request": {
+                "product_name": "grill seasoning"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "EXTRACT_AND_SEASONING",
+                        "raw_value": "EXTRACT_AND_SEASONING",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='vitamin b-12' [test 13] >> Sub-category: MEDICINE": {
+            "request": {
+                "product_name": "vitamin b-12"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "MEDICINE",
+                        "raw_value": "MEDICINE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description=null [test 1] >> Sub-category: null": {
+            "request": {
+                "description": null
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "description='Invalid input' [test 2] >> Sub-category: null": {
+            "request": {
+                "description": "Invalid input"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "description='Yellow paint' [test 3] >> Sub-category: PAINT_RELATED": {
+            "request": {
+                "description": "Yellow paint"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PAINT_RELATED",
+                        "raw_value": "PAINT_RELATED",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "[BUG] description='for cutting, grinding, and drilling;..' [test 4] >> Sub-category: OTHER (CONSTRUCTION)": {
+            "request": {
+                "description": "for cutting, grinding, and drilling; for construction; for plumbing projects, PVC pipe; for welding, soldering, flux; for adding texture to walls; for filling holes, cracks and sealing seams; for doing masonry work which is construction with bricks, concrete, cast stone, cement: for removing adhesive; for removing wallpaper"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for household cleaning, washing;..' [test 5] >> Sub-category: SOAP_AND_DETERGENT": {
+            "request": {
+                "description": "for household cleaning, washing; for washing, drying, care of clothes and textiles"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "SOAP_AND_DETERGENT",
+                        "raw_value": "SOAP_AND_DETERGENT",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for general household/industrial cleaning;..' [test 6] >> Sub-category: OTHER (CLEANER)": {
+            "request": {
+                "description": "for general household/industrial cleaning; for cleaning glass; for cleaning, polishing, maintaining furniture; for cleaning in the kitchen, stove/oven, sink, countertops; for toilet cleaning, for showers, tubs, tile cleaning; for cleaning and maintaining floors; for clearing drains/maintaining septic systems; for cleaning automotives, tire dressing"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use=null [test 1] >> Sub-category: null": {
+            "request": {
+                "recommended_use": null
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "recommended_use='Invalid input' [test 2] >> Sub-category: null": {
+            "request": {
+                "recommended_use": "Invalid input"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "recommended_use='Yellow paint' [test 3] >> Sub-category: PAINT_RELATED": {
+            "request": {
+                "recommended_use": "Yellow paint"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PAINT_RELATED",
+                        "raw_value": "PAINT_RELATED",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "[BUG] recommended_use='Automobile Antifreeze – consumer product' [test 4] >> Sub-category: OTHER (ANTIFREEZE)": {
+            "request": {
+                "recommended_use": "Automobile Antifreeze – consumer product"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Alkaline battery' [test 5] >> Sub-category: ALKALINE": {
+            "request": {
+                "recommended_use": "Alkaline battery"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "ALKALINE",
+                        "raw_value": "ALKALINE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Carbon Zinc Batteries' [test 6] >> Sub-category: ZINC_CARBON": {
+            "request": {
+                "recommended_use": "Carbon Zinc Batteries"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "ZINC_CARBON",
+                        "raw_value": "ZINC_CARBON",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='disinfectant spray' [test 7] >> Sub-category: DISINFECTANT": {
+            "request": {
+                "recommended_use": "disinfectant spray"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "DISINFECTANT",
+                        "raw_value": "DISINFECTANT",
                         "successful_result": true
                     }
                 ]
