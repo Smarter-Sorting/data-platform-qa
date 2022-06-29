@@ -810,6 +810,62 @@
                 ]
             }
         },
+        "description='for producing pyrotechnic entertainment and aesthetics' [test 7] >> [BUG] Category: FIREWORKS_AND_FLARES; [BUG] Sub-category: FIREWORKS": {
+            "request": {
+                "description": "for producing pyrotechnic entertainment and aesthetics"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIREWORKS_AND_FLARES",
+                        "raw_value": "FIREWORKS_AND_FLARES",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FIREWORKS",
+                        "raw_value": "FIREWORKS",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for distress signalling, illumination, or defensive countermeasures in civilian and military applications' [test 8] >> [BUG] Category: FIREWORKS_AND_FLARES; [BUG] Sub-category: FLARES": {
+            "request": {
+                "description": "for distress signalling, illumination, or defensive countermeasures in civilian and military applications"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIREWORKS_AND_FLARES",
+                        "raw_value": "FIREWORKS_AND_FLARES",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FLARES",
+                        "raw_value": "FLARES",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
         "recommended_use=null [test 1] >> Category: null; Sub-category: null": {
             "request": {
                 "recommended_use": null
