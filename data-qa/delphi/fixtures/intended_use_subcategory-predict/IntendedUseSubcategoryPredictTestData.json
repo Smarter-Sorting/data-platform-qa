@@ -289,6 +289,91 @@
                 ]
             }
         },
+        "product_name='bbq lighter' [test 18] >> Sub-category: LIGHTERS": {
+            "request": {
+                "product_name": "bbq lighter"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTERS",
+                        "raw_value": "LIGHTERS",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Freddy's matches' [test 19] >> Sub-category: MATCHES": {
+            "request": {
+                "product_name": "Freddy's matches"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "MATCHES",
+                        "raw_value": "MATCHES",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Awesome lighter fluid to ignite combustible materials' [test 20] >> Sub-category: LIGHTER_FLUID": {
+            "request": {
+                "product_name": "Awesome lighter fluid to ignite combustible materials"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTER_FLUID",
+                        "raw_value": "LIGHTER_FLUID",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Create flame: charcoal' [test 21] >> Sub-category: CHARCOAL": {
+            "request": {
+                "product_name": "Create flame: charcoal"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "CHARCOAL",
+                        "raw_value": "CHARCOAL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Lawn Starter' [test 22] >> Sub-category: SOLID_FIRE_STARTER": {
+            "request": {
+                "product_name": "Lawn Starter"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "SOLID_FIRE_STARTER",
+                        "raw_value": "SOLID_FIRE_STARTER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
         "description=null [test 1] >> Sub-category: null": {
             "request": {
                 "description": null
@@ -440,7 +525,25 @@
                 ]
             }
         },
-        "[BUG] recommended_use='Automobile Antifreeze – consumer product' [test 4] >> Sub-category: OTHER (ANTIFREEZE)": {
+        "recommended_use='lithium metal' [test 4] >> Sub-category: LITHIUM_METAL": {
+            "request": {
+                "recommended_use": "lithium metal"
+            },
+            "responseCode": 200,
+            "response": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LITHIUM_METAL",
+                        "raw_value": "LITHIUM_METAL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+
+        "[BUG] recommended_use='Automobile Antifreeze – consumer product' [test 5] >> Sub-category: OTHER (ANTIFREEZE)": {
             "request": {
                 "recommended_use": "Automobile Antifreeze – consumer product"
             },
@@ -457,7 +560,7 @@
                 ]
             }
         },
-        "recommended_use='Alkaline battery' [test 5] >> Sub-category: ALKALINE": {
+        "recommended_use='Alkaline battery' [test 6] >> Sub-category: ALKALINE": {
             "request": {
                 "recommended_use": "Alkaline battery"
             },
@@ -474,7 +577,7 @@
                 ]
             }
         },
-        "recommended_use='Carbon Zinc Batteries' [test 6] >> Sub-category: ZINC_CARBON": {
+        "recommended_use='Carbon Zinc Batteries' [test 7] >> Sub-category: ZINC_CARBON": {
             "request": {
                 "recommended_use": "Carbon Zinc Batteries"
             },
@@ -491,7 +594,7 @@
                 ]
             }
         },
-        "recommended_use='disinfectant spray' [test 7] >> Sub-category: DISINFECTANT": {
+        "recommended_use='disinfectant spray' [test 8] >> Sub-category: DISINFECTANT": {
             "request": {
                 "recommended_use": "disinfectant spray"
             },
