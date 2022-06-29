@@ -1,4 +1,4 @@
-let testData = require('../../fixtures/intended_use_subcategory-predict/IntendedUseSubcategoryPredictTestData.json');
+let testData = require('../../fixtures/intended_use_category&subcategory-predict/IntendedUseCategorySubcategoryPredictTestData.json');
 let config = require('../../../support/setUp.js');
 let commons = require('../../../support/helpers.js');
 
@@ -10,12 +10,12 @@ describe('Predict intended use sub-category tests', function () {
         it(`Should get a proper response with ${variant}`, async () => {
           const res = await commons.postRequest(
             config.mlBaseUrl,
-            testData.uri,
+            testData.uri_subcategory,
             data.request,
             `Basic ${config.mlToken}`,
           );
           expect(res.statusCode).to.be.equal(data.responseCode);
-          expect(res.body).to.deep.equalInAnyOrder(data.response);
+          expect(res.body).to.deep.equalInAnyOrder(data.response_subcategory);
         });
       });
     },
