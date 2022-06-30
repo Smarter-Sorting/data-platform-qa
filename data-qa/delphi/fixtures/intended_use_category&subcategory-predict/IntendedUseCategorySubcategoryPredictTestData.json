@@ -644,6 +644,90 @@
                 ]
             }
         },
+        "product_name='Inflatable Life Preservers, Life Vests, Life Jackets, Individual Flotation Devices, Personal Flotation Devices.' [test 24] >> [BUG] Category: INFLATABLE; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "Inflatable Life Preservers, Life Vests, Life Jackets, Individual Flotation Devices, Personal Flotation Devices."
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "INFLATABLE",
+                        "raw_value": "INFLATABLE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Sharpie S-Gel Pen' [test 25] >> Category: INK; Sub-category: PEN": {
+            "request": {
+                "product_name": "Sharpie S-Gel Pen"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "INK",
+                        "raw_value": "INK",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PEN",
+                        "raw_value": "PEN",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='RIT DYE, LIQUID' [test 26] >> Category: INK; Sub-category: OTHER": {
+            "request": {
+                "product_name": "RIT DYE, LIQUID"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "INK",
+                        "raw_value": "INK",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
         "description=null [test 1] >> Category: null; Sub-category: null": {
             "request": {
                 "description": null
@@ -865,6 +949,126 @@
                     }
                 ]
             }
+        },
+        "description='liquid fuel' [test 9] >> Category: OIL_AND_FUEL; [BUG] Sub-category: FUEL": {
+            "request": {
+                "description": "liquid fuel"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OIL_AND_FUEL",
+                        "raw_value": "OIL_AND_FUEL",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FUEL",
+                        "raw_value": "FUEL",
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "description='to enhance the quality and efficiency of fuel used in motor vehicles;..' [test 10] >> [BUG] Category: OIL_AND_FUEL; [BUG] Sub-category: FUEL_ADDITIVE": {
+            "request": {
+                "description": "to enhance the quality and efficiency of fuel used in motor vehicles; to prevent carbon build up in a gas tank and to clean various part of the fuel system components"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OIL_AND_FUEL",
+                        "raw_value": "OIL_AND_FUEL",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FUEL_ADDITIVE",
+                        "raw_value": "FUEL_ADDITIVE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='' [test 11] >> [BUG] Category: OIL_AND_FUEL; [BUG] Sub-category: MOTOR_OIL": {
+            "request": {
+                "description": "for internal lubrication of combustion engines"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OIL_AND_FUEL",
+                        "raw_value": "OIL_AND_FUEL",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "MOTOR_OIL",
+                        "raw_value": "MOTOR_OIL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='to seal gaps, to prevent leakage;..' [test 12] >> Category: ADHESIVE; [BUG] Sub-category: OTHER": {
+            "request": {
+                "description": "to seal gaps, to prevent leakage; for filling holes, cracks and sealing seams, for repairing fiberglass, bathtubs, porcelain, for repair on inner tubes and tubeless tires; for affixing to a surface; used for sealing, binding, or attaching items together"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "ADHESIVE",
+                        "raw_value": "ADHESIVE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='' [test 13] >> Category: ; Sub-category: ": {
+            "request": {
+                "description": ""
+            },
+            "responseCode": 200,
+            "response_category": ,
+            "response_subcategory": 
         },
         "recommended_use=null [test 1] >> Category: null; Sub-category: null": {
             "request": {
@@ -1088,7 +1292,7 @@
                 ]
             }
         },
-        "recommended_use='' [test 9] >> Category: ; Sub-category: ": {
+        "recommended_use='Electric storage battery for starting a piston engine' [test 9] >> Category: BATTERY; Sub-category: LEAD_ACID": {
             "request": {
                 "recommended_use": "Electric storage battery for starting a piston engine"
             },
@@ -1111,6 +1315,118 @@
                         "confidence": 0.9,
                         "normalized_value": "LEAD_ACID",
                         "raw_value": "LEAD_ACID",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Hydraulic Fluid' [test 10] >> Category: OIL_AND_FUEL; Sub-category: OTHER": {
+            "request": {
+                "recommended_use": "Hydraulic Fluid"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OIL_AND_FUEL",
+                        "raw_value": "OIL_AND_FUEL",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Toner for electrophotographic machines' [test 11] >> Category: INK; Sub-category: PRINTER_INK_AND_TONER": {
+            "request": {
+                "recommended_use": "Toner for electrophotographic machines"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "INK",
+                        "raw_value": "INK",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PRINTER_INK_AND_TONER",
+                        "raw_value": "PRINTER_INK_AND_TONER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='' [test 12] >> Category: ; Sub-category: ": {
+            "request": {
+                "recommended_use": ""
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "",
+                        "raw_value": "",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "",
+                        "raw_value": "",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='' [test 13] >> Category: ; Sub-category: ": {
+            "request": {
+                "recommended_use": ""
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "",
+                        "raw_value": "",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "",
+                        "raw_value": "",
                         "successful_result": true
                     }
                 ]
