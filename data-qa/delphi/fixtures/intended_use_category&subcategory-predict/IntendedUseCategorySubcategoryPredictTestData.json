@@ -728,6 +728,230 @@
                 ]
             }
         },
+        "product_name='Incandescent Bulbs' [test 27] >> Category: LIGHTBULB; Sub-category: INCANDESCENT": {
+            "request": {
+                "product_name": "Incandescent Bulbs"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "INCANDESCENT",
+                        "raw_value": "INCANDESCENT",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Linear Fluorescent Lamp' [test 28] >> Category: LIGHTBULB; Sub-category: FLUORESCENT": {
+            "request": {
+                "product_name": "Linear Fluorescent Lamp"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FLUORESCENT",
+                        "raw_value": "FLUORESCENT",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name=''curly cue' light bulbs' [test 29] >> Category: LIGHTBULB; [BUG] Sub-category: CFL": {
+            "request": {
+                "product_name": "'curly cue' light bulbs"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "CFL",
+                        "raw_value": "CFL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Halogen Lamps' [test 30] >> Category: LIGHTBULB; Sub-category: HALOGEN_LAMP": {
+            "request": {
+                "product_name": "Halogen Lamps"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "HALOGEN_LAMP",
+                        "raw_value": "HALOGEN_LAMP",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='QUARTZ INFRARED LAMPS (IRK)' [test 31] >> [BUG] Category: LIGHTBULB; Sub-category: INFRARED_LAMP": {
+            "request": {
+                "product_name": "QUARTZ INFRARED LAMPS (IRK)"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "INFRARED_LAMP",
+                        "raw_value": "INFRARED_LAMP",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Metal Halide Lamp' [test 32] >> Category: LIGHTBULB; Sub-category: METAL_HALIDE_LAMP": {
+            "request": {
+                "product_name": "Metal Halide Lamp"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "METAL_HALIDE_LAMP",
+                        "raw_value": "METAL_HALIDE_LAMP",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='HIGH PRESSURE SODIUM LAMPS' [test 33] >> [BUG] Category: LIGHTBULB; [BUG] Sub-category: SODIUM_VAPOR_LAMP": {
+            "request": {
+                "product_name": "HIGH PRESSURE SODIUM LAMPS"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "SODIUM_VAPOR_LAMP",
+                        "raw_value": "SODIUM_VAPOR_LAMP",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='LED Light Bulbs' [test 34] >> Category: LIGHTBULB; Sub-category: LED": {
+            "request": {
+                "product_name": "LED Light Bulbs"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LED",
+                        "raw_value": "LED",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
         "description=null [test 1] >> Category: null; Sub-category: null": {
             "request": {
                 "description": null
@@ -1062,13 +1286,33 @@
                 ]
             }
         },
-        "description='' [test 13] >> Category: ; Sub-category: ": {
+        "description='for minimizing friction in gears,..' [test 13] >> [BUG] Category: LUBRICANT; [BUG] Sub-category: OTHER": {
             "request": {
-                "description": ""
+                "description": "for minimizing friction in gears, machines; for lubrication, cleaning, and preventing rust; for minimizing friction"
             },
             "responseCode": 200,
-            "response_category": ,
-            "response_subcategory": 
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LUBRICANT",
+                        "raw_value": "LUBRICANT",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
         },
         "recommended_use=null [test 1] >> Category: null; Sub-category: null": {
             "request": {
