@@ -112,9 +112,9 @@
                 ]
             }
         },
-        "product_name='Nickel Cadmium Batteries' [test 5] >> Category: BATTERY; Sub-category: NICKEL_CADMIUM": {
+        "product_name='Nickel Cadmium Battery (Rechargeable Alkaline Batteries)' [test 5] >> Category: BATTERY; Sub-category: NICKEL_CADMIUM": {
             "request": {
-                "product_name": "Nickel Cadmium Batteries"
+                "product_name": "Nickel Cadmium Battery (Rechargeable Alkaline Batteries)"
             },
             "responseCode": 200,
             "response_category": {
@@ -168,9 +168,9 @@
                 ]
             }
         },
-        "product_name='Silver-Oxide Battery' [test 7] >> Category: BATTERY; Sub-category: SILVER_OXIDE": {
+        "product_name='Silver Oxide-Zinc Battery' [test 7] >> Category: BATTERY; Sub-category: SILVER_OXIDE": {
             "request": {
-                "product_name": "Silver-Oxide Battery"
+                "product_name": "Silver Oxide-Zinc Battery"
             },
             "responseCode": 200,
             "response_category": {
@@ -224,9 +224,9 @@
                 ]
             }
         },
-        "product_name='laundry bleach' [test 9] >> Category: CLEANER; Sub-category: BLEACH": {
+        "product_name='Clorox® Clean-Up® Cleaner + Bleach1 - Original' [test 9] >> Category: CLEANER; Sub-category: BLEACH": {
             "request": {
-                "product_name": "laundry bleach"
+                "product_name": "Clorox® Clean-Up® Cleaner + Bleach1 - Original"
             },
             "responseCode": 200,
             "response_category": {
@@ -252,9 +252,9 @@
                 ]
             }
         },
-        "product_name='protein bar' [test 10] >> Category: CONSUMABLE; Sub-category: FOOD": {
+        "product_name='Quest protein bar' [test 10] >> Category: CONSUMABLE; Sub-category: FOOD": {
             "request": {
-                "product_name": "protein bar"
+                "product_name": "Quest protein bar"
             },
             "responseCode": 200,
             "response_category": {
@@ -1266,7 +1266,7 @@
             "response_category": {
                 "observations": [
                     {
-                        "catalog_attribute": "intended_use_subcategory",
+                        "catalog_attribute": "intended_use",
                         "confidence": 0.9,
                         "normalized_value": "PAINT_RELATED",
                         "raw_value": "PAINT_RELATED",
