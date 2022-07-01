@@ -952,6 +952,258 @@
                 ]
             }
         },
+        "product_name='First Aid Kits' [test 35] >> Category: PERSONAL_CARE; [BUG] Sub-category: FIRST_AID": {
+            "request": {
+                "product_name": "First Aid Kits"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FIRST_AID",
+                        "raw_value": "FIRST_AID",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='HTH OTO TEST KIT - OTO SOLUTION' [test 36] >> Category: POOL_PRODUCT; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "HTH OTO TEST KIT - OTO SOLUTION"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "POOL_PRODUCT",
+                        "raw_value": "POOL_PRODUCT",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='cigarettes' [test 37] >> [BUG] Category: NICOTINE_AND_TOBACCO; [BUG] Sub-category: TOBACCO": {
+            "request": {
+                "product_name": "cigarettes"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "NICOTINE_AND_TOBACCO",
+                        "raw_value": "NICOTINE_AND_TOBACCO",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "TOBACCO",
+                        "raw_value": "TOBACCO",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='gums and pills for quitting smoking' [test 38] >> [BUG] Category: NICOTINE_AND_TOBACCO; [BUG] Sub-category: NICOTINE_CESSATION": {
+            "request": {
+                "product_name": "gums and pills for quitting smoking"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "NICOTINE_AND_TOBACCO",
+                        "raw_value": "NICOTINE_AND_TOBACCO",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "NICOTINE_CESSATION",
+                        "raw_value": "NICOTINE_CESSATION",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='vape liquid' [test 39] >> [BUG] Category: NICOTINE_AND_TOBACCO; Sub-category: OTHER": {
+            "request": {
+                "product_name": "vape liquid"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "NICOTINE_AND_TOBACCO",
+                        "raw_value": "NICOTINE_AND_TOBACCO",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Prestone® De-Icer Windshield Washer Fluid with Dirt Blocker' [test 40] >> Category: WINDSHIELD_WASHER_FLUID; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "Prestone® De-Icer Windshield Washer Fluid with Dirt Blocker"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "WINDSHIELD_WASHER_FLUID",
+                        "raw_value": "WINDSHIELD_WASHER_FLUID",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Expo Cleaning Wipes' [test 41] >> Category: WIPES; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "Expo Cleaning Wipes"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "WIPES",
+                        "raw_value": "WIPES",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Volcano Crystal Egg Dyes' [test 42] >> [BUG] Category: OTHER; Sub-category: OTHER": {
+            "request": {
+                "product_name": "Volcano Crystal Egg Dyes"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Pepper spray' [test 43] >> Category: SELF_DEFENSE; Sub-category: PEPPER_SPRAY": {
+            "request": {
+                "product_name": "Pepper spray"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "SELF_DEFENSE",
+                        "raw_value": "SELF_DEFENSE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PEPPER_SPRAY",
+                        "raw_value": "PEPPER_SPRAY",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
         "description=null [test 1] >> Category: null; Sub-category: null": {
             "request": {
                 "description": null
@@ -1314,6 +1566,118 @@
                 ]
             }
         },
+        "description='for eliminating indoor odors;..' [test 14] >> Category: ODORIZER; [BUG] Sub-category: OTHER": {
+            "request": {
+                "description": "for eliminating indoor odors; for sanitizing indoor air, sprays for disinfecting the air; scented candles, diffusers"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "ODORIZER",
+                        "raw_value": "ODORIZER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='to help control the properties and behavior or the hair..' [test 15] >> Category: PERSONAL_CARE; Sub-category: HAIR_CARE": {
+            "request": {
+                "description": "to help control the properties and behavior or the hair so that it can be maintained in a controlled and desirable manner"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "HAIR_CARE",
+                        "raw_value": "HAIR_CARE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='to be used on infants and children under age 3;..' [test 16] >> Category: PERSONAL_CARE; Sub-category: OTHER": {
+            "request": {
+                "description": "to be used on infants and children under age 3; to color and highlight facial features, including the eyes and lips; to cleanse the oral cavity, freshen the breath, and maintain good oral hygiene, to protect against the formation of cavities; to assist in the removal of unwanted body hair; to ease shaving; to chemically remove undesired body hair, to protect skin from the sun, or to enhance the tone/look of skin with or without UV tanning"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='AC PRO R-134a Professional Refrigerant Formula.' [test 17] >> Category: REFRIGERANT; Sub-category: REFRIGERATING_GAS": {
+            "request": {
+                "description": "AC PRO R-134a Professional Refrigerant Formula."
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "REFRIGERANT",
+                        "raw_value": "REFRIGERANT",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "REFRIGERATING_GAS",
+                        "raw_value": "REFRIGERATING_GAS",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
         "recommended_use=null [test 1] >> Category: null; Sub-category: null": {
             "request": {
                 "recommended_use": null
@@ -1620,9 +1984,9 @@
                 ]
             }
         },
-        "recommended_use='' [test 12] >> Category: ; Sub-category: ": {
+        "recommended_use='Personal Fragrance Product (20% or less fragrance)' [test 12] >> Category: PERSONAL_CARE; Sub-category: FRAGRANCE": {
             "request": {
-                "recommended_use": ""
+                "recommended_use": "Personal Fragrance Product (20% or less fragrance)"
             },
             "responseCode": 200,
             "response_category": {
@@ -1630,8 +1994,8 @@
                     {
                         "catalog_attribute": "intended_use",
                         "confidence": 0.9,
-                        "normalized_value": "",
-                        "raw_value": "",
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
                         "successful_result": true
                     }
                 ]
@@ -1641,16 +2005,16 @@
                     {
                         "catalog_attribute": "intended_use_subcategory",
                         "confidence": 0.9,
-                        "normalized_value": "",
-                        "raw_value": "",
+                        "normalized_value": "FRAGRANCE",
+                        "raw_value": "FRAGRANCE",
                         "successful_result": true
                     }
                 ]
             }
         },
-        "recommended_use='' [test 13] >> Category: ; Sub-category: ": {
+        "recommended_use='Liquid developer for promoting deposit of hair color.' [test 13] >> Category: PERSONAL_CARE; Sub-category: HAIR_DYE_AND_COLORING": {
             "request": {
-                "recommended_use": ""
+                "recommended_use": "Liquid developer for promoting deposit of hair color."
             },
             "responseCode": 200,
             "response_category": {
@@ -1658,8 +2022,8 @@
                     {
                         "catalog_attribute": "intended_use",
                         "confidence": 0.9,
-                        "normalized_value": "",
-                        "raw_value": "",
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
                         "successful_result": true
                     }
                 ]
@@ -1669,8 +2033,148 @@
                     {
                         "catalog_attribute": "intended_use_subcategory",
                         "confidence": 0.9,
-                        "normalized_value": "",
-                        "raw_value": "",
+                        "normalized_value": "HAIR_DYE_AND_COLORING",
+                        "raw_value": "HAIR_DYE_AND_COLORING",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Personal care product used on the nail for cosmetic effect.' [test 14] >> Category: PERSONAL_CARE; Sub-category: NAIL_CARE": {
+            "request": {
+                "recommended_use": "Personal care product used on the nail for cosmetic effect. "
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "NAIL_CARE",
+                        "raw_value": "NAIL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Soap (Bar, Liquid) for Body' [test 15] >> Category: PERSONAL_CARE; Sub-category: PERSONAL_CLEANLINESS": {
+            "request": {
+                "recommended_use": "Soap (Bar, Liquid) for Body"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CLEANLINESS",
+                        "raw_value": "PERSONAL_CLEANLINESS",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Appliance - Refrigerator (no WiFi or Touchscreen)' [test 16] >> Category: REFRIGERANT; Sub-category: REFRIGERATING_APPLIANCE": {
+            "request": {
+                "recommended_use": "Appliance - Refrigerator (no WiFi or Touchscreen)"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "REFRIGERANT",
+                        "raw_value": "REFRIGERANT",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "REFRIGERATING_APPLIANCE",
+                        "raw_value": "REFRIGERATING_APPLIANCE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='ammunition and cartridges for weapons/arms/tools' [test 17] >> Category: SELF_DEFENSE; Sub-category: FIREARMS_AND_AMMUNITION": {
+            "request": {
+                "recommended_use": "ammunition and cartridges for weapons/arms/tools"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "SELF_DEFENSE",
+                        "raw_value": "SELF_DEFENSE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FIREARMS_AND_AMMUNITION",
+                        "raw_value": "FIREARMS_AND_AMMUNITION",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='tear gas candles' [test 18] >> [BUG] Category: SELF_DEFENSE; Sub-category: OTHER": {
+            "request": {
+                "recommended_use": "tear gas candles"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "SELF_DEFENSE",
+                        "raw_value": "SELF_DEFENSE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
                         "successful_result": true
                     }
                 ]
