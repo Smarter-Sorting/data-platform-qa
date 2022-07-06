@@ -1,7 +1,7 @@
 {
   "uri": "/interpret/ph_calculator",
   "variants": {
-    "liquid [calculated -1.44]": {
+    "liquid [calculated -1.44] T33919": {
       "request": {
         "cas_number_and_weights": [
           {
