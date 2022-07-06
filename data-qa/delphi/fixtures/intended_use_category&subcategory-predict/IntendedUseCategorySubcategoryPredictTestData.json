@@ -1,0 +1,2184 @@
+{
+    "uri_category": "/intended_use_category/predict",
+    "uri_subcategory": "/intended_use_subcategory/predict",
+    "variants": {
+        "product_name=null [test 1] >> Category: null, Sub-category: null": {
+            "request": {
+                "product_name": null
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "product_name='Invalid input' [test 2] >> [BUG] Category: null, Sub-category: null": {
+            "request": {
+                "product_name": "Invalid input"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "product_name='Yellow Paint' [test 3] >> Category: PAINT_RELATED; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "Yellow Paint"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PAINT_RELATED",
+                        "raw_value": "PAINT_RELATED",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='laptop battery' [test 4] >> Category: BATTERY; Sub-category: LITHIUM_ION": {
+            "request": {
+                "product_name": "laptop battery"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "BATTERY",
+                        "raw_value": "BATTERY",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LITHIUM_ION",
+                        "raw_value": "LITHIUM_ION",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Nickel Cadmium Battery (Rechargeable Alkaline Batteries)' [test 5] >> Category: BATTERY; Sub-category: NICKEL_CADMIUM": {
+            "request": {
+                "product_name": "Nickel Cadmium Battery (Rechargeable Alkaline Batteries)"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "BATTERY",
+                        "raw_value": "BATTERY",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "NICKEL_CADMIUM",
+                        "raw_value": "NICKEL_CADMIUM",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='(used on the label) Nickel Metal Hydride Battery' [test 6] >> Category: BATTERY; Sub-category: NICKEL_METAL_HYDRIDE": {
+            "request": {
+                "product_name": "(used on the label) Nickel Metal Hydride Battery"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "BATTERY",
+                        "raw_value": "BATTERY",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "NICKEL_METAL_HYDRIDE",
+                        "raw_value": "NICKEL_METAL_HYDRIDE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Silver Oxide-Zinc Battery' [test 7] >> Category: BATTERY; Sub-category: SILVER_OXIDE": {
+            "request": {
+                "product_name": "Silver Oxide-Zinc Battery"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "BATTERY",
+                        "raw_value": "BATTERY",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "SILVER_OXIDE",
+                        "raw_value": "SILVER_OXIDE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Duracell zinc air battery' [test 8] >> Category: Battery; Sub-category: ZINC_AIR": {
+            "request": {
+                "product_name": "Duracell zinc air battery"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "BATTERY",
+                        "raw_value": "BATTERY",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "ZINC_AIR",
+                        "raw_value": "ZINC_AIR",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Clorox® Clean-Up® Cleaner + Bleach1 - Original' [test 9] >> Category: CLEANER; Sub-category: BLEACH": {
+            "request": {
+                "product_name": "Clorox® Clean-Up® Cleaner + Bleach1 - Original"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CLEANER",
+                        "raw_value": "CLEANER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "BLEACH",
+                        "raw_value": "BLEACH",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Quest protein bar' [test 10] >> Category: CONSUMABLE; Sub-category: FOOD": {
+            "request": {
+                "product_name": "Quest protein bar"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CONSUMABLE",
+                        "raw_value": "CONSUMABLE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FOOD",
+                        "raw_value": "FOOD",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='coors beer' [test 11] >> Category: CONSUMABLE; Sub-category: BEER": {
+            "request": {
+                "product_name": "coors beer"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CONSUMABLE",
+                        "raw_value": "CONSUMABLE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "BEER",
+                        "raw_value": "BEER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='grill seasoning' [test 12] >> Category: CONSUMABLE; Sub-category: EXTRACT_AND_SEASONING": {
+            "request": {
+                "product_name": "grill seasoning"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CONSUMABLE",
+                        "raw_value": "CONSUMABLE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "EXTRACT_AND_SEASONING",
+                        "raw_value": "EXTRACT_AND_SEASONING",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='vitamin b-12' [test 13] >> Category: CONSUMABLE; Sub-category: MEDICINE": {
+            "request": {
+                "product_name": "vitamin b-12"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CONSUMABLE",
+                        "raw_value": "CONSUMABLE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "MEDICINE",
+                        "raw_value": "MEDICINE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='PAM Sauté and Grill Cooking Spray' [test 14] >> Category: CONSUMABLE; Sub-category: COOKING_OIL": {
+            "request": {
+                "product_name": "PAM Sauté and Grill Cooking Spray"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CONSUMABLE",
+                        "raw_value": "CONSUMABLE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "COOKING_OIL",
+                        "raw_value": "COOKING_OIL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='apple juice' [test 15] >> Category: CONSUMABLE; Sub-category: OTHER": {
+            "request": {
+                "product_name": "apple juice"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CONSUMABLE",
+                        "raw_value": "CONSUMABLE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='First class plant food' [test 16] >> Category: FERTILIZER; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "First class plant food"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FERTILIZER",
+                        "raw_value": "FERTILIZER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='4th of July Fire Extinguisher' [test 17] >> Category: FIRE_EXTINGUISHER; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "4th of July Fire Extinguisher"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIRE_EXTINGUISHER",
+                        "raw_value": "FIRE_EXTINGUISHER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='bbq lighter' [test 18] >> Category: FIRE_STARTER; Sub-category: LIGHTERS": {
+            "request": {
+                "product_name": "bbq lighter"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIRE_STARTER",
+                        "raw_value": "FIRE_STARTER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTERS",
+                        "raw_value": "LIGHTERS",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Freddy's matches' [test 19] >> Category: FIRE_STARTER; Sub-category: MATCHES": {
+            "request": {
+                "product_name": "Freddy's matches"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIRE_STARTER",
+                        "raw_value": "FIRE_STARTER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "MATCHES",
+                        "raw_value": "MATCHES",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Awesome lighter fluid to ignite combustible materials' [test 20] >> Category: FIRE_STARTER; Sub-category: LIGHTER_FLUID": {
+            "request": {
+                "product_name": "Awesome lighter fluid to ignite combustible materials"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIRE_STARTER",
+                        "raw_value": "FIRE_STARTER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTER_FLUID",
+                        "raw_value": "LIGHTER_FLUID",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Create flame: charcoal' [test 21] >> [BUG] Category: FIRE_STARTER; Sub-category: CHARCOAL": {
+            "request": {
+                "product_name": "Create flame: charcoal"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIRE_STARTER",
+                        "raw_value": "FIRE_STARTER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "CHARCOAL",
+                        "raw_value": "CHARCOAL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Lawn Starter' [test 22] >> Category: FIRE_STARTER; Sub-category: SOLID_FIRE_STARTER": {
+            "request": {
+                "product_name": "Lawn Starter"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIRE_STARTER",
+                        "raw_value": "FIRE_STARTER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "SOLID_FIRE_STARTER",
+                        "raw_value": "SOLID_FIRE_STARTER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='refillable butane torches' [test 23] >> [BUG] Category: FIRE_STARTER; Sub-category: OTHER": {
+            "request": {
+                "product_name": "refillable butane torches"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIRE_STARTER",
+                        "raw_value": "FIRE_STARTER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Inflatable Life Preservers, Life Vests, Life Jackets, Individual Flotation Devices, Personal Flotation Devices.' [test 24] >> [BUG] Category: INFLATABLE; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "Inflatable Life Preservers, Life Vests, Life Jackets, Individual Flotation Devices, Personal Flotation Devices."
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "INFLATABLE",
+                        "raw_value": "INFLATABLE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Sharpie S-Gel Pen' [test 25] >> Category: INK; Sub-category: PEN": {
+            "request": {
+                "product_name": "Sharpie S-Gel Pen"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "INK",
+                        "raw_value": "INK",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PEN",
+                        "raw_value": "PEN",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='RIT DYE, LIQUID' [test 26] >> Category: INK; Sub-category: OTHER": {
+            "request": {
+                "product_name": "RIT DYE, LIQUID"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "INK",
+                        "raw_value": "INK",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Incandescent Bulbs' [test 27] >> Category: LIGHTBULB; Sub-category: INCANDESCENT": {
+            "request": {
+                "product_name": "Incandescent Bulbs"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "INCANDESCENT",
+                        "raw_value": "INCANDESCENT",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Linear Fluorescent Lamp' [test 28] >> Category: LIGHTBULB; Sub-category: FLUORESCENT": {
+            "request": {
+                "product_name": "Linear Fluorescent Lamp"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FLUORESCENT",
+                        "raw_value": "FLUORESCENT",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name=''curly cue' light bulbs' [test 29] >> Category: LIGHTBULB; [BUG] Sub-category: CFL": {
+            "request": {
+                "product_name": "'curly cue' light bulbs"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "CFL",
+                        "raw_value": "CFL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Halogen Lamps' [test 30] >> Category: LIGHTBULB; Sub-category: HALOGEN_LAMP": {
+            "request": {
+                "product_name": "Halogen Lamps"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "HALOGEN_LAMP",
+                        "raw_value": "HALOGEN_LAMP",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='QUARTZ INFRARED LAMPS (IRK)' [test 31] >> [BUG] Category: LIGHTBULB; Sub-category: INFRARED_LAMP": {
+            "request": {
+                "product_name": "QUARTZ INFRARED LAMPS (IRK)"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "INFRARED_LAMP",
+                        "raw_value": "INFRARED_LAMP",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Metal Halide Lamp' [test 32] >> Category: LIGHTBULB; Sub-category: METAL_HALIDE_LAMP": {
+            "request": {
+                "product_name": "Metal Halide Lamp"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "METAL_HALIDE_LAMP",
+                        "raw_value": "METAL_HALIDE_LAMP",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='HIGH PRESSURE SODIUM LAMPS' [test 33] >> [BUG] Category: LIGHTBULB; [BUG] Sub-category: SODIUM_VAPOR_LAMP": {
+            "request": {
+                "product_name": "HIGH PRESSURE SODIUM LAMPS"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "SODIUM_VAPOR_LAMP",
+                        "raw_value": "SODIUM_VAPOR_LAMP",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='LED Light Bulbs' [test 34] >> Category: LIGHTBULB; Sub-category: LED": {
+            "request": {
+                "product_name": "LED Light Bulbs"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LIGHTBULB",
+                        "raw_value": "LIGHTBULB",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LED",
+                        "raw_value": "LED",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='First Aid Kits' [test 35] >> Category: PERSONAL_CARE; [BUG] Sub-category: FIRST_AID": {
+            "request": {
+                "product_name": "First Aid Kits"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FIRST_AID",
+                        "raw_value": "FIRST_AID",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='HTH OTO TEST KIT - OTO SOLUTION' [test 36] >> Category: POOL_PRODUCT; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "HTH OTO TEST KIT - OTO SOLUTION"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "POOL_PRODUCT",
+                        "raw_value": "POOL_PRODUCT",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='cigarettes' [test 37] >> [BUG] Category: NICOTINE_AND_TOBACCO; [BUG] Sub-category: TOBACCO": {
+            "request": {
+                "product_name": "cigarettes"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "NICOTINE_AND_TOBACCO",
+                        "raw_value": "NICOTINE_AND_TOBACCO",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "TOBACCO",
+                        "raw_value": "TOBACCO",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='gums and pills for quitting smoking' [test 38] >> [BUG] Category: NICOTINE_AND_TOBACCO; [BUG] Sub-category: NICOTINE_CESSATION": {
+            "request": {
+                "product_name": "gums and pills for quitting smoking"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "NICOTINE_AND_TOBACCO",
+                        "raw_value": "NICOTINE_AND_TOBACCO",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "NICOTINE_CESSATION",
+                        "raw_value": "NICOTINE_CESSATION",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='vape liquid' [test 39] >> [BUG] Category: NICOTINE_AND_TOBACCO; Sub-category: OTHER": {
+            "request": {
+                "product_name": "vape liquid"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "NICOTINE_AND_TOBACCO",
+                        "raw_value": "NICOTINE_AND_TOBACCO",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Prestone® De-Icer Windshield Washer Fluid with Dirt Blocker' [test 40] >> Category: WINDSHIELD_WASHER_FLUID; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "Prestone® De-Icer Windshield Washer Fluid with Dirt Blocker"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "WINDSHIELD_WASHER_FLUID",
+                        "raw_value": "WINDSHIELD_WASHER_FLUID",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Expo Cleaning Wipes' [test 41] >> Category: WIPES; [BUG] Sub-category: OTHER": {
+            "request": {
+                "product_name": "Expo Cleaning Wipes"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "WIPES",
+                        "raw_value": "WIPES",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Volcano Crystal Egg Dyes' [test 42] >> [BUG] Category: OTHER; Sub-category: OTHER": {
+            "request": {
+                "product_name": "Volcano Crystal Egg Dyes"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "product_name='Pepper spray' [test 43] >> Category: SELF_DEFENSE; Sub-category: PEPPER_SPRAY": {
+            "request": {
+                "product_name": "Pepper spray"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "SELF_DEFENSE",
+                        "raw_value": "SELF_DEFENSE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PEPPER_SPRAY",
+                        "raw_value": "PEPPER_SPRAY",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description=null [test 1] >> Category: null; Sub-category: null": {
+            "request": {
+                "description": null
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "description='Invalid input' [test 2] >> [BUG] Category: null; Sub-category: null": {
+            "request": {
+                "description": "Invalid input"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "description='Yellow paint' [test 3] >> Category: PAINT_RELATED; [BUG] Sub-category: OTHER": {
+            "request": {
+                "description": "Yellow paint"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PAINT_RELATED",
+                        "raw_value": "PAINT_RELATED",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for cutting, grinding, and drilling;..' [test 4] >> Category: CONSTRUCTION; [BUG] Sub-category: OTHER": {
+            "request": {
+                "description": "for cutting, grinding, and drilling; for construction; for plumbing projects, PVC pipe"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CONSTRUCTION",
+                        "raw_value": "CONSTRUCTION",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for household cleaning, washing;..' [test 5] >> Category: CLEANER; Sub-category: SOAP_AND_DETERGENT": {
+            "request": {
+                "description": "for household cleaning, washing; for washing, drying, care of clothes and textiles"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CLEANER",
+                        "raw_value": "CLEANER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "SOAP_AND_DETERGENT",
+                        "raw_value": "SOAP_AND_DETERGENT",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for general household/industrial cleaning;..' [test 6] >> Category: CLEANER; Sub-category: OTHER": {
+            "request": {
+                "description": "for general household/industrial cleaning; for cleaning glass; for cleaning, polishing, maintaining furniture; for cleaning in the kitchen, stove/oven, sink, countertops; for toilet cleaning, for showers, tubs, tile cleaning; for cleaning and maintaining floors; for clearing drains/maintaining septic systems; for cleaning automotives, tire dressing"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CLEANER",
+                        "raw_value": "CLEANER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for producing pyrotechnic entertainment and aesthetics' [test 7] >> [BUG] Category: FIREWORKS_AND_FLARES; [BUG] Sub-category: FIREWORKS": {
+            "request": {
+                "description": "for producing pyrotechnic entertainment and aesthetics"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIREWORKS_AND_FLARES",
+                        "raw_value": "FIREWORKS_AND_FLARES",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FIREWORKS",
+                        "raw_value": "FIREWORKS",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for distress signalling, illumination, or defensive countermeasures in civilian and military applications' [test 8] >> [BUG] Category: FIREWORKS_AND_FLARES; [BUG] Sub-category: FLARES": {
+            "request": {
+                "description": "for distress signalling, illumination, or defensive countermeasures in civilian and military applications"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "FIREWORKS_AND_FLARES",
+                        "raw_value": "FIREWORKS_AND_FLARES",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FLARES",
+                        "raw_value": "FLARES",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='liquid fuel' [test 9] >> Category: OIL_AND_FUEL; [BUG] Sub-category: FUEL": {
+            "request": {
+                "description": "liquid fuel"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OIL_AND_FUEL",
+                        "raw_value": "OIL_AND_FUEL",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FUEL",
+                        "raw_value": "FUEL",
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "description='to enhance the quality and efficiency of fuel used in motor vehicles;..' [test 10] >> [BUG] Category: OIL_AND_FUEL; [BUG] Sub-category: FUEL_ADDITIVE": {
+            "request": {
+                "description": "to enhance the quality and efficiency of fuel used in motor vehicles; to prevent carbon build up in a gas tank and to clean various part of the fuel system components"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OIL_AND_FUEL",
+                        "raw_value": "OIL_AND_FUEL",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FUEL_ADDITIVE",
+                        "raw_value": "FUEL_ADDITIVE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='' [test 11] >> [BUG] Category: OIL_AND_FUEL; [BUG] Sub-category: MOTOR_OIL": {
+            "request": {
+                "description": "for internal lubrication of combustion engines"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OIL_AND_FUEL",
+                        "raw_value": "OIL_AND_FUEL",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "MOTOR_OIL",
+                        "raw_value": "MOTOR_OIL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='to seal gaps, to prevent leakage;..' [test 12] >> Category: ADHESIVE; [BUG] Sub-category: OTHER": {
+            "request": {
+                "description": "to seal gaps, to prevent leakage; for filling holes, cracks and sealing seams, for repairing fiberglass, bathtubs, porcelain, for repair on inner tubes and tubeless tires; for affixing to a surface; used for sealing, binding, or attaching items together"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "ADHESIVE",
+                        "raw_value": "ADHESIVE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for minimizing friction in gears,..' [test 13] >> [BUG] Category: LUBRICANT; [BUG] Sub-category: OTHER": {
+            "request": {
+                "description": "for minimizing friction in gears, machines; for lubrication, cleaning, and preventing rust; for minimizing friction"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "LUBRICANT",
+                        "raw_value": "LUBRICANT",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='for eliminating indoor odors;..' [test 14] >> Category: ODORIZER; [BUG] Sub-category: OTHER": {
+            "request": {
+                "description": "for eliminating indoor odors; for sanitizing indoor air, sprays for disinfecting the air; scented candles, diffusers"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "ODORIZER",
+                        "raw_value": "ODORIZER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='to help control the properties and behavior or the hair..' [test 15] >> Category: PERSONAL_CARE; Sub-category: HAIR_CARE": {
+            "request": {
+                "description": "to help control the properties and behavior or the hair so that it can be maintained in a controlled and desirable manner"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "HAIR_CARE",
+                        "raw_value": "HAIR_CARE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='to be used on infants and children under age 3;..' [test 16] >> Category: PERSONAL_CARE; Sub-category: OTHER": {
+            "request": {
+                "description": "to be used on infants and children under age 3; to color and highlight facial features, including the eyes and lips; to cleanse the oral cavity, freshen the breath, and maintain good oral hygiene, to protect against the formation of cavities; to assist in the removal of unwanted body hair; to ease shaving; to chemically remove undesired body hair, to protect skin from the sun, or to enhance the tone/look of skin with or without UV tanning"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "description='AC PRO R-134a Professional Refrigerant Formula.' [test 17] >> Category: REFRIGERANT; Sub-category: REFRIGERATING_GAS": {
+            "request": {
+                "description": "AC PRO R-134a Professional Refrigerant Formula."
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "REFRIGERANT",
+                        "raw_value": "REFRIGERANT",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "REFRIGERATING_GAS",
+                        "raw_value": "REFRIGERATING_GAS",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use=null [test 1] >> Category: null; Sub-category: null": {
+            "request": {
+                "recommended_use": null
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "recommended_use='Invalid input' [test 2] >> [BUG] Category: null; Sub-category: null": {
+            "request": {
+                "recommended_use": "Invalid input"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": null,
+                        "raw_value": null,
+                        "successful_result": false
+                    }
+                ]
+            }
+        },
+        "recommended_use='Yellow paint' [test 3] >> Category: PAINT_RELATED; [BUG] Sub-category: OTHER": {
+            "request": {
+                "recommended_use": "Yellow paint"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PAINT_RELATED",
+                        "raw_value": "PAINT_RELATED",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='lithium metal' [test 4] >> Category: BATTERY; Sub-category: LITHIUM_METAL": {
+            "request": {
+                "recommended_use": "lithium metal"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "BATTERY",
+                        "raw_value": "BATTERY",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LITHIUM_METAL",
+                        "raw_value": "LITHIUM_METAL",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Automobile Antifreeze – consumer product' [test 5] >> Category: ANTIFREEZE; [BUG] Sub-category: OTHER": {
+            "request": {
+                "recommended_use": "Automobile Antifreeze – consumer product"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "ANTIFREEZE",
+                        "raw_value": "ANTIFREEZE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Alkaline battery' [test 6] >> Category: BATTERY; Sub-category: ALKALINE": {
+            "request": {
+                "recommended_use": "Alkaline battery"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "BATTERY",
+                        "raw_value": "BATTERY",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "ALKALINE",
+                        "raw_value": "ALKALINE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Carbon Zinc Batteries' [test 7] >> Category: BATTERY; Sub-category: ZINC_CARBON": {
+            "request": {
+                "recommended_use": "Carbon Zinc Batteries"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "BATTERY",
+                        "raw_value": "BATTERY",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "ZINC_CARBON",
+                        "raw_value": "ZINC_CARBON",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='disinfectant spray' [test 8] >> Category: CLEANER; Sub-category: DISINFECTANT": {
+            "request": {
+                "recommended_use": "disinfectant spray"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "CLEANER",
+                        "raw_value": "CLEANER",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "DISINFECTANT",
+                        "raw_value": "DISINFECTANT",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Electric storage battery for starting a piston engine' [test 9] >> Category: BATTERY; Sub-category: LEAD_ACID": {
+            "request": {
+                "recommended_use": "Electric storage battery for starting a piston engine"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "BATTERY",
+                        "raw_value": "BATTERY",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "LEAD_ACID",
+                        "raw_value": "LEAD_ACID",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Hydraulic Fluid' [test 10] >> Category: OIL_AND_FUEL; Sub-category: OTHER": {
+            "request": {
+                "recommended_use": "Hydraulic Fluid"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "OIL_AND_FUEL",
+                        "raw_value": "OIL_AND_FUEL",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Toner for electrophotographic machines' [test 11] >> Category: INK; Sub-category: PRINTER_INK_AND_TONER": {
+            "request": {
+                "recommended_use": "Toner for electrophotographic machines"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "INK",
+                        "raw_value": "INK",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PRINTER_INK_AND_TONER",
+                        "raw_value": "PRINTER_INK_AND_TONER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Personal Fragrance Product (20% or less fragrance)' [test 12] >> Category: PERSONAL_CARE; Sub-category: FRAGRANCE": {
+            "request": {
+                "recommended_use": "Personal Fragrance Product (20% or less fragrance)"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FRAGRANCE",
+                        "raw_value": "FRAGRANCE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Liquid developer for promoting deposit of hair color.' [test 13] >> Category: PERSONAL_CARE; Sub-category: HAIR_DYE_AND_COLORING": {
+            "request": {
+                "recommended_use": "Liquid developer for promoting deposit of hair color."
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "HAIR_DYE_AND_COLORING",
+                        "raw_value": "HAIR_DYE_AND_COLORING",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Personal care product used on the nail for cosmetic effect.' [test 14] >> Category: PERSONAL_CARE; Sub-category: NAIL_CARE": {
+            "request": {
+                "recommended_use": "Personal care product used on the nail for cosmetic effect. "
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "NAIL_CARE",
+                        "raw_value": "NAIL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Soap (Bar, Liquid) for Body' [test 15] >> Category: PERSONAL_CARE; Sub-category: PERSONAL_CLEANLINESS": {
+            "request": {
+                "recommended_use": "Soap (Bar, Liquid) for Body"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CARE",
+                        "raw_value": "PERSONAL_CARE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "PERSONAL_CLEANLINESS",
+                        "raw_value": "PERSONAL_CLEANLINESS",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='Appliance - Refrigerator (no WiFi or Touchscreen)' [test 16] >> Category: REFRIGERANT; Sub-category: REFRIGERATING_APPLIANCE": {
+            "request": {
+                "recommended_use": "Appliance - Refrigerator (no WiFi or Touchscreen)"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "REFRIGERANT",
+                        "raw_value": "REFRIGERANT",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "REFRIGERATING_APPLIANCE",
+                        "raw_value": "REFRIGERATING_APPLIANCE",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='ammunition and cartridges for weapons/arms/tools' [test 17] >> Category: SELF_DEFENSE; Sub-category: FIREARMS_AND_AMMUNITION": {
+            "request": {
+                "recommended_use": "ammunition and cartridges for weapons/arms/tools"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "SELF_DEFENSE",
+                        "raw_value": "SELF_DEFENSE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "FIREARMS_AND_AMMUNITION",
+                        "raw_value": "FIREARMS_AND_AMMUNITION",
+                        "successful_result": true
+                    }
+                ]
+            }
+        },
+        "recommended_use='tear gas candles' [test 18] >> [BUG] Category: SELF_DEFENSE; Sub-category: OTHER": {
+            "request": {
+                "recommended_use": "tear gas candles"
+            },
+            "responseCode": 200,
+            "response_category": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use",
+                        "confidence": 0.9,
+                        "normalized_value": "SELF_DEFENSE",
+                        "raw_value": "SELF_DEFENSE",
+                        "successful_result": true
+                    }
+                ]
+            },
+            "response_subcategory": {
+                "observations": [
+                    {
+                        "catalog_attribute": "intended_use_subcategory",
+                        "confidence": 0.9,
+                        "normalized_value": "OTHER",
+                        "raw_value": "OTHER",
+                        "successful_result": true
+                    }
+                ]
+            }
+        }
+    }
+}
