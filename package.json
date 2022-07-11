@@ -11,7 +11,7 @@
     "test:staging:factory": "mocha --timeout 20000 'data-qa/factory/**' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:staging:ingblending:manuelentry": "mocha --timeout 20000 'data-qa/factory/ingBlending/test/manualEntryFlow.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js",
     "test:conf:staging1": "mocha 'data-qa/test' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js dotenv_config_path=.envdifferentENV",
-    "run:mocha": "mocha --timeout 20000 'data-qa/delphi/test/calculators/PHcalculator.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js --reporter mocha-testrail-reporter"
+    "run:mocha": "mocha --timeout 20000 'data-qa/delphi/test/calculators/PHcalculator.spec.js' --require chaiconf.js -r dotenv/config data-qa/support/setUp.js --reporter mocha-testrail-reporter --reporter-options domain=smartersorting.testrail.io,username=ivana@smartersorting.com,password=SSdO1qUK66wzBxZP.bYq,projectId=7,suiteId=77"
   },
   "author": "",
   "license": "ISC",
