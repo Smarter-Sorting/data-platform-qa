@@ -1,7 +1,7 @@
 {
   "uri": "/flashpoint/predict",
   "variants": {
-    "liquid [calculated 8.04]": {
+    "liquid [calculated 8.04] C17367": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -95,7 +95,7 @@
         ]
       }
     },
-    "liquid [calculated 12.95]": {
+    "liquid [calculated 12.95] C17368": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -178,7 +178,7 @@
         ]
       }
     },
-    "liquid [calculated 30.47]": {
+    "liquid [calculated 30.47] C17369": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -913,7 +913,7 @@
         ]
       }
     },
-    "liquid [calculated 60.10]": {
+    "liquid [calculated 60.10] C17370": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -1044,7 +1044,7 @@
         ]
       }
     },
-    "liquid [calculated 72.29]": {
+    "liquid [calculated 72.29] C17246": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -1191,7 +1191,7 @@
         ]
       }
     },
-    "liquid [calculated 90.82]": {
+    "liquid [calculated 90.82] C17371": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -1565,7 +1565,7 @@
         ]
       }
     },
-    "liquid [calculated 136.80]": {
+    "liquid [calculated 136.80] C17295": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -1622,7 +1622,7 @@
         ]
       }
     },
-    "liquid [calculated 158.96]": {
+    "liquid [calculated 158.96] C17294": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -1679,7 +1679,7 @@
         ]
       }
     },
-    "liquid [calculated 174.46]": {
+    "liquid [calculated 174.46] C17372": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -1713,7 +1713,7 @@
         ]
       }
     },
-    "liquid [calculated 199.00]": {
+    "liquid [calculated 199.00] C17373": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -2046,7 +2046,7 @@
         ]
       }
     },
-    "liquid [calculated 201.00]": {
+    "liquid [calculated 201.00] C17374": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -2533,7 +2533,7 @@
         ]
       }
     },
-    "liquid [calculated 214.29]": {
+    "liquid [calculated 214.29] C17252": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -3594,7 +3594,7 @@
         ]
       }
     },
-    "liquid [calculated 329.47]": {
+    "liquid [calculated 329.47] C17375": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -3739,7 +3739,7 @@
         ]
       }
     },
-    "gas [not calculated]": {
+    "gas [not calculated] C17253": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -3770,7 +3770,7 @@
         ]
       }
     },
-    "solid [not calculated]": {
+    "solid [not calculated] C17254": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -3795,7 +3795,7 @@
         ]
       }
     },
-    "aerosol [not calculated]": {
+    "aerosol [not calculated] C17262": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -3836,9 +3836,14 @@
         ]
       }
     },
-    "[BUG] wipes [not calculated]": {
+    "[BUG] wipes [calculated <140] C17255": {
       "request": {},
-      "responseCode": {},
+      "responseCode": 200,
+      "response": {}
+    },
+    "[BUG] wipes [calculated >140] C17256": {
+      "request": {},
+      "responseCode": 200,
       "response": {}
     }
   }
