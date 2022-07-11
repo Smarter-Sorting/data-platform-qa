@@ -1,7 +1,7 @@
 {
   "uri": "/interpret/ph_calculator",
   "variants": {
-    "liquid [calculated -1.44] C17185": {
+    "liquid [calculated -1.44] C17388": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -37,7 +37,7 @@
         ]
       }
     },
-    "liquid [calculated 0.56-0.26]": {
+    "liquid [calculated 0.56-0.26] C17245": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -73,7 +73,7 @@
         ]
       }
     },
-    "liquid [calculated 2.00]": {
+    "liquid [calculated 2.00] C17263": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -109,7 +109,7 @@
         ]
       }
     },
-    "liquid [calculated 8.66]": {
+    "liquid [calculated 8.66] C17247": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -154,7 +154,7 @@
         ]
       }
     },
-    "liquid [calculated 11.98]": {
+    "liquid [calculated 11.98] C17264": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -295,7 +295,7 @@
         ]
       }
     },
-    "liquid [calculated 12.50]": {
+    "liquid [calculated 12.50] C20254": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -331,7 +331,7 @@
         ]
       }
     },
-    "liquid [calculated 13.88]": {
+    "liquid [calculated 13.88] C17248": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -533,7 +533,7 @@
         ]
       }
     },
-    "liquid [calculated 1.62-15.35]": {
+    "liquid [calculated 1.62-15.35] C17387": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -582,7 +582,7 @@
         ]
       }
     },
-    "solid [calculated 1.99]": {
+    "solid [calculated 1.99] C17249": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -618,7 +618,7 @@
         ]
       }
     },
-    "solid [calculated 2.02]": {
+    "solid [calculated 2.02] C17250": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -654,7 +654,7 @@
         ]
       }
     },
-    "solid [calculated 12.51]": {
+    "solid [calculated 12.51] C17251": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -690,7 +690,7 @@
         ]
       }
     },
-    "aerosol [calculated 0.00]": {
+    "aerosol [calculated 0.00] C17257": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -731,7 +731,7 @@
         ]
       }
     },
-    "aerosol [calculated 7.81-7.75]": {
+    "aerosol [calculated 7.81-7.75] C17258": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -799,7 +799,7 @@
         ]
       }
     },
-    "aerosol [calculated 15.4]": {
+    "aerosol [calculated 15.4] C17259": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -892,7 +892,7 @@
         ]
       }
     },
-    "[BUG] wipes [calculated 0.56--0.14]": {
+    "[BUG] wipes [calculated 0.56--0.14] C17261": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -927,7 +927,7 @@
         ]
       }
     },
-    "[BUG] wipes [calculated 8.13-7.98]": {
+    "[BUG] wipes [calculated 8.13-7.98] C20255": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -1222,7 +1222,7 @@
         ]
       }
     },
-    "[BUG] wipes [calculated 13.4-13.88]": {
+    "[BUG] wipes [calculated 13.4-13.88] C20256": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -1268,7 +1268,7 @@
         ]
       }
     },
-    "gas [not calculated]": {
+    "gas [not calculated] C17260": {
       "request": {
         "cas_number_and_weights": [
           {
