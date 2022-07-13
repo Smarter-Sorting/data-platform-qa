@@ -1,7 +1,7 @@
 {
     "uri": "/validate/genome",
     "variants": {
-        "form: liquid [test 1] >> flashpoint: NULL VALIDATOR for form FALSE": {
+        "form: liquid [test 1] >> flashpoint: NULL VALIDATOR for form FALSE C17306": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -118,7 +118,7 @@
                 ]
             }
         },
-        "form: wipes [test 2] >> flashpoint: NULL VALIDATOR for form FALSE": {
+        "form: wipes [test 2] >> flashpoint: NULL VALIDATOR for form FALSE C17206": {
             "request": {
                 "form": "liquid_absorbed_in_solid",
                 "cas_number_and_weights": [
@@ -235,7 +235,7 @@
                 ]
             }
         },
-        "form: null [test 3] >> flashpoint: NULL VALIDATOR for form FALSE": {
+        "form: null [test 3] >> flashpoint: NULL VALIDATOR for form FALSE C17305": {
             "request": {
                 "form": null,
                 "cas_number_and_weights": [
@@ -352,7 +352,7 @@
                 ]
             }
         },
-        "form: solid [test 4] >> flashpoint: NULL VALIDATOR for form TRUE": {
+        "form: solid [test 4] >> flashpoint: NULL VALIDATOR for form TRUE C17304": {
             "request": {
                 "form": "solid",
                 "cas_number_and_weights": [
@@ -469,7 +469,7 @@
                 ]
             }
         },
-        "form: aerosol [test 5] >> flashpoint: NULL VALIDATOR for form TRUE": {
+        "form: aerosol [test 5] >> flashpoint: NULL VALIDATOR for form TRUE C17308": {
             "request": {
                 "form": "aerosol",
                 "cas_number_and_weights": [
@@ -586,7 +586,7 @@
                 ]
             }
         },
-        "form: gas [test 6] >> flashpoint: NULL VALIDATOR for form TRUE": {
+        "form: gas [test 6] >> flashpoint: NULL VALIDATOR for form TRUE C17309": {
             "request": {
                 "form": "gas",
                 "cas_number_and_weights": [
@@ -703,7 +703,7 @@
                 ]
             }
         },
-        "1 ingredient with FP=null (from cas_master) [test 7] >> NULL VALIDATOR for cas flash FALSE": {
+        "1 ingredient with FP=null (from cas_master) [test 7] >> NULL VALIDATOR for cas flash FALSE C17307": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -737,7 +737,7 @@
                 ]
             }
         },
-        "1 ingredient with FP<140 [138] (from cas_master) [test 8] >> NULL VALIDATOR for cas flash FALSE": {
+        "1 ingredient with FP<140 [138] (from cas_master) [test 8] >> NULL VALIDATOR for cas flash FALSE C17188": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -771,7 +771,7 @@
                 ]
             }
         },
-        "1 ingredient with FP=140 (from cas_master) [test 9] >> NULL VALIDATOR for cas flash TRUE": {
+        "1 ingredient with FP=140 (from cas_master) [test 9] >> NULL VALIDATOR for cas flash TRUE C20268": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -805,7 +805,7 @@
                 ]
             }
         },
-        "1 ingredient with FP>140 [141] (from cas_master) [test 10] >> NULL VALIDATOR for cas flash TRUE": {
+        "1 ingredient with FP>140 [141] (from cas_master) [test 10] >> NULL VALIDATOR for cas flash TRUE C20269": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -839,7 +839,7 @@
                 ]
             }
         },
-        "2 ingredients: 1: FP=null; 2: FP>140 [156.2] (from cas_master) [test 11] >> NULL VALIDATOR for cas flash FALSE": {
+        "2 ingredients: 1: FP=null; 2: FP>140 [156.2] (from cas_master) [test 11] >> NULL VALIDATOR for cas flash FALSE C20270": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -880,7 +880,7 @@
                 ]
             }
         },
-        "2 ingredients: 1: FP<140 [68]; 2: FP>140 [250] (from cas_master) [test 12] >> NULL VALIDATOR for cas flash FALSE": {
+        "2 ingredients: 1: FP<140 [68]; 2: FP>140 [250] (from cas_master) [test 12] >> NULL VALIDATOR for cas flash FALSE C20271": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -921,7 +921,7 @@
                 ]
             }
         },
-        "2 ingredients: 1: FP>140 [170]; 2: FP>140 [286] (from cas_master) [test 13] >> NULL VALIDATOR for cas flash TRUE": {
+        "2 ingredients: 1: FP>140 [170]; 2: FP>140 [286] (from cas_master) [test 13] >> NULL VALIDATOR for cas flash TRUE C20272": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -962,7 +962,7 @@
                 ]
             }
         },
-        "2 ingredients: 1: FP<140 [35]; 2: FP<140 [-35] (from cas_master) [test 14] >> NULL VALIDATOR for cas flash FALSE": {
+        "2 ingredients: 1: FP<140 [35]; 2: FP<140 [-35] (from cas_master) [test 14] >> NULL VALIDATOR for cas flash FALSE C20273": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -1003,7 +1003,7 @@
                 ]
             }
         },
-        "NULL VALIDATOR for form TRUE & NULL VALIDATOR for cas flash TRUE [test 15] >> NULL validation TRUE": {
+        "NULL VALIDATOR for form TRUE & NULL VALIDATOR for cas flash TRUE [test 15] >> NULL validation TRUE C20274": {
             "request": {
                 "form": "aerosol",
                 "cas_number_and_weights": [
@@ -1072,7 +1072,7 @@
                 ]
             }
         },
-        "NULL VALIDATOR for form TRUE & NULL VALIDATOR for cas flash FALSE [test 16] >> NULL validation TRUE": {
+        "NULL VALIDATOR for form TRUE & NULL VALIDATOR for cas flash FALSE [test 16] >> NULL validation TRUE C20275": {
             "request": {
                 "form": "solid",
                 "cas_number_and_weights": [
@@ -1167,7 +1167,7 @@
                 ]
             }
         },
-        "NULL VALIDATOR for form FALSE & NULL VALIDATOR for cas flash TRUE [test 17] >> NULL validation TRUE": {
+        "NULL VALIDATOR for form FALSE & NULL VALIDATOR for cas flash TRUE [test 17] >> NULL validation TRUE C20276": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -1222,7 +1222,7 @@
                 ]
             }
         },
-        "NULL VALIDATOR for form FALSE & NULL VALIDATOR for cas flash FALSE [test 18] >> NULL validation FALSE": {
+        "NULL VALIDATOR for form FALSE & NULL VALIDATOR for cas flash FALSE [test 18] >> NULL validation FALSE C20277": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
