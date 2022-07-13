@@ -1,7 +1,7 @@
 {
   "uri": "/boiling_point/predict",
   "variants": {
-    "liquid": {
+    "form: liquid [calculated 154.58] C20287": {
       "request": {
         "cas_number_and_weights": [
           {
@@ -122,7 +122,7 @@
       }
     },
 
-    "gas": {
+    "gas [not calculated] C20288": {
       "request": {
         "cas_number_and_weights": [
           {
