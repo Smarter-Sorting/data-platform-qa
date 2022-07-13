@@ -1,7 +1,7 @@
 {
     "uri": "/validate/genome",
     "variants": {
-        "form: liquid [test 1] >> NULL VALIDATOR for form FALSE": {
+        "form: liquid [test 1] >> NULL VALIDATOR for form FALSE C17185": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -35,7 +35,7 @@
                 ]
             }
         },
-        "[BUG] form: solid [test 2] >> NULL VALIDATOR for form FALSE": {
+        "[BUG] form: solid [test 2] >> NULL VALIDATOR for form FALSE C17186": {
             "request": {
                 "form": "solid",
                 "cas_number_and_weights": [
@@ -69,7 +69,7 @@
                 ]
             }
         },
-        "form: aerosol [test 3] >> NULL VALIDATOR for form FALSE": {
+        "form: aerosol [test 3] >> NULL VALIDATOR for form FALSE C17187": {
             "request": {
                 "form": "aerosol",
                 "cas_number_and_weights": [
@@ -103,7 +103,7 @@
                 ]
             }
         },
-        "form: null [test 4] >> NULL VALIDATOR for form FALSE": {
+        "form: null [test 4] >> NULL VALIDATOR for form FALSE C17204": {
             "request": {
                 "form": "null",
                 "cas_number_and_weights": [
@@ -137,7 +137,7 @@
                 ]
             }
         },
-        "form: gas [test 5] >> NULL VALIDATOR for form TRUE": {
+        "form: gas [test 5] >> NULL VALIDATOR for form TRUE C17205": {
             "request": {
                 "form": "gas",
                 "cas_number_and_weights": [
@@ -171,7 +171,7 @@
                 ]
             }
         },
-        "form: wipes [test 6] >> NULL VALIDATOR for form FALSE": {
+        "form: wipes [test 6] >> NULL VALIDATOR for form FALSE C17296": {
             "request": {
                 "form": "liquid_absorbed_in_solid",
                 "cas_number_and_weights": [
@@ -205,7 +205,7 @@
                 ]
             }
         },
-        "at least 1 ingredient with hazard class 8 [test 7] >> NULL VALIDATOR for corrosive FALSE": {
+        "at least 1 ingredient with hazard class 8 [test 7] >> NULL VALIDATOR for corrosive FALSE C17297": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -253,7 +253,7 @@
                 ]
             }
         },
-        "no ingredients with hazard class 8 [test 8] >> NULL VALIDATOR for corrosive TRUE": {
+        "no ingredients with hazard class 8 [test 8] >> NULL VALIDATOR for corrosive TRUE C17298": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -294,7 +294,7 @@
                 ]
             }
         },
-        "NULL VALIDATOR for form = TRUE (gas) & NULL VALIDATOR for corrosive TRUE [test 9] >> NULL validation TRUE": {
+        "NULL VALIDATOR for form = TRUE (gas) & NULL VALIDATOR for corrosive TRUE [test 9] >> NULL validation TRUE C17299": {
             "request": {
                 "form": "gas",
                 "cas_number_and_weights": [
@@ -562,7 +562,7 @@
                 ]
             }
         },
-        "NULL VALIDATOR for form = TRUE (gas) & NULL VALIDATOR for corrosive FALSE [test 10] >> NULL validation TRUE": {
+        "NULL VALIDATOR for form = TRUE (gas) & NULL VALIDATOR for corrosive FALSE [test 10] >> NULL validation TRUE C17300": {
             "request": {
                 "form": "gas",
                 "cas_number_and_weights": [
@@ -948,7 +948,7 @@
                 ]
             }
         },
-        "NULL VALIDATOR for form = FALSE (liquid) & NULL VALIDATOR for corrosive TRUE [test 11] >> NULL validation TRUE": {
+        "NULL VALIDATOR for form = FALSE (liquid) & NULL VALIDATOR for corrosive TRUE [test 11] >> NULL validation TRUE C17301": {
             "request": {
                 "form": "liquid",
                 "cas_number_and_weights": [
@@ -1384,7 +1384,7 @@
                 ]
             }
         },
-        "NULL VALIDATOR for form = FALSE (aerosol) & NULL VALIDATOR for corrosive FALSE [test 12] >> NULL validation FALSE": {
+        "NULL VALIDATOR for form = FALSE (aerosol) & NULL VALIDATOR for corrosive FALSE [test 12] >> NULL validation FALSE C17302": {
             "request": {
                 "form": "aerosol",
                 "cas_number_and_weights": [
