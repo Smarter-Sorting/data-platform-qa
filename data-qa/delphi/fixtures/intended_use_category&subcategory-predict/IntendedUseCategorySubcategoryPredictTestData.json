@@ -2,7 +2,7 @@
     "uri_category": "/intended_use_category/predict",
     "uri_subcategory": "/intended_use_subcategory/predict",
     "variants": {
-        "product_name=null [test 1] >> Category: null, Sub-category: null": {
+        "product_name=null [test 1] >> Category: null, Sub-category: null C20322 C20401": {
             "request": {
                 "product_name": null
             },
@@ -28,7 +28,7 @@
                 ]
             }
         },
-        "product_name='Invalid input' [test 2] >> [BUG] Category: null, Sub-category: null": {
+        "product_name='Invalid input' [test 2] >> [BUG] Category: null, Sub-category: null C20323 C20402": {
             "request": {
                 "product_name": "Invalid input"
             },
@@ -56,7 +56,7 @@
                 ]
             }
         },
-        "product_name='Yellow Paint' [test 3] >> Category: PAINT_RELATED; [BUG] Sub-category: OTHER": {
+        "product_name='Yellow Paint' [test 3] >> Category: PAINT_RELATED; [BUG] Sub-category: OTHER C20324 C20403": {
             "request": {
                 "product_name": "Yellow Paint"
             },
@@ -84,7 +84,7 @@
                 ]
             }
         },
-        "product_name='laptop battery' [test 4] >> Category: BATTERY; Sub-category: LITHIUM_ION": {
+        "product_name='laptop battery' [test 4] >> Category: BATTERY; Sub-category: LITHIUM_ION C20325 C20404": {
             "request": {
                 "product_name": "laptop battery"
             },
@@ -112,7 +112,7 @@
                 ]
             }
         },
-        "product_name='Nickel Cadmium Battery (Rechargeable Alkaline Batteries)' [test 5] >> Category: BATTERY; Sub-category: NICKEL_CADMIUM": {
+        "product_name='Nickel Cadmium Battery (Rechargeable Alkaline Batteries)' [test 5] >> Category: BATTERY; Sub-category: NICKEL_CADMIUM C20326 C20405": {
             "request": {
                 "product_name": "Nickel Cadmium Battery (Rechargeable Alkaline Batteries)"
             },
@@ -140,7 +140,7 @@
                 ]
             }
         },
-        "product_name='(used on the label) Nickel Metal Hydride Battery' [test 6] >> Category: BATTERY; Sub-category: NICKEL_METAL_HYDRIDE": {
+        "product_name='(used on the label) Nickel Metal Hydride Battery' [test 6] >> Category: BATTERY; Sub-category: NICKEL_METAL_HYDRIDE C20327 C20406": {
             "request": {
                 "product_name": "(used on the label) Nickel Metal Hydride Battery"
             },
@@ -168,7 +168,7 @@
                 ]
             }
         },
-        "product_name='Silver Oxide-Zinc Battery' [test 7] >> Category: BATTERY; Sub-category: SILVER_OXIDE": {
+        "product_name='Silver Oxide-Zinc Battery' [test 7] >> Category: BATTERY; Sub-category: SILVER_OXIDE C20328 C20407": {
             "request": {
                 "product_name": "Silver Oxide-Zinc Battery"
             },
@@ -196,7 +196,7 @@
                 ]
             }
         },
-        "product_name='Duracell zinc air battery' [test 8] >> Category: Battery; Sub-category: ZINC_AIR": {
+        "product_name='Duracell zinc air battery' [test 8] >> Category: BATTERY; Sub-category: ZINC_AIR C20329 C20408": {
             "request": {
                 "product_name": "Duracell zinc air battery"
             },
@@ -224,7 +224,7 @@
                 ]
             }
         },
-        "product_name='Clorox® Clean-Up® Cleaner + Bleach1 - Original' [test 9] >> Category: CLEANER; Sub-category: BLEACH": {
+        "product_name='Clorox® Clean-Up® Cleaner + Bleach1 - Original' [test 9] >> Category: CLEANER; Sub-category: BLEACH C20330 C20409": {
             "request": {
                 "product_name": "Clorox® Clean-Up® Cleaner + Bleach1 - Original"
             },
@@ -252,7 +252,7 @@
                 ]
             }
         },
-        "product_name='Quest protein bar' [test 10] >> Category: CONSUMABLE; Sub-category: FOOD": {
+        "product_name='Quest protein bar' [test 10] >> Category: CONSUMABLE; Sub-category: FOOD C20331 C20410": {
             "request": {
                 "product_name": "Quest protein bar"
             },
@@ -280,7 +280,7 @@
                 ]
             }
         },
-        "product_name='coors beer' [test 11] >> Category: CONSUMABLE; Sub-category: BEER": {
+        "product_name='coors beer' [test 11] >> Category: CONSUMABLE; Sub-category: BEER C20332 C20411": {
             "request": {
                 "product_name": "coors beer"
             },
@@ -308,7 +308,7 @@
                 ]
             }
         },
-        "product_name='grill seasoning' [test 12] >> Category: CONSUMABLE; Sub-category: EXTRACT_AND_SEASONING": {
+        "product_name='grill seasoning' [test 12] >> Category: CONSUMABLE; Sub-category: EXTRACT_AND_SEASONING C20333 C20412": {
             "request": {
                 "product_name": "grill seasoning"
             },
@@ -336,7 +336,7 @@
                 ]
             }
         },
-        "product_name='vitamin b-12' [test 13] >> Category: CONSUMABLE; Sub-category: MEDICINE": {
+        "product_name='vitamin b-12' [test 13] >> Category: CONSUMABLE; Sub-category: MEDICINE C20334 C20413": {
             "request": {
                 "product_name": "vitamin b-12"
             },
@@ -364,7 +364,7 @@
                 ]
             }
         },
-        "product_name='PAM Sauté and Grill Cooking Spray' [test 14] >> Category: CONSUMABLE; Sub-category: COOKING_OIL": {
+        "product_name='PAM Sauté and Grill Cooking Spray' [test 14] >> Category: CONSUMABLE; Sub-category: COOKING_OIL C20335 C20414": {
             "request": {
                 "product_name": "PAM Sauté and Grill Cooking Spray"
             },
@@ -392,7 +392,7 @@
                 ]
             }
         },
-        "product_name='apple juice' [test 15] >> Category: CONSUMABLE; Sub-category: OTHER": {
+        "product_name='apple juice' [test 15] >> Category: CONSUMABLE; Sub-category: OTHER C20336 C20415": {
             "request": {
                 "product_name": "apple juice"
             },
@@ -420,7 +420,7 @@
                 ]
             }
         },
-        "product_name='First class plant food' [test 16] >> Category: FERTILIZER; [BUG] Sub-category: OTHER": {
+        "product_name='First class plant food' [test 16] >> Category: FERTILIZER; [BUG] Sub-category: OTHER C20337 C20416": {
             "request": {
                 "product_name": "First class plant food"
             },
@@ -448,7 +448,7 @@
                 ]
             }
         },
-        "product_name='4th of July Fire Extinguisher' [test 17] >> Category: FIRE_EXTINGUISHER; [BUG] Sub-category: OTHER": {
+        "product_name='4th of July Fire Extinguisher' [test 17] >> Category: FIRE_EXTINGUISHER; [BUG] Sub-category: OTHER C20338 C20417": {
             "request": {
                 "product_name": "4th of July Fire Extinguisher"
             },
@@ -476,7 +476,7 @@
                 ]
             }
         },
-        "product_name='bbq lighter' [test 18] >> Category: FIRE_STARTER; Sub-category: LIGHTERS": {
+        "product_name='bbq lighter' [test 18] >> Category: FIRE_STARTER; Sub-category: LIGHTERS C20339 C20418": {
             "request": {
                 "product_name": "bbq lighter"
             },
@@ -504,7 +504,7 @@
                 ]
             }
         },
-        "product_name='Freddy's matches' [test 19] >> Category: FIRE_STARTER; Sub-category: MATCHES": {
+        "product_name='Freddy's matches' [test 19] >> Category: FIRE_STARTER; Sub-category: MATCHES C20340 C20419": {
             "request": {
                 "product_name": "Freddy's matches"
             },
@@ -532,7 +532,7 @@
                 ]
             }
         },
-        "product_name='Awesome lighter fluid to ignite combustible materials' [test 20] >> Category: FIRE_STARTER; Sub-category: LIGHTER_FLUID": {
+        "product_name='Awesome lighter fluid to ignite combustible materials' [test 20] >> Category: FIRE_STARTER; Sub-category: LIGHTER_FLUID C20341 C20420": {
             "request": {
                 "product_name": "Awesome lighter fluid to ignite combustible materials"
             },
@@ -560,7 +560,7 @@
                 ]
             }
         },
-        "product_name='Create flame: charcoal' [test 21] >> [BUG] Category: FIRE_STARTER; Sub-category: CHARCOAL": {
+        "product_name='Create flame: charcoal' [test 21] >> [BUG] Category: FIRE_STARTER; Sub-category: CHARCOAL C20342 C20421": {
             "request": {
                 "product_name": "Create flame: charcoal"
             },
@@ -588,7 +588,7 @@
                 ]
             }
         },
-        "product_name='Lawn Starter' [test 22] >> Category: FIRE_STARTER; Sub-category: SOLID_FIRE_STARTER": {
+        "product_name='Lawn Starter' [test 22] >> Category: FIRE_STARTER; Sub-category: SOLID_FIRE_STARTER C20343 C20422": {
             "request": {
                 "product_name": "Lawn Starter"
             },
@@ -616,7 +616,7 @@
                 ]
             }
         },
-        "product_name='refillable butane torches' [test 23] >> [BUG] Category: FIRE_STARTER; Sub-category: OTHER": {
+        "product_name='refillable butane torches' [test 23] >> [BUG] Category: FIRE_STARTER; Sub-category: OTHER C20344 C20423": {
             "request": {
                 "product_name": "refillable butane torches"
             },
@@ -644,7 +644,7 @@
                 ]
             }
         },
-        "product_name='Inflatable Life Preservers, Life Vests, Life Jackets, Individual Flotation Devices, Personal Flotation Devices.' [test 24] >> [BUG] Category: INFLATABLE; [BUG] Sub-category: OTHER": {
+        "product_name='Inflatable Life Preservers, Life Vests, Life Jackets, Individual Flotation Devices, Personal Flotation Devices.' [test 24] >> [BUG] Category: INFLATABLE; [BUG] Sub-category: OTHER C20345 C20424": {
             "request": {
                 "product_name": "Inflatable Life Preservers, Life Vests, Life Jackets, Individual Flotation Devices, Personal Flotation Devices."
             },
@@ -672,7 +672,7 @@
                 ]
             }
         },
-        "product_name='Sharpie S-Gel Pen' [test 25] >> Category: INK; Sub-category: PEN": {
+        "product_name='Sharpie S-Gel Pen' [test 25] >> Category: INK; Sub-category: PEN C20346 C20425": {
             "request": {
                 "product_name": "Sharpie S-Gel Pen"
             },
@@ -700,7 +700,7 @@
                 ]
             }
         },
-        "product_name='RIT DYE, LIQUID' [test 26] >> Category: INK; Sub-category: OTHER": {
+        "product_name='RIT DYE, LIQUID' [test 26] >> Category: INK; Sub-category: OTHER C20347 C20426": {
             "request": {
                 "product_name": "RIT DYE, LIQUID"
             },
@@ -728,7 +728,7 @@
                 ]
             }
         },
-        "product_name='Incandescent Bulbs' [test 27] >> Category: LIGHTBULB; Sub-category: INCANDESCENT": {
+        "product_name='Incandescent Bulbs' [test 27] >> Category: LIGHTBULB; Sub-category: INCANDESCENT C20348 C20427": {
             "request": {
                 "product_name": "Incandescent Bulbs"
             },
@@ -756,7 +756,7 @@
                 ]
             }
         },
-        "product_name='Linear Fluorescent Lamp' [test 28] >> Category: LIGHTBULB; Sub-category: FLUORESCENT": {
+        "product_name='Linear Fluorescent Lamp' [test 28] >> Category: LIGHTBULB; Sub-category: FLUORESCENT C20349 C20428": {
             "request": {
                 "product_name": "Linear Fluorescent Lamp"
             },
@@ -784,7 +784,7 @@
                 ]
             }
         },
-        "product_name=''curly cue' light bulbs' [test 29] >> Category: LIGHTBULB; [BUG] Sub-category: CFL": {
+        "product_name=''curly cue' light bulbs' [test 29] >> Category: LIGHTBULB; [BUG] Sub-category: CFL C20350 C20429": {
             "request": {
                 "product_name": "'curly cue' light bulbs"
             },
@@ -812,7 +812,7 @@
                 ]
             }
         },
-        "product_name='Halogen Lamps' [test 30] >> Category: LIGHTBULB; Sub-category: HALOGEN_LAMP": {
+        "product_name='Halogen Lamps' [test 30] >> Category: LIGHTBULB; Sub-category: HALOGEN_LAMP C20351 C20430": {
             "request": {
                 "product_name": "Halogen Lamps"
             },
@@ -840,7 +840,7 @@
                 ]
             }
         },
-        "product_name='QUARTZ INFRARED LAMPS (IRK)' [test 31] >> [BUG] Category: LIGHTBULB; Sub-category: INFRARED_LAMP": {
+        "product_name='QUARTZ INFRARED LAMPS (IRK)' [test 31] >> [BUG] Category: LIGHTBULB; Sub-category: INFRARED_LAMP C20352 C20431": {
             "request": {
                 "product_name": "QUARTZ INFRARED LAMPS (IRK)"
             },
@@ -868,7 +868,7 @@
                 ]
             }
         },
-        "product_name='Metal Halide Lamp' [test 32] >> Category: LIGHTBULB; Sub-category: METAL_HALIDE_LAMP": {
+        "product_name='Metal Halide Lamp' [test 32] >> Category: LIGHTBULB; Sub-category: METAL_HALIDE_LAMP C20353 C20432": {
             "request": {
                 "product_name": "Metal Halide Lamp"
             },
@@ -896,7 +896,7 @@
                 ]
             }
         },
-        "product_name='HIGH PRESSURE SODIUM LAMPS' [test 33] >> [BUG] Category: LIGHTBULB; [BUG] Sub-category: SODIUM_VAPOR_LAMP": {
+        "product_name='HIGH PRESSURE SODIUM LAMPS' [test 33] >> [BUG] Category: LIGHTBULB; [BUG] Sub-category: SODIUM_VAPOR_LAMP C20354 C20433": {
             "request": {
                 "product_name": "HIGH PRESSURE SODIUM LAMPS"
             },
@@ -924,7 +924,7 @@
                 ]
             }
         },
-        "product_name='LED Light Bulbs' [test 34] >> Category: LIGHTBULB; Sub-category: LED": {
+        "product_name='LED Light Bulbs' [test 34] >> Category: LIGHTBULB; Sub-category: LED C20355 C20434": {
             "request": {
                 "product_name": "LED Light Bulbs"
             },
@@ -952,7 +952,7 @@
                 ]
             }
         },
-        "product_name='First Aid Kits' [test 35] >> Category: PERSONAL_CARE; [BUG] Sub-category: FIRST_AID": {
+        "product_name='First Aid Kits' [test 35] >> Category: PERSONAL_CARE; [BUG] Sub-category: FIRST_AID C20356 C20435": {
             "request": {
                 "product_name": "First Aid Kits"
             },
@@ -980,7 +980,7 @@
                 ]
             }
         },
-        "product_name='HTH OTO TEST KIT - OTO SOLUTION' [test 36] >> Category: POOL_PRODUCT; [BUG] Sub-category: OTHER": {
+        "product_name='HTH OTO TEST KIT - OTO SOLUTION' [test 36] >> Category: POOL_PRODUCT; [BUG] Sub-category: OTHER C20357 C20436": {
             "request": {
                 "product_name": "HTH OTO TEST KIT - OTO SOLUTION"
             },
@@ -1008,7 +1008,7 @@
                 ]
             }
         },
-        "product_name='cigarettes' [test 37] >> [BUG] Category: NICOTINE_AND_TOBACCO; [BUG] Sub-category: TOBACCO": {
+        "product_name='cigarettes' [test 37] >> [BUG] Category: NICOTINE_AND_TOBACCO; [BUG] Sub-category: TOBACCO C20358 C20437": {
             "request": {
                 "product_name": "cigarettes"
             },
@@ -1036,7 +1036,7 @@
                 ]
             }
         },
-        "product_name='gums and pills for quitting smoking' [test 38] >> [BUG] Category: NICOTINE_AND_TOBACCO; [BUG] Sub-category: NICOTINE_CESSATION": {
+        "product_name='gums and pills for quitting smoking' [test 38] >> [BUG] Category: NICOTINE_AND_TOBACCO; [BUG] Sub-category: NICOTINE_CESSATION C20359 C20438": {
             "request": {
                 "product_name": "gums and pills for quitting smoking"
             },
@@ -1064,7 +1064,7 @@
                 ]
             }
         },
-        "product_name='vape liquid' [test 39] >> [BUG] Category: NICOTINE_AND_TOBACCO; Sub-category: OTHER": {
+        "product_name='vape liquid' [test 39] >> [BUG] Category: NICOTINE_AND_TOBACCO; Sub-category: OTHER C20360 C20439": {
             "request": {
                 "product_name": "vape liquid"
             },
@@ -1092,7 +1092,7 @@
                 ]
             }
         },
-        "product_name='Prestone® De-Icer Windshield Washer Fluid with Dirt Blocker' [test 40] >> Category: WINDSHIELD_WASHER_FLUID; [BUG] Sub-category: OTHER": {
+        "product_name='Prestone® De-Icer Windshield Washer Fluid with Dirt Blocker' [test 40] >> Category: WINDSHIELD_WASHER_FLUID; [BUG] Sub-category: OTHER C20361 C20440": {
             "request": {
                 "product_name": "Prestone® De-Icer Windshield Washer Fluid with Dirt Blocker"
             },
@@ -1120,7 +1120,7 @@
                 ]
             }
         },
-        "product_name='Expo Cleaning Wipes' [test 41] >> Category: WIPES; [BUG] Sub-category: OTHER": {
+        "product_name='Expo Cleaning Wipes' [test 41] >> Category: WIPES; [BUG] Sub-category: OTHER C20362 C20441": {
             "request": {
                 "product_name": "Expo Cleaning Wipes"
             },
@@ -1148,7 +1148,7 @@
                 ]
             }
         },
-        "product_name='Volcano Crystal Egg Dyes' [test 42] >> [BUG] Category: OTHER; Sub-category: OTHER": {
+        "product_name='Volcano Crystal Egg Dyes' [test 42] >> [BUG] Category: OTHER; Sub-category: OTHER C20363 C20442": {
             "request": {
                 "product_name": "Volcano Crystal Egg Dyes"
             },
@@ -1176,7 +1176,7 @@
                 ]
             }
         },
-        "product_name='Pepper spray' [test 43] >> Category: SELF_DEFENSE; Sub-category: PEPPER_SPRAY": {
+        "product_name='Pepper spray' [test 43] >> Category: SELF_DEFENSE; Sub-category: PEPPER_SPRAY C20364 C20443": {
             "request": {
                 "product_name": "Pepper spray"
             },
@@ -1204,7 +1204,7 @@
                 ]
             }
         },
-        "description=null [test 1] >> Category: null; Sub-category: null": {
+        "description=null [test 1] >> Category: null; Sub-category: null C20365 C20444": {
             "request": {
                 "description": null
             },
@@ -1230,7 +1230,7 @@
                 ]
             }
         },
-        "description='Invalid input' [test 2] >> [BUG] Category: null; Sub-category: null": {
+        "description='Invalid input' [test 2] >> [BUG] Category: null; Sub-category: null C20366 C20445": {
             "request": {
                 "description": "Invalid input"
             },
@@ -1258,7 +1258,7 @@
                 ]
             }
         },
-        "description='Yellow paint' [test 3] >> Category: PAINT_RELATED; [BUG] Sub-category: OTHER": {
+        "description='Yellow paint' [test 3] >> Category: PAINT_RELATED; [BUG] Sub-category: OTHER C20367 C20446": {
             "request": {
                 "description": "Yellow paint"
             },
@@ -1286,7 +1286,7 @@
                 ]
             }
         },
-        "description='for cutting, grinding, and drilling;..' [test 4] >> Category: CONSTRUCTION; [BUG] Sub-category: OTHER": {
+        "description='for cutting, grinding, and drilling;..' [test 4] >> Category: CONSTRUCTION; [BUG] Sub-category: OTHER C20368 C20447": {
             "request": {
                 "description": "for cutting, grinding, and drilling; for construction; for plumbing projects, PVC pipe"
             },
@@ -1314,7 +1314,7 @@
                 ]
             }
         },
-        "description='for household cleaning, washing;..' [test 5] >> Category: CLEANER; Sub-category: SOAP_AND_DETERGENT": {
+        "description='for household cleaning, washing;..' [test 5] >> Category: CLEANER; Sub-category: SOAP_AND_DETERGENT C20369 C20448": {
             "request": {
                 "description": "for household cleaning, washing; for washing, drying, care of clothes and textiles"
             },
@@ -1342,7 +1342,7 @@
                 ]
             }
         },
-        "description='for general household/industrial cleaning;..' [test 6] >> Category: CLEANER; Sub-category: OTHER": {
+        "description='for general household/industrial cleaning;..' [test 6] >> Category: CLEANER; Sub-category: OTHER C20370 C20449": {
             "request": {
                 "description": "for general household/industrial cleaning; for cleaning glass; for cleaning, polishing, maintaining furniture; for cleaning in the kitchen, stove/oven, sink, countertops; for toilet cleaning, for showers, tubs, tile cleaning; for cleaning and maintaining floors; for clearing drains/maintaining septic systems; for cleaning automotives, tire dressing"
             },
@@ -1370,7 +1370,7 @@
                 ]
             }
         },
-        "description='for producing pyrotechnic entertainment and aesthetics' [test 7] >> [BUG] Category: FIREWORKS_AND_FLARES; [BUG] Sub-category: FIREWORKS": {
+        "description='for producing pyrotechnic entertainment and aesthetics' [test 7] >> [BUG] Category: FIREWORKS_AND_FLARES; [BUG] Sub-category: FIREWORKS C20371 C20450": {
             "request": {
                 "description": "for producing pyrotechnic entertainment and aesthetics"
             },
@@ -1398,7 +1398,7 @@
                 ]
             }
         },
-        "description='for distress signalling, illumination, or defensive countermeasures in civilian and military applications' [test 8] >> [BUG] Category: FIREWORKS_AND_FLARES; [BUG] Sub-category: FLARES": {
+        "description='for distress signalling, illumination, or defensive countermeasures in civilian and military applications' [test 8] >> [BUG] Category: FIREWORKS_AND_FLARES; [BUG] Sub-category: FLARES C20372 C20451": {
             "request": {
                 "description": "for distress signalling, illumination, or defensive countermeasures in civilian and military applications"
             },
@@ -1426,7 +1426,7 @@
                 ]
             }
         },
-        "description='liquid fuel' [test 9] >> Category: OIL_AND_FUEL; [BUG] Sub-category: FUEL": {
+        "description='liquid fuel' [test 9] >> Category: OIL_AND_FUEL; [BUG] Sub-category: FUEL C20373 C20452": {
             "request": {
                 "description": "liquid fuel"
             },
@@ -1454,7 +1454,7 @@
                 ]
             }
         },
-        "description='to enhance the quality and efficiency of fuel used in motor vehicles;..' [test 10] >> [BUG] Category: OIL_AND_FUEL; [BUG] Sub-category: FUEL_ADDITIVE": {
+        "description='to enhance the quality and efficiency of fuel used in motor vehicles;..' [test 10] >> [BUG] Category: OIL_AND_FUEL; [BUG] Sub-category: FUEL_ADDITIVE C20374 C20453": {
             "request": {
                 "description": "to enhance the quality and efficiency of fuel used in motor vehicles; to prevent carbon build up in a gas tank and to clean various part of the fuel system components"
             },
@@ -1482,7 +1482,7 @@
                 ]
             }
         },
-        "description='' [test 11] >> [BUG] Category: OIL_AND_FUEL; [BUG] Sub-category: MOTOR_OIL": {
+        "description='' [test 11] >> [BUG] Category: OIL_AND_FUEL; [BUG] Sub-category: MOTOR_OIL C20375 C20454": {
             "request": {
                 "description": "for internal lubrication of combustion engines"
             },
@@ -1510,7 +1510,7 @@
                 ]
             }
         },
-        "description='to seal gaps, to prevent leakage;..' [test 12] >> Category: ADHESIVE; [BUG] Sub-category: OTHER": {
+        "description='to seal gaps, to prevent leakage;..' [test 12] >> Category: ADHESIVE; [BUG] Sub-category: OTHER C20376 C20455": {
             "request": {
                 "description": "to seal gaps, to prevent leakage; for filling holes, cracks and sealing seams, for repairing fiberglass, bathtubs, porcelain, for repair on inner tubes and tubeless tires; for affixing to a surface; used for sealing, binding, or attaching items together"
             },
@@ -1538,7 +1538,7 @@
                 ]
             }
         },
-        "description='for minimizing friction in gears,..' [test 13] >> [BUG] Category: LUBRICANT; [BUG] Sub-category: OTHER": {
+        "description='for minimizing friction in gears,..' [test 13] >> [BUG] Category: LUBRICANT; [BUG] Sub-category: OTHER C20377 C20456": {
             "request": {
                 "description": "for minimizing friction in gears, machines; for lubrication, cleaning, and preventing rust; for minimizing friction"
             },
@@ -1566,7 +1566,7 @@
                 ]
             }
         },
-        "description='for eliminating indoor odors;..' [test 14] >> Category: ODORIZER; [BUG] Sub-category: OTHER": {
+        "description='for eliminating indoor odors;..' [test 14] >> Category: ODORIZER; [BUG] Sub-category: OTHER C20378 C20457": {
             "request": {
                 "description": "for eliminating indoor odors; for sanitizing indoor air, sprays for disinfecting the air; scented candles, diffusers"
             },
@@ -1594,7 +1594,7 @@
                 ]
             }
         },
-        "description='to help control the properties and behavior or the hair..' [test 15] >> Category: PERSONAL_CARE; Sub-category: HAIR_CARE": {
+        "description='to help control the properties and behavior or the hair..' [test 15] >> Category: PERSONAL_CARE; Sub-category: HAIR_CARE C20379 C20458": {
             "request": {
                 "description": "to help control the properties and behavior or the hair so that it can be maintained in a controlled and desirable manner"
             },
@@ -1622,7 +1622,7 @@
                 ]
             }
         },
-        "description='to be used on infants and children under age 3;..' [test 16] >> Category: PERSONAL_CARE; Sub-category: OTHER": {
+        "description='to be used on infants and children under age 3;..' [test 16] >> Category: PERSONAL_CARE; Sub-category: OTHER C20380 C20459": {
             "request": {
                 "description": "to be used on infants and children under age 3; to color and highlight facial features, including the eyes and lips; to cleanse the oral cavity, freshen the breath, and maintain good oral hygiene, to protect against the formation of cavities; to assist in the removal of unwanted body hair; to ease shaving; to chemically remove undesired body hair, to protect skin from the sun, or to enhance the tone/look of skin with or without UV tanning"
             },
@@ -1650,7 +1650,7 @@
                 ]
             }
         },
-        "description='AC PRO R-134a Professional Refrigerant Formula.' [test 17] >> Category: REFRIGERANT; Sub-category: REFRIGERATING_GAS": {
+        "description='AC PRO R-134a Professional Refrigerant Formula.' [test 17] >> Category: REFRIGERANT; Sub-category: REFRIGERATING_GAS C20381 C20460": {
             "request": {
                 "description": "AC PRO R-134a Professional Refrigerant Formula."
             },
@@ -1678,7 +1678,7 @@
                 ]
             }
         },
-        "recommended_use=null [test 1] >> Category: null; Sub-category: null": {
+        "recommended_use=null [test 1] >> Category: null; Sub-category: null C20382 C20461": {
             "request": {
                 "recommended_use": null
             },
@@ -1704,7 +1704,7 @@
                 ]
             }
         },
-        "recommended_use='Invalid input' [test 2] >> [BUG] Category: null; Sub-category: null": {
+        "recommended_use='Invalid input' [test 2] >> [BUG] Category: null; Sub-category: null C20383 C20462": {
             "request": {
                 "recommended_use": "Invalid input"
             },
@@ -1732,7 +1732,7 @@
                 ]
             }
         },
-        "recommended_use='Yellow paint' [test 3] >> Category: PAINT_RELATED; [BUG] Sub-category: OTHER": {
+        "recommended_use='Yellow paint' [test 3] >> Category: PAINT_RELATED; [BUG] Sub-category: OTHER C20384 C20463": {
             "request": {
                 "recommended_use": "Yellow paint"
             },
@@ -1760,7 +1760,7 @@
                 ]
             }
         },
-        "recommended_use='lithium metal' [test 4] >> Category: BATTERY; Sub-category: LITHIUM_METAL": {
+        "recommended_use='lithium metal' [test 4] >> Category: BATTERY; Sub-category: LITHIUM_METAL C20385 C20464": {
             "request": {
                 "recommended_use": "lithium metal"
             },
@@ -1788,7 +1788,7 @@
                 ]
             }
         },
-        "recommended_use='Automobile Antifreeze – consumer product' [test 5] >> Category: ANTIFREEZE; [BUG] Sub-category: OTHER": {
+        "recommended_use='Automobile Antifreeze – consumer product' [test 5] >> Category: ANTIFREEZE; [BUG] Sub-category: OTHER C20386 C20465": {
             "request": {
                 "recommended_use": "Automobile Antifreeze – consumer product"
             },
@@ -1816,7 +1816,7 @@
                 ]
             }
         },
-        "recommended_use='Alkaline battery' [test 6] >> Category: BATTERY; Sub-category: ALKALINE": {
+        "recommended_use='Alkaline battery' [test 6] >> Category: BATTERY; Sub-category: ALKALINE C20387 C20466": {
             "request": {
                 "recommended_use": "Alkaline battery"
             },
@@ -1844,7 +1844,7 @@
                 ]
             }
         },
-        "recommended_use='Carbon Zinc Batteries' [test 7] >> Category: BATTERY; Sub-category: ZINC_CARBON": {
+        "recommended_use='Carbon Zinc Batteries' [test 7] >> Category: BATTERY; Sub-category: ZINC_CARBON C20388 C20467": {
             "request": {
                 "recommended_use": "Carbon Zinc Batteries"
             },
@@ -1872,7 +1872,7 @@
                 ]
             }
         },
-        "recommended_use='disinfectant spray' [test 8] >> Category: CLEANER; Sub-category: DISINFECTANT": {
+        "recommended_use='disinfectant spray' [test 8] >> Category: CLEANER; Sub-category: DISINFECTANT C20389 C20468": {
             "request": {
                 "recommended_use": "disinfectant spray"
             },
@@ -1900,7 +1900,7 @@
                 ]
             }
         },
-        "recommended_use='Electric storage battery for starting a piston engine' [test 9] >> Category: BATTERY; Sub-category: LEAD_ACID": {
+        "recommended_use='Electric storage battery for starting a piston engine' [test 9] >> Category: BATTERY; Sub-category: LEAD_ACID C20390 C20469": {
             "request": {
                 "recommended_use": "Electric storage battery for starting a piston engine"
             },
@@ -1928,7 +1928,7 @@
                 ]
             }
         },
-        "recommended_use='Hydraulic Fluid' [test 10] >> Category: OIL_AND_FUEL; Sub-category: OTHER": {
+        "recommended_use='Hydraulic Fluid' [test 10] >> Category: OIL_AND_FUEL; Sub-category: OTHER C20391 C20470": {
             "request": {
                 "recommended_use": "Hydraulic Fluid"
             },
@@ -1956,7 +1956,7 @@
                 ]
             }
         },
-        "recommended_use='Toner for electrophotographic machines' [test 11] >> Category: INK; Sub-category: PRINTER_INK_AND_TONER": {
+        "recommended_use='Toner for electrophotographic machines' [test 11] >> Category: INK; Sub-category: PRINTER_INK_AND_TONER C20392 C20471": {
             "request": {
                 "recommended_use": "Toner for electrophotographic machines"
             },
@@ -1984,7 +1984,7 @@
                 ]
             }
         },
-        "recommended_use='Personal Fragrance Product (20% or less fragrance)' [test 12] >> Category: PERSONAL_CARE; Sub-category: FRAGRANCE": {
+        "recommended_use='Personal Fragrance Product (20% or less fragrance)' [test 12] >> Category: PERSONAL_CARE; Sub-category: FRAGRANCE C20393 C20472": {
             "request": {
                 "recommended_use": "Personal Fragrance Product (20% or less fragrance)"
             },
@@ -2012,7 +2012,7 @@
                 ]
             }
         },
-        "recommended_use='Liquid developer for promoting deposit of hair color.' [test 13] >> Category: PERSONAL_CARE; Sub-category: HAIR_DYE_AND_COLORING": {
+        "recommended_use='Liquid developer for promoting deposit of hair color.' [test 13] >> Category: PERSONAL_CARE; Sub-category: HAIR_DYE_AND_COLORING C20394 C20473": {
             "request": {
                 "recommended_use": "Liquid developer for promoting deposit of hair color."
             },
@@ -2040,7 +2040,7 @@
                 ]
             }
         },
-        "recommended_use='Personal care product used on the nail for cosmetic effect.' [test 14] >> Category: PERSONAL_CARE; Sub-category: NAIL_CARE": {
+        "recommended_use='Personal care product used on the nail for cosmetic effect.' [test 14] >> Category: PERSONAL_CARE; Sub-category: NAIL_CARE C20395 C20474": {
             "request": {
                 "recommended_use": "Personal care product used on the nail for cosmetic effect. "
             },
@@ -2068,7 +2068,7 @@
                 ]
             }
         },
-        "recommended_use='Soap (Bar, Liquid) for Body' [test 15] >> Category: PERSONAL_CARE; Sub-category: PERSONAL_CLEANLINESS": {
+        "recommended_use='Soap (Bar, Liquid) for Body' [test 15] >> Category: PERSONAL_CARE; Sub-category: PERSONAL_CLEANLINESS C20396 C20475": {
             "request": {
                 "recommended_use": "Soap (Bar, Liquid) for Body"
             },
@@ -2096,7 +2096,7 @@
                 ]
             }
         },
-        "recommended_use='Appliance - Refrigerator (no WiFi or Touchscreen)' [test 16] >> Category: REFRIGERANT; Sub-category: REFRIGERATING_APPLIANCE": {
+        "recommended_use='Appliance - Refrigerator (no WiFi or Touchscreen)' [test 16] >> Category: REFRIGERANT; Sub-category: REFRIGERATING_APPLIANCE C20397 C20476": {
             "request": {
                 "recommended_use": "Appliance - Refrigerator (no WiFi or Touchscreen)"
             },
@@ -2124,7 +2124,7 @@
                 ]
             }
         },
-        "recommended_use='ammunition and cartridges for weapons/arms/tools' [test 17] >> Category: SELF_DEFENSE; Sub-category: FIREARMS_AND_AMMUNITION": {
+        "recommended_use='ammunition and cartridges for weapons/arms/tools' [test 17] >> Category: SELF_DEFENSE; Sub-category: FIREARMS_AND_AMMUNITION C20398 C20477": {
             "request": {
                 "recommended_use": "ammunition and cartridges for weapons/arms/tools"
             },
@@ -2152,7 +2152,7 @@
                 ]
             }
         },
-        "recommended_use='tear gas candles' [test 18] >> [BUG] Category: SELF_DEFENSE; Sub-category: OTHER": {
+        "recommended_use='tear gas candles' [test 18] >> [BUG] Category: SELF_DEFENSE; Sub-category: OTHER C20399 C20478": {
             "request": {
                 "recommended_use": "tear gas candles"
             },
