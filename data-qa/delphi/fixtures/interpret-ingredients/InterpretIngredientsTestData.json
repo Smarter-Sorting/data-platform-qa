@@ -1,7 +1,7 @@
 {
   "uri": "/interpret/ingredients",
   "variants": {
-    "all ingredients have CAS [test 1]": {
+    "all ingredients have CAS [test 1] C20298": {
       "request": {
         "ingredients": [
           "Ethanol",
@@ -31,7 +31,7 @@
         "Water": "7732-18-5"
       }
     },
-    "all ingredients do not have CAS [test 2]": {
+    "all ingredients do not have CAS [test 2] C20304": {
       "request": {
         "ingredients": [
           "Acetacidium",
@@ -63,7 +63,7 @@
         "XANALAMINE": null
       }
     },
-    "mixed ingredients: some have CAS, some do not [test 3]": {
+    "mixed ingredients: some have CAS, some do not [test 3] C20305": {
       "request": {
         "ingredients": [
           "VANADIUM FLUORIDE",

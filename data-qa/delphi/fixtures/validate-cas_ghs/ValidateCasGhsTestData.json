@@ -1,7 +1,7 @@
 {
     "uri": "/validate/cas_ghs",
     "variants": {
-        "Ingredient does not have ghs [test 1] Water 7732-18-5": {
+        "Ingredient does not have ghs [test 1] Water 7732-18-5 C20306": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -15,7 +15,7 @@
             "responseCode": 200,
             "response": {}
         },
-        "Ingredient does not have ghs [test 2] Glycerin 56-81-5": {
+        "Ingredient does not have ghs [test 2] Glycerin 56-81-5 C20307": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -29,7 +29,7 @@
             "responseCode": 200,
             "response": {}
         },
-        "Ingredient does not have ghs [test 3] 1-Butene, homopolymer 9003-28-5": {
+        "Ingredient does not have ghs [test 3] 1-Butene, homopolymer 9003-28-5 C20308": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -43,7 +43,7 @@
             "responseCode": 200,
             "response": {}
         },
-        "Ingredient does not have ghs [test 4] Gallium oxide 12024-21-4 (+ no weights in the request)": {
+        "Ingredient does not have ghs [test 4] Gallium oxide 12024-21-4 (+ no weights in the request) C20309": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -55,7 +55,7 @@
             "responseCode": 200,
             "response": {}
         },
-        "Ingredient has ghs [test 5] Copper(II) sulfate, pentahydrate 7758-99-8": {
+        "Ingredient has ghs [test 5] Copper(II) sulfate, pentahydrate 7758-99-8 C20310": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -77,7 +77,7 @@
                 ]
             }
         },
-        "Ingredient has ghs [test 6] Cetyl alcohol 36653-82-4": {
+        "Ingredient has ghs [test 6] Cetyl alcohol 36653-82-4 C20311": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -101,7 +101,7 @@
                 ]
             }
         },
-        "Ingredient has ghs [test 7] Corn sugar gum 11138-66-2": {
+        "Ingredient has ghs [test 7] Corn sugar gum 11138-66-2 C20312": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -120,7 +120,7 @@
                 ]
             }
         },
-        "Ingredient has ghs [test 8] Silica, vitreous 60676-86-0 (+ no weights in the request)": {
+        "Ingredient has ghs [test 8] Silica, vitreous 60676-86-0 (+ no weights in the request) C20313": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -136,7 +136,7 @@
                 ]
             }
         },
-        "Invalid cas number [test 9] 123-00-0": {
+        "Invalid cas number [test 9] 123-00-0 C20314": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -150,7 +150,7 @@
             "responseCode": 200,
             "response": {}
         },
-        "Multiple ingredients: some has ghs data, some do not [test 10]": {
+        "Multiple ingredients: some has ghs data, some do not [test 10] C20315": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -231,7 +231,7 @@
                 ]
             }
         },
-        "Multiple ingredients: some has ghs data, some do not [test 11]": {
+        "Multiple ingredients: some has ghs data, some do not [test 11] C20316": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -299,7 +299,7 @@
                 ]
             }
         },
-        "Multiple ingredients: some has ghs data, some do not [test 12]": {
+        "Multiple ingredients: some has ghs data, some do not [test 12] C20317": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -440,7 +440,7 @@
                 ]
             }
         },
-        "Multiple ingredients: all with ghs [test 13]": {
+        "Multiple ingredients: all with ghs [test 13] C20318": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -601,7 +601,7 @@
                 ]
             }
         },
-        "Multiple ingredients: all without ghs [test 14]": {
+        "Multiple ingredients: all without ghs [test 14] C20319": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -627,7 +627,7 @@
             "responseCode": 200,
             "response": {}
         },
-        "Multiple ingredients: some has ghs data, some do not, some with invalid cas, some with null cas [test 15]": {
+        "Multiple ingredients: some has ghs data, some do not, some with invalid cas, some with null cas [test 15] C20320": {
             "request": {
                 "cas_number_and_weights": [
                     {
@@ -910,7 +910,7 @@
                 ]
             }
         },
-        "Ingredient with cas = 'unknown' [test 16] Phosphorous acid, tri-2-propen-1-yl ester": {
+        "Ingredient with cas = 'unknown' [test 16] Phosphorous acid, tri-2-propen-1-yl ester C20321": {
             "request": {
                 "cas_number_and_weights": [
                     {
